@@ -3,6 +3,7 @@
 #+STARTUP: inlineimages
 
 mono
+monot2
 * CLEAN
 ** Ciclos
 ** Comentarios técnicos
