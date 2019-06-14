@@ -2,8 +2,6 @@
 #+AUTHOR: Nicolás Luarte
 #+STARTUP: inlineimages
 
-mono
-monot2
 * CLEAN
 ** Ciclos
 ** Comentarios técnicos
@@ -62,6 +60,8 @@ ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
 print(plot)
 #+END_SRC
 
+** Tiempo de peak
+7 exposiciones
 
 
 * Eduardo
@@ -122,6 +122,8 @@ ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
 print(plot)
 #+END_SRC
 
+** Tiempo de peak
+5 exposiciones
 
 
 * Johans
@@ -205,14 +207,20 @@ print(plot)
 
 * Yo
 ** Ciclos
+| Ejercicio                  | Protocolo         | Bloque  |
+|----------------------------+-------------------+---------|
+| Sentadilla de competencia  | x1@9, -15%, 1x3++ | A       |
+| Banca de competencia       | x1@9, -15%, 1x4++ | A       |
+| Peso muerto de competencia | x1@9, -15%, 1x2++ | A(fr 2) |
+
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 ** Registro de progreso
-#+TBLNAME:ciclo#_nombreEntrenado
+   #+TBLNAME:ciclo1_yo
 | Ejercicio | RPE | Peso | Fecha |
 |-----------+-----+------+-------|
 |           |     |      |       |
-#+BEGIN_SRC R :file tmp.png :results graphics :var data=putTableName :exports results
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
 library(ggplot2)
 df = data.frame(data)
 plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
@@ -220,3 +228,5 @@ ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
 print(plot)
 #+END_SRC
 
+** Tiempo de peak
+5 exposiciones
