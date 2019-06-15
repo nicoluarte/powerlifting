@@ -184,6 +184,17 @@ print(plot)
     de beneficio posible de esta variante, que tiene como foco
     principal la hipertrofia
 
+*** 14/06/2019 ciclo 1, bloque a:
+**** Press banca de competencia
+1. Calcular mejor el RPE, aún lo estás estimando muy para abajo
+2. Mantén mas tensión tocando el pecho, fuerza harto la clave de llevar el pecho a la barra
+3. Antes de subir la barra del pecho se movió ligeramente hacia tú
+   cuello, eso puede ser por falta de tensión o simplemente perder la
+   atención, pero de todas maneras ponle harto ojo
+**** Press banca pies arriba
+1. Bien el RPE!
+2. Trata de controlar los codos, evitando tanto flare, que queden un
+   poquito mas apegados a tus costillas
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -192,6 +203,8 @@ print(plot)
  | Press banca pies arriba              | 7.5 |   85 | 11/06/2019 |
  | Press banca de competencia tempo 600 |   8 | 87.5 | 12/06/2019 |
  | Press banca agarre cerrado           |   8 |   58 | 12/06/2019 |
+ | Press banca de competencia           | 7.5 |   95 | 14/06/2019 |
+ | Press banca pies arriba              |   8 | 87.5 | 14/06/2019 |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
  library(ggrepel)
