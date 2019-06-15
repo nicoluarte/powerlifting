@@ -2,7 +2,6 @@
 #+AUTHOR: Nicolás Luarte
 #+STARTUP: inlineimages
 
-test
 
 * CLEAN
 ** Ciclos
