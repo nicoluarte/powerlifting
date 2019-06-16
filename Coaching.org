@@ -195,6 +195,15 @@ print(plot)
 1. Bien el RPE!
 2. Trata de controlar los codos, evitando tanto flare, que queden un
    poquito mas apegados a tus costillas
+*** 15/06/2019 ciclo 1, bloque b:
+**** Press banca de competencia tempo 600
+1. Mantener el tempo hasta tocar el pecho, evitar que "rebote" o acelerar en los últimos centimetros
+2. Trata de mantener un trayectoria en diagonal (recta) desde el pecho
+   hasta el rack, cualquier salida de esa línea imaginaria consideralo
+   cómo infeciencia, buscas siempre permanecer dentro de esa línea
+**** Press banca agarre cerrado
+1. Nada que decir por ahora, esperaremos que tal va mientras van
+   subiendo los kg
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -202,9 +211,11 @@ print(plot)
  | Press banca de competencia           |   7 |   92 | 11/06/2019 |
  | Press banca pies arriba              | 7.5 |   85 | 11/06/2019 |
  | Press banca de competencia tempo 600 |   8 | 87.5 | 12/06/2019 |
- | Press banca agarre cerrado           |   8 |   58 | 12/06/2019 |
+ | Press banca agarre cerrado           |   8 |   50 | 12/06/2019 |
  | Press banca de competencia           | 7.5 |   95 | 14/06/2019 |
  | Press banca pies arriba              |   8 | 87.5 | 14/06/2019 |
+ | Press banca de competencia tempo 600 |   8 | 92.5 | 15/06/2019 |
+ | Press banca agarre cerrado           |   8 |   55 | 15/06/2019 |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
  library(ggrepel)
@@ -221,26 +232,47 @@ print(plot)
 
 * Yo
 ** Ciclos
-| Ejercicio                  | Protocolo         | Bloque  |
-|----------------------------+-------------------+---------|
-| Sentadilla de competencia  | x1@9, -15%, 1x3++ | A       |
-| Banca de competencia       | x1@9, -15%, 1x4++ | A       |
-| Peso muerto de competencia | x1@9, -15%, 1x2++ | A(fr 2) |
+| Ejercicio                  | Protocolo                 | Bloque  |
+|----------------------------+---------------------------+---------|
+| Sentadilla de competencia  | x1@9, -15%, 1x3++         | A       |
+| Banca de competencia       | x1@9, -15%, 1x4++         | A       |
+| Peso muerto de competencia | x1@9(0.25ms), -15%, 1x2++ | A(fr 2) |
 
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
+*** 15/06/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Abrí ligeramente el agarre y los codos se sintieron mejor
+2. Un descenso más controlado me permite mejor predicción de los pesos
+   y en general mejor técnica, ojalá pueda llegar a pesos mas altos
+   manteniendo esa velocidad
+3. Está claro que a rpe mas alto la tabla no me sirve mucho
+**** Banca de competencia
+1. La estoy haciendo con pies arriba por ahora
+2. Debo centrarme más en la tensión al llegar al pecho, tensar antes
+   de desrackear
+**** Peso muerto de competencia
+1. Estando beltless bajo los 0.3ms debería ir subiendo de 10kg
+2. 0.24ms parece ser rpe 9 beltless
 ** Registro de progreso
    #+TBLNAME:ciclo1_yo
-| Ejercicio | RPE | Peso | Fecha |
-|-----------+-----+------+-------|
-|           |     |      |       |
+| Ejercicio                  | RPE    | Peso | Fecha      |
+|----------------------------+--------+------+------------|
+| Sentadilla de competencia  | 0.32ms |  197 | 15/06/2019 |
+| Banca de competencia       | 0.15ms |  140 | 15/06/2019 |
+| Peso muerto de competencia | 0.25ms |  250 | 15/06/2019 |
+|                            |        |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
 library(ggplot2)
+library(ggrepel)
 df = data.frame(data)
 plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
 ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
 print(plot)
 #+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
 
 ** Tiempo de peak
 5 exposiciones
