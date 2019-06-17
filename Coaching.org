@@ -216,6 +216,7 @@ print(plot)
  | Press banca pies arriba              |   8 | 87.5 | 14/06/2019 |
  | Press banca de competencia tempo 600 |   8 | 92.5 | 15/06/2019 |
  | Press banca agarre cerrado           |   8 |   55 | 15/06/2019 |
+ |                                      |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
  library(ggrepel)
