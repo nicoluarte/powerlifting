@@ -2,7 +2,6 @@
 #+AUTHOR: Nicolás Luarte
 #+STARTUP: inlineimages
 
-
 * CLEAN
 ** Ciclos
 ** Comentarios técnicos
