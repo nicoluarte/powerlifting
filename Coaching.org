@@ -254,6 +254,13 @@ print(plot)
 **** Peso muerto de competencia
 1. Estando beltless bajo los 0.3ms debería ir subiendo de 10kg
 2. 0.24ms parece ser rpe 9 beltless
+*** 16/06/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Estuvo bien el cotrol y mejor las rodillas, me sirve harto las extensiones de quads
+2. Al parecer es superior elongar el talón usando bandas que peso, tal vez le aumente a 25kg
+**** Banca de competencia
+1. Debo acostumbrarme a estirar bien los codos al desrackear, me quita un poco de fuerza
+2. Aún sigo sin tensar bien el pecho antes de destackear
 ** Registro de progreso
    #+TBLNAME:ciclo1_yo
 | Ejercicio                  | RPE    | Peso | Fecha      |
@@ -261,6 +268,8 @@ print(plot)
 | Sentadilla de competencia  | 0.32ms |  197 | 15/06/2019 |
 | Banca de competencia       | 0.15ms |  140 | 15/06/2019 |
 | Peso muerto de competencia | 0.25ms |  250 | 15/06/2019 |
+| Sentadilla de competencia  | 0.28ms |  195 | 16/06/2019 |
+| Banca de competencia       | 0.15ms |  137 | 16/06/2019 |
 |                            |        |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
 library(ggplot2)
