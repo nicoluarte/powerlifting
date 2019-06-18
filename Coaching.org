@@ -261,6 +261,16 @@ print(plot)
 **** Banca de competencia
 1. Debo acostumbrarme a estirar bien los codos al desrackear, me quita un poco de fuerza
 2. Aún sigo sin tensar bien el pecho antes de destackear
+*** 17/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Hoy hice dos sesiones creo que puedo ir subiendo de más kilos,
+   mientras controle bien la velocidad/rpe
+2. Guardar bien los codos me sirvió harto, pero a veces los estoy
+   olvidando y se pone fea la squat
+**** Banca de competencia
+1. Creo que debería agregar un poco más de activación, para mejorar la
+   retracción escapular, por lo demás estoy ok, ya no está costando
+   tanto la extensión de codos
 ** Registro de progreso
    #+TBLNAME:ciclo1_yo
 | Ejercicio                  | RPE    | Peso | Fecha      |
@@ -270,7 +280,11 @@ print(plot)
 | Peso muerto de competencia | 0.25ms |  250 | 15/06/2019 |
 | Sentadilla de competencia  | 0.28ms |  195 | 16/06/2019 |
 | Banca de competencia       | 0.15ms |  137 | 16/06/2019 |
+| Sentadilla de competencia  | 0.32ms |  195 | 17/06/2019 |
+| Banca de competencia       | 0.15ms |  137 | 17/06/2019 |
+| Sentadilla de competencia  | 0.32ms |  198 | 17/06/2019 |
 |                            |        |      |            |
+
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
 library(ggplot2)
 library(ggrepel)
