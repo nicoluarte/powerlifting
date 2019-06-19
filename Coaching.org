@@ -129,19 +129,23 @@ print(plot)
 * Johans
 ** Ciclos
 *** Ciclo 1:
- |--------------------------------------+-------------------+--------|
- | Ejercicio                            | Protocolo         | Bloque |
- |--------------------------------------+-------------------+--------|
- | Press banca de competencia           | x1@8, 20%, 4x5    | A      |
- | Press banca pies arriba              | x1@8, 20%, 2x5    | A      |
- | Press banca con mancuernas           | x10@7, 8, 9, 2x10 | A      |
- | Skull crushers con mancuernas        | x10@7, 8, 9, 2x10 | A      |
- |--------------------------------------+-------------------+--------|
- | Press banca de competencia tempo 600 | x1@8, 20%, 4x4    | B      |
- | Press banca agarre cerrado           | x10@8, 10%, 2x10  | B      |
- | Remos con mancuerna                  | x10@7, 8, 9, 2x10 | B      |
- | Press militar con mancuerna          | x10@7, 8, 9, 2x10 | B      |
- |--------------------------------------+-------------------+--------|
+ |-----------------------------------------------------------+-------------------+--------|
+ | Ejercicio                                                 | Protocolo         | Bloque |
+ |-----------------------------------------------------------+-------------------+--------|
+ | Press banca de competencia                                | x1@8, 20%, 4x5    | A      |
+ | Press banca pies arriba                                   | x1@8, 20%, 2x5    | A      |
+ | Press banca con mancuernas                                | x10@7, 8, 9, 2x10 | A      |
+ | Skull crushers con mancuernas                             | x10@7, 8, 9, 2x10 | A      |
+ |-----------------------------------------------------------+-------------------+--------|
+ | Press banca de competencia tempo 600                      | x1@8, 20%, 4x4    | B      |
+ | Press banca agarre cerrado                                | x10@8, 10%, 2x10  | B      |
+ | Remos con mancuerna                                       | x10@7, 8, 9, 2x10 | B      |
+ | Press militar con mancuerna                               | x10@7, 8, 9, 2x10 | B      |
+ |-----------------------------------------------------------+-------------------+--------|
+ | Peso muerto sumo desde bloque (justo abajo de la rodilla) | x10@100, 110, 120 | A      |
+ | Peso muerto sumo hasta justo abajo de las rodillas        | x10@90, 100, 110  | B      |
+ |-----------------------------------------------------------+-------------------+--------|
+
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 *** 11/06/2019 ciclo 1, bloque a: 
@@ -203,6 +207,13 @@ print(plot)
 **** Press banca agarre cerrado
 1. Nada que decir por ahora, esperaremos que tal va mientras van
    subiendo los kg
+*** 19/06/2019 ciclo 1, bloque a:
+**** Press banca de competencia
+1. Concentrarse en tocar solo la fibra de la polera, nunca dejar de
+   hacer fuerza, intentar que la barra "flote" en el pecho
+2. Al despegar no volver hundir la barra en el pecho
+**** Press banca pies arriba 
+1. Los mismos comentarios que para la banca de competencia
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -215,7 +226,8 @@ print(plot)
  | Press banca pies arriba              |   8 | 87.5 | 14/06/2019 |
  | Press banca de competencia tempo 600 |   8 | 92.5 | 15/06/2019 |
  | Press banca agarre cerrado           |   8 |   55 | 15/06/2019 |
- |                                   |     |      |            |
+ | Press banca de competencia           |   8 |   95 | 18/06/2019 |
+ | Press banca pies arriba              |   8 | 87.5 | 18/06/2019 |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
  library(ggrepel)
@@ -283,7 +295,8 @@ print(plot)
 | Sentadilla de competencia  | 0.32ms |  195 | 17/06/2019 |
 | Banca de competencia       | 0.15ms |  137 | 17/06/2019 |
 | Sentadilla de competencia  | 0.32ms |  198 | 17/06/2019 |
-|                            |        |      |            |
+| Sentadilla de competencia  | 0.28   |  200 | 18/06/2019 |
+| Banca de competencia       | 0.1ms  |  141 | 18/06/2019 |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
 library(ggplot2)
