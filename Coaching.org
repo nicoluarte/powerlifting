@@ -207,13 +207,19 @@ print(plot)
 **** Press banca agarre cerrado
 1. Nada que decir por ahora, esperaremos que tal va mientras van
    subiendo los kg
-*** 19/06/2019 ciclo 1, bloque a:
+*** 18/06/2019 ciclo 1, bloque a:
 **** Press banca de competencia
 1. Concentrarse en tocar solo la fibra de la polera, nunca dejar de
    hacer fuerza, intentar que la barra "flote" en el pecho
 2. Al despegar no volver hundir la barra en el pecho
 **** Press banca pies arriba 
 1. Los mismos comentarios que para la banca de competencia
+*** 19/06/2019 ciclo 1, bloque b:
+**** Press banca de competencia tempo 600 
+1. Harto mejor el tocar la fibra del pecho
+2. Súper buena la sálida del pecho solo cuidar la posición de codos
+**** Press banca agarre cerrado 
+1. Bien el RPE, la técnica está precisa 
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -228,6 +234,8 @@ print(plot)
  | Press banca agarre cerrado           |   8 |   55 | 15/06/2019 |
  | Press banca de competencia           |   8 |   95 | 18/06/2019 |
  | Press banca pies arriba              |   8 | 87.5 | 18/06/2019 |
+ | Press banca de competencia tempo 600 | 7.5 |   90 | 19/06/2019 |
+ | Press banca agarre cerrado           |   8 |   62 | 19/06/2019 |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
  library(ggrepel)
@@ -297,6 +305,8 @@ print(plot)
 | Sentadilla de competencia  | 0.32ms |  198 | 17/06/2019 |
 | Sentadilla de competencia  | 0.28   |  200 | 18/06/2019 |
 | Banca de competencia       | 0.1ms  |  141 | 18/06/2019 |
+| Sentadilla de competencia  | 0.3ms  |  200 | 19/06/2019 |
+| Banca de competencia       | 0.13ms |  140 | 19/06/2019 |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
 library(ggplot2)
