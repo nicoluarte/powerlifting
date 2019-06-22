@@ -220,6 +220,16 @@ print(plot)
 2. Súper buena la sálida del pecho solo cuidar la posición de codos
 **** Press banca agarre cerrado 
 1. Bien el RPE, la técnica está precisa 
+*** 21/06/2019 ciclo 1, bloque a:
+**** Press banca de competencia
+1. Ya estás dominando el RPE y el toque de pausa activa en el pecho
+2. Ahora, el foco debiese estar en no lanzar los codos tan hacia
+   afuera, intenta mantenerlos un poco más cerrado. Cómo te mencioné
+   antes no es malo que los codoso queden afuera, de hecho puede ser
+   hasta beneficioso, lo que no queremos ver es un cambio de ángulo
+   drástico, ya que eso puede mover la barra
+**** Press banca pies arriba 
+1. Exactamente los mismos comentarios que para la banca de competencia 
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -236,6 +246,8 @@ print(plot)
  | Press banca pies arriba              |   8 | 87.5 | 18/06/2019 |
  | Press banca de competencia tempo 600 | 7.5 |   90 | 19/06/2019 |
  | Press banca agarre cerrado           |   8 |   62 | 19/06/2019 |
+ | Press banca de competencia           |   8 |   95 | 21/06/2019 |
+ | Press banca pies arriba              | 8.5 | 87.5 | 21/06/2019 |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
  library(ggrepel)
