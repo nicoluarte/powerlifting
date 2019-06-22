@@ -293,20 +293,24 @@ print(plot)
    tanto la extensión de codos
 ** Registro de progreso
    #+TBLNAME:ciclo1_yo
-| Ejercicio                  | RPE    | Peso | Fecha      |
-|----------------------------+--------+------+------------|
-| Sentadilla de competencia  | 0.32ms |  197 | 15/06/2019 |
-| Banca de competencia       | 0.15ms |  140 | 15/06/2019 |
-| Peso muerto de competencia | 0.25ms |  250 | 15/06/2019 |
-| Sentadilla de competencia  | 0.28ms |  195 | 16/06/2019 |
-| Banca de competencia       | 0.15ms |  137 | 16/06/2019 |
-| Sentadilla de competencia  | 0.32ms |  195 | 17/06/2019 |
-| Banca de competencia       | 0.15ms |  137 | 17/06/2019 |
-| Sentadilla de competencia  | 0.32ms |  198 | 17/06/2019 |
-| Sentadilla de competencia  | 0.28   |  200 | 18/06/2019 |
-| Banca de competencia       | 0.1ms  |  141 | 18/06/2019 |
-| Sentadilla de competencia  | 0.3ms  |  200 | 19/06/2019 |
-| Banca de competencia       | 0.13ms |  140 | 19/06/2019 |
+| Ejercicio                              | RPE    | Peso | Fecha      |
+|----------------------------------------+--------+------+------------|
+| Sentadilla de competencia              | 0.32ms |  197 | 15/06/2019 |
+| Banca de competencia                   | 0.15ms |  140 | 15/06/2019 |
+| Peso muerto de competencia             | 0.25ms |  250 | 15/06/2019 |
+| Sentadilla de competencia              | 0.28ms |  195 | 16/06/2019 |
+| Banca de competencia                   | 0.15ms |  137 | 16/06/2019 |
+| Sentadilla de competencia              | 0.32ms |  195 | 17/06/2019 |
+| Banca de competencia                   | 0.15ms |  137 | 17/06/2019 |
+| Sentadilla de competencia              | 0.32ms |  198 | 17/06/2019 |
+| Sentadilla de competencia              | 0.28   |  200 | 18/06/2019 |
+| Banca de competencia                   | 0.1ms  |  141 | 18/06/2019 |
+| Sentadilla de competencia              | 0.3ms  |  200 | 19/06/2019 |
+| Banca de competencia                   | 0.13ms |  140 | 19/06/2019 |
+| Sentadilla de competencia + belt       | 0.3ms  |  210 | 20/06/2019 |
+| Banca de competencia + arco            | 0.13ms |  152 | 20/06/2019 |
+| Peso muerto sumo de competencia + belt | 0.23ms |  260 | 20/06/2019 |
+|                                        |        |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
 library(ggplot2)
