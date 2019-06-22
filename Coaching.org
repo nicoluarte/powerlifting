@@ -308,6 +308,9 @@ print(plot)
 1. Debo solamente sacar la cadera, no inclinar el torso!, incluso las rodillas han andado mejor por lo mismo
 **** Banca de competencia
 1. Mejorar la extensión de codos y la tensión total
+*** 21/06/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Hice la sesión prácticamente sin dormir, sorprendido que salieran 200 LMAO 
 ** Registro de progreso
    #+TBLNAME:ciclo1_yo
 | Ejercicio                              | RPE    | Peso | Fecha      |
@@ -329,6 +332,7 @@ print(plot)
 | Peso muerto sumo de competencia + belt | 0.23ms |  260 | 20/06/2019 |
 | Sentadilla de competencia + belt       | 0.3ms  |  207 | 21/06/2019 |
 | Banca de competencia + arco            | 0.15ms |  150 | 21/06/2019 |
+| Sentadillla de competencia + belt      | 0.28ms |  200 | 22/06/2019 |
 |                                        |        |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
