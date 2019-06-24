@@ -230,6 +230,17 @@ print(plot)
    drástico, ya que eso puede mover la barra
 **** Press banca pies arriba 
 1. Exactamente los mismos comentarios que para la banca de competencia 
+*** 22/06/2019 ciclo 1, bloque b:
+**** Press banca de competencia tempo 600 
+1. Ya tienes casi dominada la tocada en el pecho ahora lo que esta
+   faltando es la salida, cómo te he mencionado anteriormente, estás
+   tirando los codos muy para atrás así que quiero que pruebes tocar
+   ligeramente mas arriba en el pecho y partir con los codos un pelito
+   mas abiertos en la bajda
+2. Aparte, antes de empezar con banca intenta meter unos remos
+   ligeros, 2x15 y sentir un ligero bombeo 
+**** Press banca agarre cerrado 
+1. Por ahora nada que decir 
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -248,6 +259,9 @@ print(plot)
  | Press banca agarre cerrado           |   8 |   62 | 19/06/2019 |
  | Press banca de competencia           |   8 |   95 | 21/06/2019 |
  | Press banca pies arriba              | 8.5 | 87.5 | 21/06/2019 |
+ | Press banca de competencia tempo 600 | 8.5 |   95 | 22/06/2019 |
+ | Press banca agarre cerrado           |   8 |   65 | 22/06/2019 |
+ |                                      |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
  library(ggrepel)
