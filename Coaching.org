@@ -92,9 +92,6 @@ print(plot)
 | Rodillas al pecho colgando (abs) | 3xamrap                   | D      |
 |                                  |                           |        |
 
-
-
-
 *** Links
 **** Bus drivers
 https://www.youtube.com/watch?v=xDvNnxgF8Gc
@@ -364,6 +361,12 @@ print(plot)
 *** 21/06/2019, ciclo 1, bloque a
 **** Sentadilla de competencia
 1. Hice la sesión prácticamente sin dormir, sorprendido que salieran 200 LMAO 
+*** 23/06/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Hoy era mal día por plani, pero logre sentirla relativamente sólida 
+**** Banca de competencia
+1. Con handoff se sintió muchísimo más liviana
+2. Dejar la barra mas abajito en la palma ayudo muchísimo
 ** Registro de progreso
    #+TBLNAME:ciclo1_yo
 | Ejercicio                              | RPE    | Peso | Fecha      |
@@ -385,7 +388,9 @@ print(plot)
 | Peso muerto sumo de competencia + belt | 0.23ms |  260 | 20/06/2019 |
 | Sentadilla de competencia + belt       | 0.3ms  |  207 | 21/06/2019 |
 | Banca de competencia + arco            | 0.15ms |  150 | 21/06/2019 |
-| Sentadillla de competencia + belt      | 0.28ms |  200 | 22/06/2019 |
+| Sentadilla de competencia + belt       | 0.28ms |  200 | 22/06/2019 |
+| Sentadilla de competencia + belt       | 0.27ms |  210 | 23/06/2019 |
+| Banca de competencia + arco            | 0.11ms |  155 | 23/06/2019 |
 |                                        |        |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
