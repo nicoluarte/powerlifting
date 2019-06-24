@@ -66,14 +66,53 @@ print(plot)
 
 * Eduardo
 ** Ciclos
+*** Ciclo 1 (descarga):
+| Ejercicio                        | Protocolo                 | Bloque |
+| Sentadilla beltless              | x6@ 7, 8, 9               | A      |
+| Bus drivers                      | x10@ 7,8,9 -5% 1x10       | A      |
+| Bird dog                         | 4x10 (10 por lado)        | A      |
+| RKC plank                        | 4x todo el tiempo posible | A      |
+| One handed barbell row           | 15@7, 8, 9 -5% 1x15       | A      |
+|----------------------------------+---------------------------+--------|
+| Press banca pies arriba          | x6@ 7, 8, 9               | B      |
+| Pull ups                         | 3x10                      | B      |
+| Biceps curl                      | 3x15                      | B      |
+| Buenos días                      | 3x8                       | B      |
+| RKC planks                       | 3x todo el tiempo posible | B      |
+|----------------------------------+---------------------------+--------|
+| Peso muerto competencia          | x6@ 7, 8, 9               | C      |
+| RKC planks                       | 3x todo el tiempo posible | C      |
+| Side planks                      | 2x 1 minuto (por lado)    | C      |
+| Bird dog                         | 3x10 (por lado)           | C      |
+| Crunches                         | 3x todos los posible      | C      |
+|----------------------------------+---------------------------+--------|
+| RKC planks                       | 4x todo el tiempo posible | D      |
+| Side planks                      | 2x 1 minuto (por lado)    | D      |
+| RKC planks                       | 2x todo el tiempo posible | D      |
+| Rodillas al pecho colgando (abs) | 3xamrap                   | D      |
+|                                  |                           |        |
+
+
+
+
+*** Links
+**** Bus drivers
+https://www.youtube.com/watch?v=xDvNnxgF8Gc
+**** Bird dog
+https://www.youtube.com/watch?v=k2azbhhuKuM
+**** RKC plank
+https://www.youtube.com/watch?v=6TKktamzq4o
+**** One handed barbell row
+https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
+
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 ** Registro de progreso
-#+TBLNAME:ciclo#_nombreEntrenado
+#+TBLNAME:ciclo1_Eduardo
 | Ejercicio | RPE | Peso | Fecha |
 |-----------+-----+------+-------|
 |           |     |      |       |
-#+BEGIN_SRC R :file tmp.png :results graphics :var data=putTableName :exports results
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
 library(ggrepel)
 df = data.frame(data)
