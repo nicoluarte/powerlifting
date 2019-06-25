@@ -277,6 +277,14 @@ print(plot)
    ligeros, 2x15 y sentir un ligero bombeo 
 **** Press banca agarre cerrado 
 1. Por ahora nada que decir 
+*** 24/06/2019 ciclo 1, bloque a:
+**** Press banca de competencia
+1. El foco será evitar que los codos se vayan drásticamente hacía
+   atrás, para ello harás dos cosas (a) los remos antes de la banca y
+   (b) asegurarte de tocar más arriba en el pecho con la barra
+**** Press banca pies arriba 
+1. Nada de momento
+1. 
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -297,6 +305,8 @@ print(plot)
  | Press banca pies arriba              | 8.5 | 87.5 | 21/06/2019 |
  | Press banca de competencia tempo 600 | 8.5 |   95 | 22/06/2019 |
  | Press banca agarre cerrado           |   8 |   65 | 22/06/2019 |
+ | Press banca de competencia           |   8 |  100 | 24/06/2019 |
+ | Press banca pies arriba              |   8 |   90 | 24/06/2019 |
  |                                      |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
