@@ -385,6 +385,12 @@ print(plot)
 **** Banca de competencia
 1. Con handoff se sintió muchísimo más liviana
 2. Dejar la barra mas abajito en la palma ayudo muchísimo
+*** 24/06/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Probé 400mg de cafeína hoy y sentí efecto
+2. Aumente un poco la velocidad de descenso 
+**** Banca de competencia
+1. Con handoff se sintió muchísimo más liviana
 ** Registro de progreso
    #+TBLNAME:ciclo1_yo
 | Ejercicio                              | RPE    | Peso | Fecha      |
@@ -409,6 +415,8 @@ print(plot)
 | Sentadilla de competencia + belt       | 0.28ms |  200 | 22/06/2019 |
 | Sentadilla de competencia + belt       | 0.27ms |  210 | 23/06/2019 |
 | Banca de competencia + arco            | 0.11ms |  155 | 23/06/2019 |
+| Sentadilla de competencia + belt       | 0.3ms  |  220 | 24/06/2019 |
+| Banca de competencia + arco            | 0.18ms |  150 | 24/06/2019 |
 |                                        |        |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
