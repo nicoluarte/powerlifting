@@ -427,6 +427,9 @@ print(plot)
 | Banca de competencia + arco            | 0.11ms |  155 | 23/06/2019 |
 | Sentadilla de competencia + belt       | 0.3ms  |  220 | 24/06/2019 |
 | Banca de competencia + arco            | 0.18ms |  150 | 24/06/2019 |
+| Sentadilla de competencia + belt       | 0.3ms  |  215 | 25/06/2019 |
+| Banca de competencia + arco            | 0.13ms |  150 | 25/06/2019 |
+| Peso muerto sumo de competencia + belt | 0.11ms |  270 | 24/06/2019 |
 |                                        |        |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
