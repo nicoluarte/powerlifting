@@ -285,6 +285,14 @@ print(plot)
 **** Press banca pies arriba 
 1. Nada de momento
 1. 
+*** 26/06/2019 ciclo 1, bloque b:
+**** Press banca de competencia tempo 600 
+1. Tener ojo con el tocar la fibra de la polera, que salga siempre
+   para que se consolide la técnica
+2. Los codos van mejorando, creo que puede ser útil tocar un poquito
+   mas arriba en el pecho
+**** Press banca agarre cerrado 
+1. Por ahora nada que decir 
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -307,6 +315,8 @@ print(plot)
  | Press banca agarre cerrado           |   8 |   65 | 22/06/2019 |
  | Press banca de competencia           |   8 |  100 | 24/06/2019 |
  | Press banca pies arriba              |   8 |   90 | 24/06/2019 |
+ | Press banca de competencia tempo 600 |   8 |   95 | 26/06/2019 |
+ | Press banca agarre cerrado           |   8 | 62.5 | 26/06/2019 |
  |                                      |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
@@ -401,6 +411,17 @@ print(plot)
 2. Aumente un poco la velocidad de descenso 
 **** Banca de competencia
 1. Con handoff se sintió muchísimo más liviana
+*** 26/06/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Debo fijarme harto en no sacar tanto la cadera hacia atrás en los
+   pesos mas pesados
+**** Banca de competencia
+1. Nada por ahora 
+**** Peso muerto de competencia
+1. El agarre es en lo liso pero no muy adentro me tiró un poco el
+   hombro
+2. Calentar mas veces y estirar harto la mano para el hookgrip sobre
+   todo si hace frío, tener ojo con patear la barra
 ** Registro de progreso
    #+TBLNAME:ciclo1_yo
 | Ejercicio                              | RPE    | Peso | Fecha      |
@@ -430,6 +451,9 @@ print(plot)
 | Sentadilla de competencia + belt       | 0.3ms  |  215 | 25/06/2019 |
 | Banca de competencia + arco            | 0.13ms |  150 | 25/06/2019 |
 | Peso muerto sumo de competencia + belt | 0.11ms |  270 | 24/06/2019 |
+| Sentadilla de competencia + belt       | 0.23ms |  225 | 26/06/2019 |
+| Banca de competencia + arco            | 0.15ms |  150 | 26/06/2019 |
+| Peso muerto sumo de competencia + belt | 0.18ms |  260 | 26/06/2019 |
 |                                        |        |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
