@@ -341,6 +341,55 @@ print(plot)
 
 
 
+* Zapata
+** Ciclos
+*** Ciclo 1:
+| Ejercicio                               | Protocolo        | Bloque |
+|-----------------------------------------+------------------+--------|
+| Sentadilla de competencia               | x1@8, 20%, 4x5   | A      |
+| Press banca de competencia              | x1@8, 15%, 4x6   | A      |
+| Press banca agarre cerrado, pies arriba | x8@9, 10%, 3x8   | A      |
+| Press banca con mancuernas              | x15@9, 10%, 3x15 | A      |
+|-----------------------------------------+------------------+--------|
+| Press banca agarre cerrado              | x1@8, 15%, 4x6   | B      |
+| Peso muerto de competencia (sumo)       | x1@8, 10%, 4x3   | B      |
+| Peso muerto hasta las rodillas          | x5@8, 3 sets     | B      |
+| Peso muerto bloques                     | x10@8, 2 sets    | B      |
+|-----------------------------------------+------------------+--------|
+
+** Comentarios técnicos
+** Registro de progreso
+
+* Francisca
+** Ciclos
+| Ejercicio                                | Protocolo      | Bloque |
+|------------------------------------------+----------------+--------|
+| Sentadilla de competencia                | x5@8, 10%, 5x5 | A      |
+| Banca de competencia                     | x6@8, 10%, 5x6 | A      |
+| Press banca pies arriba (agarre cerrado) | x6@8, 15%, 5x6 | A      |
+|------------------------------------------+----------------+--------|
+| Press banca agarre cerrado               | x7@8, 10%, 4x6 | B      |
+| Peso muerto convencional                 | x3@8, 10%, 2x3 | B      |
+| Peso muerto sumo                         | x3@8, 10%, 2x3 | B      |
+|------------------------------------------+----------------+--------|
+** Comentarios técnicos
+#+EXPORT_FILE_NAME: Comentarios.PDF
+** Registro de progreso
+#+TBLNAME:ciclo#_nombreEntrenado
+| Ejercicio | RPE | Peso | Fecha |
+|-----------+-----+------+-------|
+|           |     |      |       |
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=putTableName :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+
+
 * Yo
 ** Ciclos
 *** Ciclo 1:
