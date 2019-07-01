@@ -400,22 +400,19 @@ print(plot)
 | Banca de competencia       | x1@9, -15%, 1x4++         | A       |
 | Peso muerto de competencia | x1@9(0.25ms), -15%, 1x2++ | A(fr 2) |
 
-*** Ciclo 2: (VOLUME FOCUS)
-| Ejercicio                | Protocolo     | Bloque |
-| Squat competencia        | x1@8 20% 3x5  | A      |
-| Bench competencia        | x1@8 20% 3x6  | A      |
-| Peso muerto competencia  | x1@8 20% 3x4  | A      |
-|--------------------------+---------------+--------|
-| Squat barra alta         | x8@8 15% 3x8  | B      |
-| Banca close grip feet up | x8@8 15% 3x9  | B      |
-| Hack squat               | x8@8 15% 3x8  | B      |
-| Peck deck                | x8@8 15% 3x9  | B      |
-|--------------------------+---------------+--------|
-| Pin good morning         | x3@8 -15% 3x5 | C      |
-| Seated good morning      | 3x10          | C      |
-| Leg extension            | Myo-reps      | C      |
-| Leg curl                 | Myp-reps      | C      |
-|                          |               |        |
+*** Ciclo 2:
+| Ejercicio                  | Protocolo      | Bloque |
+|----------------------------+----------------+--------|
+| Squat de competencia       | x1@9, 20%, 5x2 | A      |
+| Banca de competencia       | x1@9, 20%, 5x3 | A      |
+| Peso muerto de competencia | x1@9, 20%, 5x1 | A      |
+|----------------------------+----------------+--------|
+| Squat barra alta           | x8@9, 10%, 4x7 | B      |
+| Lever squat                | x15@10, 3 sets | B      |
+| Banca agarre cerrado       | x8@9, 10%, 4x8 | B      |
+| Banca con mancuernas       | x15@10, 3 sets | B      |
+|----------------------------+----------------+--------|
+
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 *** 15/06/2019, ciclo 1, bloque a
@@ -481,7 +478,8 @@ print(plot)
 2. Calentar mas veces y estirar harto la mano para el hookgrip sobre
    todo si hace frío, tener ojo con patear la barra
 ** Registro de progreso
-   #+TBLNAME:ciclo1_yo
+*** Ciclo 1
+#+TBLNAME:ciclo1_yo
 | Ejercicio                              | RPE    | Peso | Fecha      |
 |----------------------------------------+--------+------+------------|
 | Sentadilla de competencia              | 0.32ms |  197 | 15/06/2019 |
@@ -512,9 +510,30 @@ print(plot)
 | Sentadilla de competencia + belt       | 0.23ms |  225 | 26/06/2019 |
 | Banca de competencia + arco            | 0.15ms |  150 | 26/06/2019 |
 | Peso muerto sumo de competencia + belt | 0.18ms |  260 | 26/06/2019 |
+| Sentadilla de competencia + belt       | 0.34ms |  220 | 29/06/2019 |
+| Press banca de competencia + arco      | 0.11ms |  150 | 29/06/2019 |
+| Peso muerto sumo de competencia + belt | 0.11ms |  280 | 29/06/2019 |
 |                                        |        |      |            |
-
+*** Ciclo 2
+#+TBLNAME:ciclo2_yo
+| Ejercicio | RPE | Peso | Fecha |
+|-----------+-----+------+-------|
+|           |     |      |       |
+*** Plots
+**** Plot ciclo 1
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
+**** Plot ciclo 2
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_yo :exports results
 library(ggplot2)
 library(ggrepel)
 df = data.frame(data)
