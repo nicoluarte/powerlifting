@@ -102,6 +102,19 @@ https://www.youtube.com/watch?v=6TKktamzq4o
 **** One handed barbell row
 https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 
+*** Ciclo 2:
+| Ejercicio                                   | Protocolo      | Bloque |
+|---------------------------------------------+----------------+--------|
+| Sentadilla barra alta                       | x3@8, 10%, 4x5 | A      |
+| Sentadilla frontal                          | x3@8, 10%, 3x5 | A      |
+| Banca competencia                           | x3@8, 10%, 4x6 | A      |
+| Banca agarre cerrado                        | x3@8, 10%, 3x6 | A      |
+|---------------------------------------------+----------------+--------|
+| Banca inclinada agarre cerrado              | x6@8, 10%, 4x6 | B      |
+| Peso muerto sumo                            | x1@8, 10%, 3x2 | B      |
+| Peso muerto sumo hasta las rodillas         | x5@8, 10%, 2x5 | B      |
+| Peso muerto bloques (abajo de las rodillas) | x5@8, 10%, 2x5 | B      |
+|---------------------------------------------+----------------+--------|
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 ** Registro de progreso
