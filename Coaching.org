@@ -387,7 +387,79 @@ print(plot)
 | Peso muerto sumo                         | x3@8, 10%, 2x3 | B      |
 |------------------------------------------+----------------+--------|
 ** Comentarios técnicos
+*** 01/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Juntar un poquito más los pies
+2. Reducir el ángulo de las punteras de los pies
+3. Concentrarse en mantener las rodilas adelante
+4. Reducir la velocidad de descenso
+5. Pensar en llevar las rodillas hacia adelante
+6. Realizar todo los sets luego del drop, con bandas alrededor de las
+   piernas, a altura de las rodillas
+**** Banca de competencia
+1. Pausa activa, piensa que hay un huevo en tú pecho y no lo puedes
+   reventar
+2. Retracción escapular, piensa que tienes que apretar una moneda que
+   te ponen en tú espalda con los hombros
+**** Press banca pies arriba
+1. Mismos comentarios que para press banca
 ** Registro de progreso
+*** Ciclo 1
+#+TBLNAME:ciclo1_fran
+| Ejercicio                  | RPE | Peso | Fecha      |
+|----------------------------+-----+------+------------|
+| Sentadilla de competencia  |   8 |   65 | 01/07/2019 |
+| Press banca de competencia |   8 |   38 | 01/07/2019 |
+| Press banca pies arriba    |  10 |   38 | 01/07/2019 |
+|                            |     |      |            |
+*** Plots
+**** Ciclo 1
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_fran :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
+
+
+* Sebastian Pino
+** Ciclos
+*** Ciclo 1:
+| Ejercicio                        | Protocolo                 | Bloque |
+| Bus drivers                      | x10@ 7,8,9 -5% 1x10       | A      |
+| Bird dog                         | 4x10 (10 por lado)        | A      |
+| RKC plank                        | 4x todo el tiempo posible | A      |
+| One handed barbell row           | 15@7, 8, 9 -5% 1x15       | A      |
+|----------------------------------+---------------------------+--------|
+| Press banca pies arriba          | x6@ 7, 8, 9               | B      |
+| Pull ups                         | 3x10                      | B      |
+| Biceps curl                      | 3x15                      | B      |
+| Buenos días                      | 3x8                       | B      |
+| RKC planks                       | 3x todo el tiempo posible | B      |
+|----------------------------------+---------------------------+--------|
+| RKC planks                       | 3x todo el tiempo posible | C      |
+| Side planks                      | 2x 1 minuto (por lado)    | C      |
+| Bird dog                         | 3x10 (por lado)           | C      |
+| Crunches                         | 3x todos los posible      | C      |
+|----------------------------------+---------------------------+--------|
+| RKC planks                       | 4x todo el tiempo posible | D      |
+| Side planks                      | 2x 1 minuto (por lado)    | D      |
+| RKC planks                       | 2x todo el tiempo posible | D      |
+| Rodillas al pecho colgando (abs) | 3xamrap                   | D      |
+*** Links
+**** Bus drivers
+https://www.youtube.com/watch?v=xDvNnxgF8Gc
+**** Bird dog
+https://www.youtube.com/watch?v=k2azbhhuKuM
+**** RKC plank
+https://www.youtube.com/watch?v=6TKktamzq4o
+**** One handed barbell row
+https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 
 
 * Yo
