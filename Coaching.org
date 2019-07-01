@@ -360,6 +360,7 @@ print(plot)
 ** Comentarios técnicos
 ** Registro de progreso
 
+
 * Francisca
 ** Ciclos
 | Ejercicio                                | Protocolo      | Bloque |
@@ -373,21 +374,7 @@ print(plot)
 | Peso muerto sumo                         | x3@8, 10%, 2x3 | B      |
 |------------------------------------------+----------------+--------|
 ** Comentarios técnicos
-#+EXPORT_FILE_NAME: Comentarios.PDF
 ** Registro de progreso
-#+TBLNAME:ciclo#_nombreEntrenado
-| Ejercicio | RPE | Peso | Fecha |
-|-----------+-----+------+-------|
-|           |     |      |       |
-#+BEGIN_SRC R :file tmp.png :results graphics :var data=putTableName :exports results
-library(ggplot2)
-library(ggrepel)
-df = data.frame(data)
-plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
-ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
-print(plot)
-#+END_SRC
-
 
 
 * Yo
