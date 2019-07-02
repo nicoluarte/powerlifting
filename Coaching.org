@@ -316,6 +316,12 @@ print(plot)
 **** Press banca pies arriba 
 1. Ser ligeramente mas conservador, sobre todo si se tocan pesos que
    no has tocado antes
+*** 01/07/2019 ciclo 1, bloque a:
+**** Press banca de competencia
+1. Va impecable, por ahora concentrate sólo en repetir esa misma
+   calidad en todo
+**** Press banca pies arriba 
+1. Nada por ahora
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -342,6 +348,10 @@ print(plot)
  | Press banca agarre cerrado           |   8 | 62.5 | 26/06/2019 |
  | Press banca de competencia           |   8 | 97.5 | 27/06/2019 |
  | Press banca pies arriba              | 7.5 |   90 | 27/06/2019 |
+ | Press banca de competencia           |   8 | 97.5 | 01/07/2019 |
+ | Press banca pies arriba              |   8 |   90 | 01/07/2019 |
+ | Press banca de competencia tempo 600 |   8 | 92.5 | 28/06/2019 |
+ | Press banca agarre cerrado           |   9 |   65 | 28/06/2019 |
  |                                      |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
