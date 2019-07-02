@@ -25,14 +25,26 @@ print(plot)
 
 * Coni
 ** Ciclos
+| Ejercicio                      | Protocolo      | Bloque |
+|--------------------------------+----------------+--------|
+| Sentadilla de competencia      | x6@8, 10%, 4x8 | A      |
+| Sentadilla frontal             | x6@8, 10%, 2x8 | A      |
+| Banca de competencia           | x6@8, 10%, 4x9 | A      |
+| Banca agarre cerrado           | x6@8, 10%, 2x9 | A      |
+|--------------------------------+----------------+--------|
+| Press militar con barra        | x6@8, 10&, 2x9 | B      |
+| Banca con mancuernas           | x20@10, 3 sets | B      |
+| Peso muerto competencia        | x3@8, 15%, 3x3 | B      |
+| Peso muerto hasta las rodillas | x6@8, 2 sets   | B      |
+| Peso muerto desde bloques      | x6@8, 2 sets   | B      |
+
 ** Comentarios técnicos
-#+EXPORT_FILE_NAME: Comentarios.PDF
 ** Registro de progreso
-#+TBLNAME:ciclo#_nombreEntrenado
+#+TBLNAME:ciclo1_coni
 | Ejercicio | RPE | Peso | Fecha |
 |-----------+-----+------+-------|
 |           |     |      |       |
-#+BEGIN_SRC R :file tmp.png :results graphics :var data=putTableName :exports results
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_coni :exports results
 library(ggplot2)
 library(ggrepel)
 df = data.frame(data)
@@ -44,14 +56,24 @@ print(plot)
 
 * Winchester
 ** Ciclos
+| Ejercicio                                  | Protocolo      | Bloque |
+|--------------------------------------------+----------------+--------|
+| Sentadilla de competencia                  | x5@8, 10%, 4x6 | A      |
+| Sentadila con pausa (3ct)                  | x5@8, 10%, 2x5 | A      |
+| Banca de competencia                       | x5@8, 10%, 4x7 | A      |
+| Banca de competencia con pausa (5ct)       | x5@8, 10%, 2x7 | A      |
+|--------------------------------------------+----------------+--------|
+| Banca agarre cerrado                       | x7@8, 10%, 4x7 | B      |
+| Peso muerto de competencia                 | x3@8, 15%, 3x3 | B      |
+| Peso muerto hasta las rodillas pausa (2ct) | x3@8, 3 sets   | B      |
+| Peso muerto desde bloques hold (5ct)       | x3@8, 2 sets   | B      |
 ** Comentarios técnicos
-#+EXPORT_FILE_NAME: Comentarios.PDF
 ** Registro de progreso
-#+TBLNAME:ciclo#_nombreEntrenado
+#+TBLNAME:ciclo1_winchester
 | Ejercicio | RPE | Peso | Fecha |
 |-----------+-----+------+-------|
 |           |     |      |       |
-#+BEGIN_SRC R :file tmp.png :results graphics :var data=putTableName :exports results
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_winchester :exports results
 library(ggplot2)
 library(ggrepel)
 df = data.frame(data)
@@ -138,14 +160,25 @@ print(plot)
 
 * Javiera
 ** Ciclos
+| Ejercicio                    | Protocolo      | Bloque |
+|------------------------------+----------------+--------|
+| Sentadilla de competencia    | x6@8, 10%, 4x6 | A      |
+| Sentadilla con pausa (3 ct)  | x6@8, 10%, 2x6 | A      |
+| Banca de competencia         | x6@8, 10%, 4x7 | A      |
+| Banca agarre cerrado         | x6@8, 10%, 2x7 | A      |
+|------------------------------+----------------+--------|
+| Press banca triple pausa     | x6@8, 10%, 3x7 | B      |
+| Peso muerto de competencia   | x3@8, 15%, 3x4 | B      |
+| Peso muerto con pausa (3 ct) | x3@8, 15%, 2x4 | B      |
+| Peso muerto desde bloques    | x3@8, 15%, 2x5 | B      |
+
 ** Comentarios técnicos
-#+EXPORT_FILE_NAME: Comentarios.PDF
 ** Registro de progreso
-#+TBLNAME:ciclo#_nombreEntrenado
+#+TBLNAME:ciclo1_javi
 | Ejercicio | RPE | Peso | Fecha |
 |-----------+-----+------+-------|
 |           |     |      |       |
-#+BEGIN_SRC R :file tmp.png :results graphics :var data=putTableName :exports results
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_javi :exports results
 library(ggplot2)
 library(ggrepel)
 df = data.frame(data)
