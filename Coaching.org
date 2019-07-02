@@ -116,12 +116,15 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Peso muerto bloques (abajo de las rodillas) | x5@8, 10%, 2x5 | B      |
 |---------------------------------------------+----------------+--------|
 ** Comentarios técnicos
-#+EXPORT_FILE_NAME: Comentarios.PDF
 ** Registro de progreso
 #+TBLNAME:ciclo1_Eduardo
-| Ejercicio | RPE | Peso | Fecha |
-|-----------+-----+------+-------|
-|           |     |      |       |
+| Ejercicio                  | RPE | Peso | Fecha      |
+|----------------------------+-----+------+------------|
+| Squat highbar              |   8 |  100 | 01/07/2019 |
+| Front squat                |   8 |   70 | 01/07/2019 |
+| Banca competencia          |   8 |   70 | 01/07/2019 |
+| Press banca agarre cerrado |   - |    - | 01/07/2019 |
+|                            |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
 library(ggrepel)
