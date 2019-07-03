@@ -146,6 +146,7 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Front squat                |   8 |   70 | 01/07/2019 |
 | Banca competencia          |   8 |   70 | 01/07/2019 |
 | Press banca agarre cerrado |   8 | 62.5 | 01/07/2019 |
+| Peso muerto de competencia |   8 |  150 | 02/07/2019 |
 |                            |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
@@ -155,6 +156,9 @@ plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_l
 ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
 print(plot)
 #+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
 
 
 
@@ -191,6 +195,17 @@ print(plot)
 
 * Cynthia
 ** Ciclos
+| Ejercicio                                   | Protocolo        | Bloque |
+|---------------------------------------------+------------------+--------|
+| Sentadilla de competencia                   | x6@8, 15%, 4x7   | A      |
+| Sentadilla de competencia con pausa (3 ct)  | x6@8, 15%, 2x6   | A      |
+| Banca de competencia                        | x4@8, 10%, 4x6   | A      |
+| Banca de competencia con pausa (5 ct)       | x2@8, 15%, 4x3   | A      |
+|---------------------------------------------+------------------+--------|
+| Banca agarre cerrado                        | x8@8, 10%, 3x8   | B      |
+| Peso muerto de competencia (sumo)           | x5@8, 15%, 3x5   | B      |
+| Peso muerto hasta las rodillas              | x7@8, 15%, 2x7   | B      |
+| Peso muerto bloques (abajo de las rodillas) | x10@8, 10%, 2x10 | B      |
 ** Comentarios técnicos
 ** Registro de progreso
 #+TBLNAME:ciclo1_cynthia
