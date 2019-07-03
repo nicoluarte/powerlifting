@@ -138,16 +138,27 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Peso muerto bloques (abajo de las rodillas) | x5@8, 10%, 2x5 | B      |
 |---------------------------------------------+----------------+--------|
 ** Comentarios técnicos
+*** ciclo 1, bloque b 
+**** Peso muerto de competencia
+1. Tensar mejor la barra antes de empezar el pull, asegurarse que no
+   se mueva y esté completamente fija
+2. Una vez la barra llegue a las rodillas, bloquear agresivamente
+   estas, para que el bloqueo sea rápido
+**** Banca inclinada
+1. Nada por ahora
 ** Registro de progreso
 #+TBLNAME:ciclo1_Eduardo
-| Ejercicio                  | RPE | Peso | Fecha      |
-|----------------------------+-----+------+------------|
-| Squat highbar              |   8 |  100 | 01/07/2019 |
-| Front squat                |   8 |   70 | 01/07/2019 |
-| Banca competencia          |   8 |   70 | 01/07/2019 |
-| Press banca agarre cerrado |   8 | 62.5 | 01/07/2019 |
-| Peso muerto de competencia |   8 |  150 | 02/07/2019 |
-|                            |     |      |            |
+| Ejercicio                      | RPE | Peso | Fecha      |
+|--------------------------------+-----+------+------------|
+| Squat highbar                  |   8 |  100 | 01/07/2019 |
+| Front squat                    |   8 |   70 | 01/07/2019 |
+| Banca competencia              |   8 |   70 | 01/07/2019 |
+| Press banca agarre cerrado     |   8 | 62.5 | 01/07/2019 |
+| Peso muerto de competencia     |   8 |  150 | 02/07/2019 |
+| Peso muerto hasta las rodillas |   8 |  130 | 02/07/2019 |
+| Rack pull                      |   8 |  130 | 02/07/2019 |
+| Banca inclinada                |   8 |   60 | 02/07/2019 |
+|                                |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
 library(ggrepel)
