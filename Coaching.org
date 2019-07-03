@@ -192,13 +192,12 @@ print(plot)
 * Cynthia
 ** Ciclos
 ** Comentarios técnicos
-#+EXPORT_FILE_NAME: Comentarios.PDF
 ** Registro de progreso
-#+TBLNAME:ciclo#_nombreEntrenado
+#+TBLNAME:ciclo1_cynthia
 | Ejercicio | RPE | Peso | Fecha |
 |-----------+-----+------+-------|
 |           |     |      |       |
-#+BEGIN_SRC R :file tmp.png :results graphics :var data=putTableName :exports results
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_cynthia :exports results
 library(ggplot2)
 library(ggrepel)
 df = data.frame(data)
@@ -355,6 +354,12 @@ print(plot)
    calidad en todo
 **** Press banca pies arriba 
 1. Nada por ahora
+*** 02/07/2019 ciclo 1, bloque b:
+**** Press banca de competencia tempo 600 
+1. De momento todo va súper bien, sólo centrate en mantener la misma
+   técnica durante todos los levantamiento
+**** Press banca agarre cerrado 
+1. Por ahora nada que decir 
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
  | Ejercicio                            | RPE | Peso | Fecha      |
@@ -381,16 +386,19 @@ print(plot)
  | Press banca agarre cerrado           |   8 | 62.5 | 26/06/2019 |
  | Press banca de competencia           |   8 | 97.5 | 27/06/2019 |
  | Press banca pies arriba              | 7.5 |   90 | 27/06/2019 |
- | Press banca de competencia           |   8 | 97.5 | 01/07/2019 |
- | Press banca pies arriba              |   8 |   90 | 01/07/2019 |
  | Press banca de competencia tempo 600 |   8 | 92.5 | 28/06/2019 |
  | Press banca agarre cerrado           |   9 |   65 | 28/06/2019 |
+ | Press banca de competencia           |   8 | 97.5 | 01/07/2019 |
+ | Press banca pies arriba              |   8 |   90 | 01/07/2019 |
+ | Press banca de competencia tempo 600 |   8 | 97.5 | 02/07/2019 |
+ | Press banca agarre cerrado           |   8 | 67.5 | 02/07/2019 |
  |                                      |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
  library(ggrepel)
  df = data.frame(data)
- plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ len = seq(1:length(df$Fecha))
+ plot = ggplot(df, aes(x=len, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
  ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
  print(plot)
  #+END_SRC
@@ -449,6 +457,18 @@ print(plot)
    te ponen en tú espalda con los hombros
 **** Press banca pies arriba
 1. Mismos comentarios que para press banca
+*** 02/07/2019, ciclo 1, bloque b
+**** Press banca agarre cerrado
+1. Centrarse en pensar que tienes un huevo en el pecho y por lo tanto
+   debes tener cuidado de no romperlo al bajar la barra
+2. Baja un poco mas lento la barra
+**** Peso muerto convencional
+1. Debes tomar mas aire por tú boca, llevarlo a tu estomago, inflarlo
+   y luego apretar los abdominales hacia abajo
+2. El bloqueo debe ser súper agresivo y rápido, toma la costumbre
+   desde el primer calentamiento, bloquear caderas rápido
+**** Peso muerto sumo
+1. Por ahora, solo trabajar en ir aumentando la apertura de las rodillas
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
@@ -457,6 +477,9 @@ print(plot)
 | Sentadilla de competencia  |   8 |   65 | 01/07/2019 |
 | Press banca de competencia |   8 |   38 | 01/07/2019 |
 | Press banca pies arriba    |  10 |   38 | 01/07/2019 |
+| Press banca agarre cerrado |   8 |   34 | 02/07/2019 |
+| Peso muerto convencional   |   8 |   88 | 02/07/2019 |
+| Peso muerto sumo           |   8 |   70 | 02/07/2019 |
 |                            |     |      |            |
 *** Plots
 **** Ciclo 1
