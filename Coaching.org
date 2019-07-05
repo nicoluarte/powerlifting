@@ -224,15 +224,17 @@ print(plot)
 2. Acentuar el gesto del bloqueo
 ** Registro de progreso
 #+TBLNAME:ciclo1_cynthia
-| Ejercicio                  | RPE |  Peso | Fecha      |
-|----------------------------+-----+-------+------------|
-| Sentadilla de competencia  |   8 |    90 | 03/07/2019 |
-| Sentadilla con pausa       |   8 |    75 | 03/07/2019 |
-| Banca de competencia       |   8 |    55 | 03/07/2019 |
-| Banca con pausa            |   8 |    55 | 03/07/2019 |
-| Banca agarre cerrado       |   8 |    40 | 04/07/2019 |
-| Peso muerto de competencia |   8 | 112.5 | 04/07/2019 |
-|                            |     |       |            |
+| Ejercicio                      | RPE |  Peso | Fecha      |
+|--------------------------------+-----+-------+------------|
+| Sentadilla de competencia      |   8 |    90 | 03/07/2019 |
+| Sentadilla con pausa           |   8 |    75 | 03/07/2019 |
+| Banca de competencia           |   8 |    55 | 03/07/2019 |
+| Banca con pausa                |   8 |    55 | 03/07/2019 |
+| Banca agarre cerrado           |   8 |    40 | 04/07/2019 |
+| Peso muerto de competencia     |   8 | 112.5 | 04/07/2019 |
+| Peso muerto hasta las rodillas |   8 |    80 | 04/07/2019 |
+| Peso muerto bloques            |   9 |    90 | 04/07/2019 |
+|                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_cynthia :exports results
 library(ggplot2)
 library(ggrepel)
