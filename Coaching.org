@@ -416,39 +416,57 @@ print(plot)
    técnica durante todos los levantamiento
 **** Press banca agarre cerrado 
 1. Por ahora nada que decir 
+*** 06/07/2019 ciclo 1, bloque b:
+**** Press banca de competencia tempo 600 
+1. Más que corrección aquí van cosas que has hecho bien y debes seguir
+   sosteniendo
+2. Le tensión en el arco, siempre tratando de llevar el pecho a la
+   barra
+3. El tocar apenas la fibra de la polera
+4. El control de codos
+**** Press banca agarre cerrado 
+1. Este siempre será un moviemiento de "baja habilidad", con ello
+   quiero decir que es un movimiento dónde la técnica no juega un rol
+   fundamental, por lo mismo no ha tenido mucha revisión durante el
+   bloque, de todas maneras te sale súper sólido así que nada
+   partícular que decir aquí
 ** Registro de progreso
  #+TBLNAME:ciclo1_Johans
- | Ejercicio                            | RPE | Peso | Fecha      |
- |--------------------------------------+-----+------+------------|
- | Press banca de competencia           |   7 |   92 | 11/06/2019 |
- | Press banca pies arriba              | 7.5 |   85 | 11/06/2019 |
- | Press banca de competencia tempo 600 |   8 | 87.5 | 12/06/2019 |
- | Press banca agarre cerrado           |   8 |   50 | 12/06/2019 |
- | Press banca de competencia           | 7.5 |   95 | 14/06/2019 |
- | Press banca pies arriba              |   8 | 87.5 | 14/06/2019 |
- | Press banca de competencia tempo 600 |   8 | 92.5 | 15/06/2019 |
- | Press banca agarre cerrado           |   8 |   55 | 15/06/2019 |
- | Press banca de competencia           |   8 |   95 | 18/06/2019 |
- | Press banca pies arriba              |   8 | 87.5 | 18/06/2019 |
- | Press banca de competencia tempo 600 | 7.5 |   90 | 19/06/2019 |
- | Press banca agarre cerrado           |   8 |   62 | 19/06/2019 |
- | Press banca de competencia           |   8 |   95 | 21/06/2019 |
- | Press banca pies arriba              | 8.5 | 87.5 | 21/06/2019 |
- | Press banca de competencia tempo 600 | 8.5 |   95 | 22/06/2019 |
- | Press banca agarre cerrado           |   8 |   65 | 22/06/2019 |
- | Press banca de competencia           |   8 |  100 | 24/06/2019 |
- | Press banca pies arriba              |   8 |   90 | 24/06/2019 |
- | Press banca de competencia tempo 600 |   8 |   95 | 26/06/2019 |
- | Press banca agarre cerrado           |   8 | 62.5 | 26/06/2019 |
- | Press banca de competencia           |   8 | 97.5 | 27/06/2019 |
- | Press banca pies arriba              | 7.5 |   90 | 27/06/2019 |
- | Press banca de competencia tempo 600 |   8 | 92.5 | 28/06/2019 |
- | Press banca agarre cerrado           |   9 |   65 | 28/06/2019 |
- | Press banca de competencia           |   8 | 97.5 | 01/07/2019 |
- | Press banca pies arriba              |   8 |   90 | 01/07/2019 |
- | Press banca de competencia tempo 600 |   8 | 97.5 | 02/07/2019 |
- | Press banca agarre cerrado           |   8 | 67.5 | 02/07/2019 |
- |                                      |     |      |            |
+ | Ejercicio                            | RPE |  Peso | Fecha      |
+ |--------------------------------------+-----+-------+------------|
+ | Press banca de competencia           |   7 |    92 | 11/06/2019 |
+ | Press banca pies arriba              | 7.5 |    85 | 11/06/2019 |
+ | Press banca de competencia tempo 600 |   8 |  87.5 | 12/06/2019 |
+ | Press banca agarre cerrado           |   8 |    50 | 12/06/2019 |
+ | Press banca de competencia           | 7.5 |    95 | 14/06/2019 |
+ | Press banca pies arriba              |   8 |  87.5 | 14/06/2019 |
+ | Press banca de competencia tempo 600 |   8 |  92.5 | 15/06/2019 |
+ | Press banca agarre cerrado           |   8 |    55 | 15/06/2019 |
+ | Press banca de competencia           |   8 |    95 | 18/06/2019 |
+ | Press banca pies arriba              |   8 |  87.5 | 18/06/2019 |
+ | Press banca de competencia tempo 600 | 7.5 |    90 | 19/06/2019 |
+ | Press banca agarre cerrado           |   8 |    62 | 19/06/2019 |
+ | Press banca de competencia           |   8 |    95 | 21/06/2019 |
+ | Press banca pies arriba              | 8.5 |  87.5 | 21/06/2019 |
+ | Press banca de competencia tempo 600 | 8.5 |    95 | 22/06/2019 |
+ | Press banca agarre cerrado           |   8 |    65 | 22/06/2019 |
+ | Press banca de competencia           |   8 |   100 | 24/06/2019 |
+ | Press banca pies arriba              |   8 |    90 | 24/06/2019 |
+ | Press banca de competencia tempo 600 |   8 |    95 | 26/06/2019 |
+ | Press banca agarre cerrado           |   8 |  62.5 | 26/06/2019 |
+ | Press banca de competencia           |   8 |  97.5 | 27/06/2019 |
+ | Press banca pies arriba              | 7.5 |    90 | 27/06/2019 |
+ | Press banca de competencia tempo 600 |   8 |  92.5 | 28/06/2019 |
+ | Press banca agarre cerrado           |   9 |    65 | 28/06/2019 |
+ | Press banca de competencia           |   8 |  97.5 | 01/07/2019 |
+ | Press banca pies arriba              |   8 |    90 | 01/07/2019 |
+ | Press banca de competencia tempo 600 |   8 |  97.5 | 02/07/2019 |
+ | Press banca agarre cerrado           |   8 |  67.5 | 02/07/2019 |
+ | Press banca de competencia           |   8 | 102.5 | 04/07/2019 |
+ | Press banca pies arriba              |   8 |  92.5 | 04/07/2019 |
+ | Press banca de competencia tempo 600 |   8 |    95 | 06/07/2019 |
+ | Press banca agarre cerrado           |   8 |    65 | 06/07/2019 |
+ |                                      |     |       |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
  library(ggplot2)
  library(ggrepel)
@@ -462,6 +480,9 @@ print(plot)
  #+RESULTS:
  [[file:tmp.png]]
 
+
+** Tiempo de peak
+Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 
 
 * Zapata
@@ -550,6 +571,31 @@ print(plot)
    la banca
 **** Press banca pies arriba
 1. Mismos comentarios que para press banca
+*** 06/07/2019, ciclo 1, bloque b
+**** Press banca agarre cerrado
+1. Centrarse en pensar que tienes un huevo en el pecho y por lo tanto
+   debes tener cuidado de no romperlo al bajar la barra
+2. Baja un poco mas lento la barra
+3. Cuidar de hacer la pausa reglamentaria
+4. Mejoraste bastante el arco y la tocada en el pecho, revisa tu vídeo
+   para tomar nota mental para la siguiente sesión de banca, este es
+   un buen hábito cúando te salga bien un levantamiento revisalo,
+   fijandose y recordando las sensaciones y claves mentales que usaste
+**** Peso muerto convencional
+1. Debes tomar mas aire por tú boca, llevarlo a tu estomago, inflarlo
+   y luego apretar los abdominales hacia abajo <- esto es
+   tremendamente fundamental sobretodo en peso muerto, piensa es tomar
+   todo el aire el gym y apretar como roca los abdominales
+2. Busca ser paciente en el peso muerto. Ser paciente significa
+   principalmente dos cosas (a) debe estar todo en posición antes de
+   iniciar el levantamiento y por lo mismo evita rodar la barra y
+   bajar y volver a subir las cadera, (b) busca que las caderas queden
+   "altas" si bien puede se vea "feo" así es como se levanta
+   más. Cuando todo este en perfecta posición empiezas a tensar la
+   barra de a poquito hasta que este apunto de levantarse, aguantas un
+   segundo así y vas con todo para arriba
+**** Peso muerto sumo
+1. Por ahora, solo trabajar en ir aumentando la apertura de las rodillas
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
@@ -564,6 +610,9 @@ print(plot)
 | Sentadilla de competencia  |   8 |   65 | 04/07/2019 |
 | Press banca de competencia |   8 |   43 | 04/07/2019 |
 | Press banca pies arriba    |   8 |   34 | 04/07/2019 |
+| Peso muerto convencional   |   8 |   93 | 06/07/2019 |
+| Peso muerto sumo           |   8 |   60 | 06/07/2019 |
+| Press banca agarre cerrado |   8 |   34 | 06/07/2019 |
 |                            |     |      |            |
 *** Plots
 **** Ciclo 1
