@@ -138,7 +138,7 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Peso muerto bloques (abajo de las rodillas) | x5@8, 10%, 2x5 | B      |
 |---------------------------------------------+----------------+--------|
 ** Comentarios técnicos
-*** ciclo 1, bloque b 
+*** 02/07/2019, ciclo 1, bloque b 
 **** Peso muerto de competencia
 1. Tensar mejor la barra antes de empezar el pull, asegurarse que no
    se mueva y esté completamente fija
@@ -146,19 +146,37 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
    estas, para que el bloqueo sea rápido
 **** Banca inclinada
 1. Nada por ahora
+*** 04/07/2019, ciclo 1, bloque a 
+****  Squat highbar
+1. No cambiar la velocidad de descenso entre repes, dentro del set
+2. Al rebotar abajo pelea por mantener la posición de tu torso
+****  Banca de competencia
+1. Necesito que hagas la pausa reglamentaria en la banca 
+2. Recuerda que la barra no se debe hundir en el pecho, sino solo tocarlo
+*** 06/07/2019, ciclo 1, bloque b 
+**** Peso muerto de competencia
+1. Aceptar que existen días malos y buenos
+2. Aceptar que no siempre se levantaran los mejores pesos
+3. Dejar que los pesos fluyan de sesión en sesión
 ** Registro de progreso
 #+TBLNAME:ciclo1_Eduardo
-| Ejercicio                      | RPE | Peso | Fecha      |
-|--------------------------------+-----+------+------------|
-| Squat highbar                  |   8 |  100 | 01/07/2019 |
-| Front squat                    |   8 |   70 | 01/07/2019 |
-| Banca competencia              |   8 |   70 | 01/07/2019 |
-| Press banca agarre cerrado     |   8 | 62.5 | 01/07/2019 |
-| Peso muerto de competencia     |   8 |  150 | 02/07/2019 |
-| Peso muerto hasta las rodillas |   8 |  130 | 02/07/2019 |
-| Rack pull                      |   8 |  130 | 02/07/2019 |
-| Banca inclinada                |   8 |   60 | 02/07/2019 |
-|                                |     |      |            |
+| Ejercicio                      | RPE |  Peso | Fecha      |
+|--------------------------------+-----+-------+------------|
+| Squat highbar                  |   8 |   100 | 01/07/2019 |
+| Front squat                    |   8 |    70 | 01/07/2019 |
+| Banca de competencia           |   8 |    70 | 01/07/2019 |
+| Press banca agarre cerrado     |   8 |  62.5 | 01/07/2019 |
+| Peso muerto de competencia     |   8 |   150 | 02/07/2019 |
+| Peso muerto hasta las rodillas |   8 |   130 | 02/07/2019 |
+| Rack pull                      |   8 |   130 | 02/07/2019 |
+| Banca inclinada                |   8 |    60 | 02/07/2019 |
+| Peso muerto de competencia     |   8 |   150 | 05/07/2019 |
+| Peso muerto hasta las rodillas |   8 |   130 | 05/07/2019 |
+| Rack pull                      |   8 |   135 | 05/07/2019 |
+| Banca inclinada                |   8 |    55 | 05/07/2019 |
+| Squat highbar                  | 8.5 | 102.5 | 04/07/2019 |
+| Banca de competencia           |   8 |    70 | 04/07/2019 |
+|                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
 library(ggrepel)
@@ -507,6 +525,31 @@ print(plot)
    desde el primer calentamiento, bloquear caderas rápido
 **** Peso muerto sumo
 1. Por ahora, solo trabajar en ir aumentando la apertura de las rodillas
+*** 04/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Juntar un poquito más los pies
+2. Reducir el ángulo de las punteras de los pies
+3. Concentrarse en mantener las rodilas adelante
+4. Reducir la velocidad de descenso
+5. Pensar en llevar las rodillas hacia adelante
+6. Realizar todo los sets luego del drop, con bandas alrededor de las
+   piernas, a altura de las rodillas
+7. Bajar levemente los codos y hacer retracción escapular antes de
+   sacar la barra del rack, manteniendola durante todo el movimiento
+8. Hacer mas exagerada la tomada de aire, y hacer también antes de
+   sacar la barra
+**** Banca de competencia
+1. Pausa activa, piensa que hay un huevo en tú pecho y no lo puedes
+   reventar
+2. Retracción escapular, piensa que tienes que apretar una moneda que
+   te ponen en tú espalda con los hombros
+3. Evitar ese rebote que haces para sacar la barra del pecho, recuerda
+   que la barra apenas debe tocar el pecho y luego salir de ahí
+4. Piensa es llevar el pecho hacia la barra, en vez de la barra hacia
+   el pecho, con eso busco que exageres sacar el pecho mientras haces
+   la banca
+**** Press banca pies arriba
+1. Mismos comentarios que para press banca
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
@@ -518,6 +561,9 @@ print(plot)
 | Press banca agarre cerrado |   8 |   34 | 02/07/2019 |
 | Peso muerto convencional   |   8 |   88 | 02/07/2019 |
 | Peso muerto sumo           |   8 |   70 | 02/07/2019 |
+| Sentadilla de competencia  |   8 |   65 | 04/07/2019 |
+| Press banca de competencia |   8 |   43 | 04/07/2019 |
+| Press banca pies arriba    |   8 |   34 | 04/07/2019 |
 |                            |     |      |            |
 *** Plots
 **** Ciclo 1
