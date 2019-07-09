@@ -2,26 +2,6 @@
 #+AUTHOR: Nicolás Luarte
 #+STARTUP: inlineimages
 
-* CLEAN
-** Ciclos
-** Comentarios técnicos
-#+EXPORT_FILE_NAME: Comentarios.PDF
-** Registro de progreso
-#+TBLNAME:ciclo#_nombreEntrenado
-| Ejercicio | RPE | Peso | Fecha |
-|-----------+-----+------+-------|
-|           |     |      |       |
-#+BEGIN_SRC R :file tmp.png :results graphics :var data=putTableName :exports results
-library(ggplot2)
-library(ggrepel)
-df = data.frame(data)
-plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
-ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
-print(plot)
-#+END_SRC
-
-
-
 
 * Coni
 ** Ciclos
@@ -257,6 +237,15 @@ print(plot)
 **** Peso muerto de competencia
 1. Buscar mantener la posición del suelo hasta abajo de las rodillas
 2. Acentuar el gesto del bloqueo
+*** 08/07/2019, ciclo 1, bloque b
+**** Peso muerto de competencia
+- Tensar la barra hasta que todo el cuerpo este en posición, y solo
+  ahí empezar el empuje
+- Visualiza que del suelo a las rodillas la idea es mantener la
+  posición y la barra bien apegada a las canillas, la suela del pie
+  perfectamente en el suelo
+- Luego, de las rodillas a la cadera, el movimiento es explosivo e
+  intenta que el bloqueo se transforme en un mero tramite
 ** Registro de progreso
 #+TBLNAME:ciclo1_cynthia
 | Ejercicio                      | RPE |  Peso | Fecha      |
@@ -269,6 +258,14 @@ print(plot)
 | Peso muerto de competencia     |   8 | 112.5 | 04/07/2019 |
 | Peso muerto hasta las rodillas |   8 |    80 | 04/07/2019 |
 | Peso muerto bloques            |   9 |    90 | 04/07/2019 |
+| Sentadilla de competencia      |   8 |    88 | 05/07/2019 |
+| Banca de competencia           |   8 |    55 | 05/07/2019 |
+| Sentadilla con pausa           |   8 |    75 | 05/07/2019 |
+| Banca con pausa                |   8 |    55 | 05/07/2019 |
+| Peso muerto de competencia     |   8 |   120 | 08/07/2019 |
+| Banca agarre cerrado           |   8 |    50 | 08/07/2019 |
+| Peso muerto hasta las rodillas |   8 |    70 | 08/07/2019 |
+| Peso muerto bloques            |   8 |    90 | 08/07/2019 |
 |                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_cynthia :exports results
 library(ggplot2)
@@ -532,7 +529,44 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 |-----------------------------------------+------------------+--------|
 
 ** Comentarios técnicos
+*** 08/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+ - Fijarse en que el peso este bien balanceado a lo largo de todo el
+   pie 
+ - Cambiar la "vocal" del brace de a --> O
+ - Inflar los obliquos
+ - Luego del unrack, botas aire, haces braces, evita botadas de aire
+   innecesarias, ya que eso solo va prolongar el comando de bajar
+**** Press banca de competencia
+- Llevar activamente el pecho a la barra desde el momento del unrack
+- Los antebrazos no deben tener un ángulo más abierto que 90° respecto
+  al suelo
+- Para lo anterior intenta tocar un poquito mas arriba en el pecho
+- Imagina que en el pecho llevas un huevo, la barra de parar apenas
+  tocando el huevo, evita que la barra caiga como saco de papas en tú
+  pecho, ya que eso romperia el huevo
+
 ** Registro de progreso
+ #+TBLNAME:ciclo1_zapata
+ | Ejercicio                               | RPE | Peso | Fecha      |
+ |-----------------------------------------+-----+------+------------|
+ | Sentadilla de competencia               | 8   | 175  | 08/07/2019 |
+ | Press banca de competencia              | 7.5 | 85   | 08/07/2019 |
+ | Press banca agarre cerrado, pies arriba | nil | nil  | 08/07/2019 |
+ | Press banca con mancuernas              | nil | nil  | 08/07/2019 |
+ |                                         |     |      |            |
+ #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_zapata :exports results
+ library(ggplot2)
+ library(ggrepel)
+ df = data.frame(data)
+ len = seq(1:length(df$Fecha))
+ plot = ggplot(df, aes(x=len, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+ print(plot)
+ #+END_SRC
+
+ #+RESULTS:
+ [[file:tmp.png]]
 
 
 * Francisca
@@ -709,7 +743,7 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 |----------------------------+----------------+--------|
 | Squat de competencia       | x1@9, 20%, 5x2 | A      |
 | Banca de competencia       | x1@9, 20%, 5x3 | A      |
-| Peso muerto de competencia | x1@9, 20%, 5x1 | A      |
+| Peso muerto de competencia | x1@9, 15%, 5x1 | A      |
 |----------------------------+----------------+--------|
 | Squat barra alta           | x8@9, 10%, 4x7 | B      |
 | Lever squat                | x15@10, 3 sets | B      |
@@ -781,6 +815,23 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
    hombro
 2. Calentar mas veces y estirar harto la mano para el hookgrip sobre
    todo si hace frío, tener ojo con patear la barra
+*** 08/07/2019, ciclo 2, bloque a
+**** Sentadilla de competencia
+- El brace se sintio mucho mas poderoso "doblandome sobre mis abs" y
+mirando derecho versus arriba
+- Me centré en en sentir bien la carga y creo que logré mucho mejor
+  estabilidad a nivel de rodillas
+**** Banca de competencia
+- Sentí molestia en los hombros, creo que necesito calentar más
+- La espalda baja no molesta si saco la barra tirado más hacía atrás
+  en la banca, pero eso a su vez me complica la trayectoria en
+  díagonal
+**** Peso muerto de competencia
+- Se me soltó ligeramente el hook, pero creo que solo por falta de
+  costumbre
+- Concentrarme harto en la tensión inicial me sirvió muchísimo
+- Creo que probaré hacer el mismo gesto de brace en squat para el peso muerto
+
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_yo
@@ -820,9 +871,12 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 |                                        |        |      |            |
 *** Ciclo 2
 #+TBLNAME:ciclo2_yo
-| Ejercicio | RPE | Peso | Fecha |
-|-----------+-----+------+-------|
-|           |     |      |       |
+| Ejercicio                  | RPE   | Peso | Fecha      |
+|----------------------------+-------+------+------------|
+| Squat de competencia       | 0.3ms |  200 | 08/07/2019 |
+| Banca de competencia       | 0.2ms |  140 | 08/07/2019 |
+| Peso muerto de competencia | 0.2ms |  250 | 08/07/2019 |
+|                            |       |      |            |
 *** Plots
 **** Plot ciclo 1
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
