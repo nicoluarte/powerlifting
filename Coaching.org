@@ -68,11 +68,25 @@ print(plot)
 | Peso muerto hasta las rodillas pausa (2ct) | x3@8, 3 sets   | B      |
 | Peso muerto desde bloques hold (5ct)       | x3@8, 2 sets   | B      |
 ** Comentarios técnicos
+*** 08/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+1. Buscar aumentar un poco más el rebote abajo
+**** Sentadilla con pausa 
+1. Usar una postura mas ancha de pies
+2. Reportar si eso alivia la molestia en lo gluteos
+**** Banca de competencia
+1. Buscar una diagonal mas pronunciada saliendo del pecho
+2. Llevar con mas fuerza el pecho hacia la barra, se está hundiendo
+   mucho la barra en el pecho
 ** Registro de progreso
 #+TBLNAME:ciclo1_winchester
-| Ejercicio | RPE | Peso | Fecha |
-|-----------+-----+------+-------|
-|           |     |      |       |
+| Ejercicio                 | RPE | Peso | Fecha      |
+|---------------------------+-----+------+------------|
+| Sentadilla de competencia |   8 |  155 | 08/07/2019 |
+| Sentadilla con pausa      |   8 |  130 | 08/07/2019 |
+| Banca de competencia      |   8 |  100 | 08/07/2019 |
+| Banca con pausa           |   8 |   80 | 08/07/2019 |
+|                           |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_winchester :exports results
 library(ggplot2)
 library(ggrepel)
@@ -81,6 +95,9 @@ plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_l
 ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
 print(plot)
 #+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
 
 ** Tiempo de peak
 7 exposiciones
@@ -286,6 +303,20 @@ print(plot)
  | Peso muerto sumo hasta justo abajo de las rodillas        | x10@90, 100, 110  | B      |
  |-----------------------------------------------------------+-------------------+--------|
 
+*** Ciclo 2 (descarga):
+|----------------------------+------------------+--------|
+| Ejercicio                  | Protocolo        | Bloque |
+| Press banca de competencia | x12@9, 10%, 3x10 | A      |
+| Extensión de triceps       | x20@9, 3x15      | A      |
+| Banca con mancuernas       | x20@9, 3x15      | A      |
+| Curl de Biceps             | 3 amraps         | A      |
+|----------------------------+------------------+--------|
+| Sentadilla frontal         | x1@6, 20%, 5x1   | B      |
+| Peso muerto sumo           | x1@6, 20%, 5x1   | B      |
+| Estocadas con mancuernas   | x10@9, 3 sets    | B      |
+| Step ups con mancuernas    | x15@9, 3 sets    | B      |
+| Remo con mancuernas        | x25@10, 2 sets   | B      |
+|----------------------------+------------------+--------|
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 *** 11/06/2019 ciclo 1, bloque a: 
@@ -479,7 +510,6 @@ print(plot)
 
  #+RESULTS:
  [[file:tmp.png]]
-
 
 ** Tiempo de peak
 Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
