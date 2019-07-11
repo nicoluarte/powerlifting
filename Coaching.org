@@ -18,7 +18,7 @@
 | Peso muerto hasta las rodillas | x6@8, 2 sets   | B      |
 | Peso muerto desde bloques      | x6@8, 2 sets   | B      |
 
-** Comentarios tÃ©cnicos
+** Comentarios técnicos
 ** Registro de progreso
 #+TBLNAME:ciclo1_coni
 | Ejercicio | RPE | Peso | Fecha |
@@ -55,7 +55,7 @@ print(plot)
 | Push ups                                   | 3 sets @9      | C      |
 | Extensión de triceps                       | x20@10, 3 sets | C      |
 |                                            |                |        |
-** Comentarios tÃ©cnicos
+** Comentarios técnicos
 *** 08/07/2019, ciclo 1, bloque a
 **** Sentadilla de competencia
 1. Buscar aumentar un poco mÃ¡s el rebote abajo
@@ -258,7 +258,7 @@ print(plot)
 | Peso muerto con pausa (3 ct) | x3@8, 15%, 2x4 | B      |
 | Peso muerto desde bloques    | x3@8, 15%, 2x5 | B      |
 
-** Comentarios tÃ©cnicos
+** Comentarios técnicos
 ** Registro de progreso
 #+TBLNAME:ciclo1_javi
 | Ejercicio | RPE | Peso | Fecha |
@@ -393,7 +393,7 @@ print(plot)
 | Step ups con mancuernas    | x15@9, 3 sets    | B      |
 | Remo con mancuernas        | x25@10, 2 sets   | B      |
 |----------------------------+------------------+--------|
-** Comentarios tÃ©cnicos
+** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 *** 11/06/2019 ciclo 1, bloque a: 
 **** Press banca de competencia:
@@ -607,7 +607,7 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Peso muerto bloques                     | x10@8, 2 sets    | B      |
 |-----------------------------------------+------------------+--------|
 
-** Comentarios tÃ©cnicos
+** Comentarios técnicos
 *** 08/07/2019, ciclo 1, bloque a
 **** Sentadilla de competencia
  - Fijarse en que el peso este bien balanceado a lo largo de todo el
@@ -678,7 +678,7 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Peso muerto convencional                 | x3@8, 10%, 2x3 | B      |
 | Peso muerto sumo                         | x3@8, 10%, 2x3 | B      |
 |------------------------------------------+----------------+--------|
-** Comentarios tÃ©cnicos
+** Comentarios técnicos
 *** 01/07/2019, ciclo 1, bloque a
 **** Sentadilla de competencia
 1. Juntar un poquito mÃ¡s los pies
@@ -857,7 +857,7 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 |                            |                |        |
 
 
-** Comentarios tÃ©cnicos
+** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 *** 15/06/2019, ciclo 1, bloque a
 **** Sentadilla de competencia
