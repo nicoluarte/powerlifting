@@ -261,9 +261,17 @@ print(plot)
 ** Comentarios técnicos
 ** Registro de progreso
 #+TBLNAME:ciclo1_javi
-| Ejercicio | RPE | Peso | Fecha |
-|-----------+-----+------+-------|
-|           |     |      |       |
+| Ejercicio                  | RPE | Peso | Fecha      |
+|----------------------------+-----+------+------------|
+| Sentadilla de competencia  |   8 |   65 | 08/07/2019 |
+| Sentadilla con pausa       |   8 |   50 | 08/07/2019 |
+| Banca de competencia       |   8 |   32 | 08/07/2019 |
+| Banca agarre cerrado       |   8 |   25 | 08/07/2019 |
+| Press banca triple pausa   |   8 |   25 | 10/07/2019 |
+| Peso muerto de competencia |   8 |   80 | 10/07/2019 |
+| Peso muerto con pausa      |   8 |   70 | 10/07/2019 |
+| Peso muerto desde bloques  |   8 |   85 | 10/07/2019 |
+|                            |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_javi :exports results
 library(ggplot2)
 library(ggrepel)
@@ -343,6 +351,9 @@ print(plot)
 | Peso muerto hasta las rodillas |   8 |    80 | 10/07/2019 |
 | Peso muerto bloques            |   8 |   100 | 10/07/2019 |
 | Banca agarre cerrado           |   8 |  47.5 | 10/07/2019 |
+| Sentadila de competencia       |   8 |  92.5 | 12/07/2019 |
+| Banca de competencia           |   8 |    60 | 12/07/2019 |
+|                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_cynthia :exports results
 library(ggplot2)
 library(ggrepel)
@@ -639,6 +650,24 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 **** Press banca agarre cerrado
 - No me llego video de esto
 
+*** 08/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+- Considerar lo comentado en los audios
+- Mantener el cuello hacia 'atrás' a manera de tenir una postura mas
+  erguida
+- Walk-out de solo 2 pasos
+- Fijar un punto con la mirada y seguirlo durante todo el
+  levantamiento, esto tiende a ayudar en el balance significativamente
+**** Press banca de competencia
+- El orden óptimo para la banca es (1) brace, (2) unrack, (3)
+  bajada/subida. Estás haciendo el brace luego de sacarla, todo el
+  posicionamiento sucede antes de sacarla y se sostiene. Es mucho más
+  sólido armarse sin peso en las manos que con peso en las manos
+- Está mejor la parada el pecho, pero aún veo que la banca está
+  descansando en este, intenta buscar una pausa activa, es decir, que
+  estes todo el ratos haciendo fuerza en la barra nunca descansas
+- Finalmente, reforzar siempre el arco usando los pilares del rack
+
 ** Registro de progreso
  #+TBLNAME:ciclo1_zapata
  | Ejercicio                               | RPE | Peso | Fecha      |
@@ -651,6 +680,8 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
  | Peso muerto de competencia (sumo)       |   8 |  220 | 09/07/2019 |
  | Peso muerto hasta las rodillas          |   8 |  170 | 09/07/2019 |
  | Peso muerto bloques                     |   8 |  120 | 09/07/2019 |
+ | Sentadila de compentecia                | 8.5 |  184 | 12/07/2019 |
+ | Press banca de competencia              |   8 |   88 | 12/07/2019 |
  |                                         |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_zapata :exports results
  library(ggplot2)
@@ -757,24 +788,42 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
    segundo asÃ­ y vas con todo para arriba
 **** Peso muerto sumo
 1. Por ahora, solo trabajar en ir aumentando la apertura de las rodillas
+*** 11/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+- Abrir la postura un poco más (hasta dónde sea cómodo)
+- Reducir la velocidad de descenso, debes contar mínimo 3 missisipis
+  mientras vas descendiendo antes de llegar a profundidad
+- Realizar 3 sets de 25-40 repeticiones en la extensión de cuadriceps,
+  usando poco peso
+- Tratar de controlar lo mejor posible la subida, aunque eso disminuya
+  la velocidad, buscando dejar las rodillas en posición
+- Usar bandas en las rodillas para todas las variantes de sentadilla
+  al momento del volumen
+**** Banca de competencia
+- Por ahora concentrarse en mantener la tensión tocando el pecho y
+  hacer fuerza con la piernas para empujarte hacia atrás durante todo
+  el levantamiento
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
-| Ejercicio                  | RPE | Peso | Fecha      |
-|----------------------------+-----+------+------------|
-| Sentadilla de competencia  |   8 |   65 | 01/07/2019 |
-| Press banca de competencia |   8 |   38 | 01/07/2019 |
-| Press banca pies arriba    |  10 |   38 | 01/07/2019 |
-| Press banca agarre cerrado |   8 |   34 | 02/07/2019 |
-| Peso muerto convencional   |   8 |   88 | 02/07/2019 |
-| Peso muerto sumo           |   8 |   70 | 02/07/2019 |
-| Sentadilla de competencia  |   8 |   65 | 04/07/2019 |
-| Press banca de competencia |   8 |   43 | 04/07/2019 |
-| Press banca pies arriba    |   8 |   34 | 04/07/2019 |
-| Peso muerto convencional   |   8 |   93 | 06/07/2019 |
-| Peso muerto sumo           |   8 |   60 | 06/07/2019 |
-| Press banca agarre cerrado |   8 |   34 | 06/07/2019 |
-|                            |     |      |            |
+| Ejercicio                       | RPE | Peso | Fecha      |
+|---------------------------------+-----+------+------------|
+| Sentadilla de competencia       |   8 |   65 | 01/07/2019 |
+| Press banca de competencia      |   8 |   38 | 01/07/2019 |
+| Press banca pies arriba         |  10 |   38 | 01/07/2019 |
+| Press banca agarre cerrado      |   8 |   34 | 02/07/2019 |
+| Peso muerto convencional        |   8 |   88 | 02/07/2019 |
+| Peso muerto sumo                |   8 |   70 | 02/07/2019 |
+| Sentadilla de competencia       |   8 |   65 | 04/07/2019 |
+| Press banca de competencia      |   8 |   43 | 04/07/2019 |
+| Press banca pies arriba         |   8 |   34 | 04/07/2019 |
+| Peso muerto convencional        |   8 |   93 | 06/07/2019 |
+| Peso muerto sumo                |   8 |   60 | 06/07/2019 |
+| Press banca agarre cerrado      |   8 |   34 | 06/07/2019 |
+| Sentadilla de competencia       |   8 |   70 | 11/07/2019 |
+| Press banca de competencia      |   8 |   43 | 11/07/2019 |
+| Press banca pies agarre cerrado |   8 |   34 | 11/07/2019 |
+|                                 |     |      |            |
 *** Plots
 **** Ciclo 1
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_fran :exports results
@@ -855,7 +904,6 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Tricep extensions          | 3xamrap        | C      |
 | Leg press (unilateral)     | 2xamrap        | C      |
 |                            |                |        |
-
 
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
@@ -977,22 +1025,28 @@ mirando derecho versus arriba
 |                                        |        |      |            |
 *** Ciclo 2
 #+TBLNAME:ciclo2_yo
-| Ejercicio                  |   RPE | Peso | Fecha      |
-|----------------------------+-------+------+------------|
-| Squat de competencia       | 0.3ms |  200 | 08/07/2019 |
-| Banca de competencia       | 0.2ms |  140 | 08/07/2019 |
-| Peso muerto de competencia | 0.2ms |  250 | 08/07/2019 |
-| Squat barra alta           |     8 |  135 | 09/07/2019 |
-| Lever squat                |   nil |   30 | 09/07/2019 |
-| Banca agarre cerrado       |     8 |  102 | 09/07/2019 |
-| Banca con mancuernas       |     9 |   15 | 09/07/2019 |
-| Good mornings              |     8 |   90 | 10/07/2019 |
-| Seated good mornings       |     8 |   30 | 10/07/2019 |
-| Lever row                  |     9 |   25 | 10/07/2019 |
-| Leg-extensions             |    10 |    3 | 10/07/2019 |
-| Leg press                  |    10 |    7 | 10/07/2019 |
-| Tricep extensions          |    10 |    3 | 10/07/2019 |
-|                            |       |      |            |
+| Ejercicio                  |    RPE | Peso | Fecha      |
+|----------------------------+--------+------+------------|
+| Squat de competencia       |  0.3ms |  200 | 08/07/2019 |
+| Banca de competencia       |  0.2ms |  140 | 08/07/2019 |
+| Peso muerto de competencia |  0.2ms |  250 | 08/07/2019 |
+| Squat barra alta           |      8 |  135 | 09/07/2019 |
+| Lever squat                |    nil |   30 | 09/07/2019 |
+| Banca agarre cerrado       |      8 |  102 | 09/07/2019 |
+| Banca con mancuernas       |      9 |   15 | 09/07/2019 |
+| Good mornings              |      8 |   90 | 10/07/2019 |
+| Seated good mornings       |      8 |   30 | 10/07/2019 |
+| Lever row                  |      9 |   25 | 10/07/2019 |
+| Leg-extensions             |     10 |    3 | 10/07/2019 |
+| Leg press                  |     10 |    7 | 10/07/2019 |
+| Tricep extensions          |     10 |    3 | 10/07/2019 |
+| Squat de competencia       | 0.31ms |  202 | 11/07/2019 |
+| Banca de competencia       | 0.14ms |  142 | 11/07/2019 |
+| Peso muerto de competencia |      9 |  240 | 11/07/2019 |
+| Squat barra alta           |      9 |  140 | 12/07/2019 |
+| Lever squat                |    nil |   35 | 12/07/2019 |
+| Banca agarre cerrado       |      8 |  105 | 12/07/2019 |
+| Banca con mancuernas       |      9 |   16 | 12/07/2019 |
 *** Plots
 **** Plot ciclo 1
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results

@@ -1,4 +1,4 @@
-% Created 2019-07-10 Wed 22:23
+% Created 2019-07-12 Fri 21:29
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[latin1]{inputenc}
@@ -16,10 +16,10 @@
 \usepackage{hyperref}
 \author{NicolÃ¡s Luarte}
 \date{\today}
-\title{Cynthia}
+\title{Javiera}
 \hypersetup{
  pdfauthor={NicolÃ¡s Luarte},
- pdftitle={Cynthia},
+ pdftitle={Javiera},
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 25.2.2 (Org mode 9.2.3)}, 
@@ -30,103 +30,44 @@
 \tableofcontents
 
 \section{Ciclos}
-\label{sec:org53e000c}
+\label{sec:org2e57767}
 \begin{center}
 \begin{tabular}{lll}
 Ejercicio & Protocolo & Bloque\\
 \hline
-Sentadilla de competencia & x6@8, 15\%, 4x7 & A\\
-Sentadilla de competencia con pausa (3 ct) & x6@8, 15\%, 2x6 & A\\
-Banca de competencia & x4@8, 10\%, 4x6 & A\\
-Banca de competencia con pausa (5 ct) & x2@8, 15\%, 4x3 & A\\
+Sentadilla de competencia & x6@8, 10\%, 4x6 & A\\
+Sentadilla con pausa (3 ct) & x6@8, 10\%, 2x6 & A\\
+Banca de competencia & x6@8, 10\%, 4x7 & A\\
+Banca agarre cerrado & x6@8, 10\%, 2x7 & A\\
 \hline
-Banca agarre cerrado & x8@8, 10\%, 3x8 & B\\
-Peso muerto de competencia (sumo) & x5@8, 15\%, 3x5 & B\\
-Peso muerto hasta las rodillas & x7@8, 15\%, 2x7 & B\\
-Peso muerto bloques (abajo de las rodillas) & x10@8, 10\%, 2x10 & B\\
+Press banca triple pausa & x6@8, 10\%, 3x7 & B\\
+Peso muerto de competencia & x3@8, 15\%, 3x4 & B\\
+Peso muerto con pausa (3 ct) & x3@8, 15\%, 2x4 & B\\
+Peso muerto desde bloques & x3@8, 15\%, 2x5 & B\\
 \end{tabular}
 \end{center}
-\section{Comentarios técnicos}
-\label{sec:org8bf2c92}
-\subsection{04/07/2019, ciclo 1, bloque b}
-\label{sec:org0b7e56a}
-\subsubsection{Peso muerto de competencia}
-\label{sec:org2dcf0d4}
-\begin{enumerate}
-\item Buscar mantener la posición del suelo hasta abajo de las rodillas
-\item Acentuar el gesto del bloqueo
-\end{enumerate}
-\subsection{08/07/2019, ciclo 1, bloque b}
-\label{sec:org8e8ad6f}
-\subsubsection{Peso muerto de competencia}
-\label{sec:org81d40a4}
-\begin{itemize}
-\item Tensar la barra hasta que todo el cuerpo este en posición, y solo
-ahí empezar el empuje
-\item Visualiza que del suelo a las rodillas la idea es mantener la
-posición y la barra bien apegada a las canillas, la suela del pie
-perfectamente en el suelo
-\item Luego, de las rodillas a la cadera, el movimiento es explosivo e
-intenta que el bloqueo se transforme en un mero tramite
-\end{itemize}
-\subsection{10/07/2019, ciclo 1, bloque b}
-\label{sec:org4d69b73}
-\subsubsection{Peso muerto de competencia}
-\label{sec:orgc224dcf}
-\begin{itemize}
-\item Lograste una muy buena posición de inicio, así que continuar con eso
-para todas las sesiones y variantes de peso muerto
-\item Intentar extender lo mínimo posible tus piernas antes de la barra
-llegue a la rodilla, en ese punto (cúando llegue abajo de la
-rodilla) las empiezas a extender de esa manera te dara un "vuelito"
-para finalizar el bloqueo
-\end{itemize}
-\subsubsection{Peso muerto bloques}
-\label{sec:org70c9f00}
-\begin{itemize}
-\item La ejecución está súper, sigue con ese bloqueo fuerte, la idea de
-este ejercicio es que te fuerza para bloquear bien en sumo. Así que
-simula es bloqueo agresivo de cadera durante todas las repes
-\end{itemize}
 
+\section{Comentarios técnicos}
+\label{sec:org987d902}
 \section{Registro de progreso}
-\label{sec:orgf501fe6}
+\label{sec:org907f30d}
 \begin{center}
-\label{tab:org9bfbc2b}
+\label{tab:orgfdf3897}
 \begin{tabular}{lrrl}
 Ejercicio & RPE & Peso & Fecha\\
 \hline
-Sentadilla de competencia & 8 & 90 & 03/07/2019\\
-Sentadilla con pausa & 8 & 75 & 03/07/2019\\
-Banca de competencia & 8 & 55 & 03/07/2019\\
-Banca con pausa & 8 & 55 & 03/07/2019\\
-Banca agarre cerrado & 8 & 40 & 04/07/2019\\
-Peso muerto de competencia & 8 & 112.5 & 04/07/2019\\
-Peso muerto hasta las rodillas & 8 & 80 & 04/07/2019\\
-Peso muerto bloques & 9 & 90 & 04/07/2019\\
-Sentadilla de competencia & 8 & 88 & 05/07/2019\\
-Banca de competencia & 8 & 55 & 05/07/2019\\
-Sentadilla con pausa & 8 & 75 & 05/07/2019\\
-Banca con pausa & 8 & 55 & 05/07/2019\\
-Peso muerto de competencia & 8 & 120 & 08/07/2019\\
-Banca agarre cerrado & 8 & 50 & 08/07/2019\\
-Peso muerto hasta las rodillas & 8 & 70 & 08/07/2019\\
-Peso muerto bloques & 8 & 90 & 08/07/2019\\
-Sentadilla de competencia & 8 & 90 & 09/07/2019\\
-Sentadilla con pausa & nil & 0 & 09/07/2019\\
-Banca de competencia & 7.5 & 55 & 09/07/2019\\
-Banca con pausa & 8 & 52.5 & 09/07/2019\\
-Peso muerto de competencia & 8.5 & 115 & 10/07/2019\\
-Peso muerto hasta las rodillas & 8 & 80 & 10/07/2019\\
-Peso muerto bloques & 8 & 100 & 10/07/2019\\
-Banca agarre cerrado & 8 & 0 & 10/07/2019\\
+Sentadilla de competencia & 8 & 65 & 08/07/2019\\
+Sentadilla con pausa & 8 & 50 & 08/07/2019\\
+Banca de competencia & 8 & 32 & 08/07/2019\\
+Banca agarre cerrado & 8 & 25 & 08/07/2019\\
+Press banca triple pausa & 8 & 25 & 10/07/2019\\
+Peso muerto de competencia & 8 & 80 & 10/07/2019\\
+Peso muerto con pausa & 8 & 70 & 10/07/2019\\
+Peso muerto desde bloques & 8 & 85 & 10/07/2019\\
+ &  &  & \\
 \end{tabular}
 \end{center}
 \begin{center}
 \includegraphics[width=.9\linewidth]{tmp.png}
 \end{center}
-
-\section{Tiempo de peak}
-\label{sec:orgd94fb49}
-5 exposiciones
 \end{document}
