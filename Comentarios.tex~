@@ -1,4 +1,4 @@
-% Created 2019-07-12 Fri 21:29
+% Created 2019-07-13 Sat 17:49
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[latin1]{inputenc}
@@ -16,10 +16,10 @@
 \usepackage{hyperref}
 \author{NicolÃ¡s Luarte}
 \date{\today}
-\title{Javiera}
+\title{Zapata}
 \hypersetup{
  pdfauthor={NicolÃ¡s Luarte},
- pdftitle={Javiera},
+ pdftitle={Zapata},
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 25.2.2 (Org mode 9.2.3)}, 
@@ -30,40 +30,138 @@
 \tableofcontents
 
 \section{Ciclos}
-\label{sec:org2e57767}
+\label{sec:orga7f981c}
+\subsection{Ciclo 1:}
+\label{sec:orgd40b82e}
 \begin{center}
 \begin{tabular}{lll}
 Ejercicio & Protocolo & Bloque\\
 \hline
-Sentadilla de competencia & x6@8, 10\%, 4x6 & A\\
-Sentadilla con pausa (3 ct) & x6@8, 10\%, 2x6 & A\\
-Banca de competencia & x6@8, 10\%, 4x7 & A\\
-Banca agarre cerrado & x6@8, 10\%, 2x7 & A\\
+Sentadilla de competencia & x1@8, 20\%, 4x5 & A\\
+Press banca de competencia & x1@8, 15\%, 4x6 & A\\
+Press banca agarre cerrado, pies arriba & x8@9, 10\%, 3x8 & A\\
+Press banca con mancuernas & x15@9, 10\%, 3x15 & A\\
 \hline
-Press banca triple pausa & x6@8, 10\%, 3x7 & B\\
-Peso muerto de competencia & x3@8, 15\%, 3x4 & B\\
-Peso muerto con pausa (3 ct) & x3@8, 15\%, 2x4 & B\\
-Peso muerto desde bloques & x3@8, 15\%, 2x5 & B\\
+Press banca agarre cerrado & x1@8, 15\%, 4x6 & B\\
+Peso muerto de competencia (sumo) & x1@8, 10\%, 4x3 & B\\
+Peso muerto hasta las rodillas & x5@8, 3 sets & B\\
+Peso muerto bloques & x10@8, 2 sets & B\\
+\hline
 \end{tabular}
 \end{center}
 
 \section{Comentarios técnicos}
-\label{sec:org987d902}
+\label{sec:orgfef0af2}
+\subsection{08/07/2019, ciclo 1, bloque a}
+\label{sec:org71767d7}
+\subsubsection{Sentadilla de competencia}
+\label{sec:org53a4c53}
+\begin{itemize}
+\item Fijarse en que el peso este bien balanceado a lo largo de todo el
+pie
+\item Cambiar la "vocal" del brace de a --> O
+\item Inflar los obliquos
+\item Luego del unrack, botas aire, haces braces, evita botadas de aire
+innecesarias, ya que eso solo va prolongar el comando de bajar
+\end{itemize}
+\subsubsection{Press banca de competencia}
+\label{sec:org855d6f1}
+\begin{itemize}
+\item Llevar activamente el pecho a la barra desde el momento del unrack
+\item Los antebrazos no deben tener un Ã¡ngulo mÃ¡s abierto que 90Â° respecto
+al suelo
+\item Para lo anterior intenta tocar un poquito mas arriba en el pecho
+\item Imagina que en el pecho llevas un huevo, la barra de parar apenas
+tocando el huevo, evita que la barra caiga como saco de papas en tÃº
+pecho, ya que eso romperia el huevo
+\end{itemize}
+
+\subsection{09/07/2019, ciclo 1, bloque b}
+\label{sec:orgfe3e866}
+\subsubsection{Peso muerto de competencia (sumo)}
+\label{sec:org80083d2}
+\begin{itemize}
+\item Revisar los gif que te mande para empezar a implementar el setup
+"estatico" del que hablamos
+\item Tensar la barra hasta que todo este en posicion
+\item Una vez tensanda la barra empezar a levantarla del suelo
+\item Del suelo a las rodillas extender los menos posible las piernas
+\item Una vez la barra toque las rodillas extender agresivamente las
+rodillas
+\item Cuando este a mitad del muslo, piensa en llevar la cadera
+agresivamente hacia adelante
+\end{itemize}
+\subsubsection{Press banca agarre cerrado}
+\label{sec:org0c5283a}
+\begin{itemize}
+\item No me llego video de esto
+\end{itemize}
+
+\subsection{12/07/2019, ciclo 1, bloque a}
+\label{sec:org18859ce}
+\subsubsection{Sentadilla de competencia}
+\label{sec:orgc95fa4f}
+\begin{itemize}
+\item Considerar lo comentado en los audios
+\item Mantener el cuello hacia 'atrás' a manera de tenir una postura mas
+erguida
+\item Walk-out de solo 2 pasos
+\item Fijar un punto con la mirada y seguirlo durante todo el
+levantamiento, esto tiende a ayudar en el balance significativamente
+\end{itemize}
+\subsubsection{Press banca de competencia}
+\label{sec:org1ba2a0e}
+\begin{itemize}
+\item El orden óptimo para la banca es (1) brace, (2) unrack, (3)
+bajada/subida. Estás haciendo el brace luego de sacarla, todo el
+posicionamiento sucede antes de sacarla y se sostiene. Es mucho más
+sólido armarse sin peso en las manos que con peso en las manos
+\item Está mejor la parada el pecho, pero aún veo que la banca está
+descansando en este, intenta buscar una pausa activa, es decir, que
+estes todo el ratos haciendo fuerza en la barra nunca descansas
+\item Finalmente, reforzar siempre el arco usando los pilares del rack
+\end{itemize}
+
+\subsection{13/07/2019, ciclo 1, bloque b}
+\label{sec:orgbf3e263}
+\subsubsection{Peso muerto de competencia (sumo)}
+\label{sec:org3715b61}
+\begin{itemize}
+\item Seguir practicando el nuevo setup para sumo
+\item Del suelo hasta bajo de las rodillas tu misión es mantener la
+posición los más poible sin extender mucho las rodillas
+\item Desde las rodillas hasta arriba, busca un bloqueo explosivo
+\end{itemize}
+\subsubsection{Press banca agarre cerrado}
+\label{sec:org942b594}
+\begin{itemize}
+\item Mas tensión en el pecho, trata de que la barra apenas si toque el
+pecho, nada de hundirla
+\item Prueba abrir mas los pies, y forzar mas arco, el objetivo por ahora
+sera que las rodillas quede bajo la cresta de tu cadera
+\end{itemize}
+
 \section{Registro de progreso}
-\label{sec:org907f30d}
+\label{sec:org4a4e040}
 \begin{center}
-\label{tab:orgfdf3897}
+\label{tab:org5a67036}
 \begin{tabular}{lrrl}
 Ejercicio & RPE & Peso & Fecha\\
 \hline
-Sentadilla de competencia & 8 & 65 & 08/07/2019\\
-Sentadilla con pausa & 8 & 50 & 08/07/2019\\
-Banca de competencia & 8 & 32 & 08/07/2019\\
-Banca agarre cerrado & 8 & 25 & 08/07/2019\\
-Press banca triple pausa & 8 & 25 & 10/07/2019\\
-Peso muerto de competencia & 8 & 80 & 10/07/2019\\
-Peso muerto con pausa & 8 & 70 & 10/07/2019\\
-Peso muerto desde bloques & 8 & 85 & 10/07/2019\\
+Sentadilla de competencia & 8 & 175 & 08/07/2019\\
+Press banca de competencia & 7.5 & 85 & 08/07/2019\\
+Press banca agarre cerrado, pies arriba & nil & nil & 08/07/2019\\
+Press banca con mancuernas & nil & nil & 08/07/2019\\
+Press banca agarre cerrado & 8 & 80 & 09/07/2019\\
+Peso muerto de competencia (sumo) & 8 & 220 & 09/07/2019\\
+Peso muerto hasta las rodillas & 8 & 170 & 09/07/2019\\
+Peso muerto bloques & 8 & 120 & 09/07/2019\\
+Sentadila de compentecia & 8.5 & 184 & 12/07/2019\\
+Press banca de competencia & 8 & 88 & 12/07/2019\\
+Press banca agarre cerrado & 8.5 & 85 & 13/07/2019\\
+Peso muerto de compentecia & 8 & 200 & 13/07/2019\\
+Peso muerto hasta las rodillas & 8 & 170 & 13/07/2019\\
+Peso muerto bloques & 8 & 120 & 13/07/2019\\
  &  &  & \\
 \end{tabular}
 \end{center}
