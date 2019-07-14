@@ -1,5 +1,5 @@
 #+TITLE: Hoja de coaching
-#+AUTHOR: Nicol√°s Luarte
+#+AUTHOR: Nicol·s Luarte
 #+STARTUP: inlineimages
 
 
