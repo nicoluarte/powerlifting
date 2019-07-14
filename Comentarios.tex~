@@ -1,4 +1,4 @@
-% Created 2019-07-13 Sat 17:49
+% Created 2019-07-13 Sat 22:27
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[latin1]{inputenc}
@@ -16,10 +16,10 @@
 \usepackage{hyperref}
 \author{Nicolás Luarte}
 \date{\today}
-\title{Zapata}
+\title{Johans}
 \hypersetup{
  pdfauthor={Nicolás Luarte},
- pdftitle={Zapata},
+ pdftitle={Johans},
  pdfkeywords={},
  pdfsubject={},
  pdfcreator={Emacs 25.2.2 (Org mode 9.2.3)}, 
@@ -30,142 +30,362 @@
 \tableofcontents
 
 \section{Ciclos}
-\label{sec:orga7f981c}
+\label{sec:org0d58f71}
 \subsection{Ciclo 1:}
-\label{sec:orgd40b82e}
+\label{sec:org9b9c47d}
 \begin{center}
 \begin{tabular}{lll}
+\hline
 Ejercicio & Protocolo & Bloque\\
 \hline
-Sentadilla de competencia & x1@8, 20\%, 4x5 & A\\
-Press banca de competencia & x1@8, 15\%, 4x6 & A\\
-Press banca agarre cerrado, pies arriba & x8@9, 10\%, 3x8 & A\\
-Press banca con mancuernas & x15@9, 10\%, 3x15 & A\\
+Press banca de competencia & x1@8, 20\%, 4x5 & A\\
+Press banca pies arriba & x1@8, 20\%, 2x5 & A\\
+Press banca con mancuernas & x10@7, 8, 9, 2x10 & A\\
+Skull crushers con mancuernas & x10@7, 8, 9, 2x10 & A\\
 \hline
-Press banca agarre cerrado & x1@8, 15\%, 4x6 & B\\
-Peso muerto de competencia (sumo) & x1@8, 10\%, 4x3 & B\\
-Peso muerto hasta las rodillas & x5@8, 3 sets & B\\
-Peso muerto bloques & x10@8, 2 sets & B\\
+Press banca de competencia tempo 600 & x1@8, 20\%, 4x4 & B\\
+Press banca agarre cerrado & x10@8, 10\%, 2x10 & B\\
+Remos con mancuerna & x10@7, 8, 9, 2x10 & B\\
+Press militar con mancuerna & x10@7, 8, 9, 2x10 & B\\
+\hline
+Peso muerto sumo desde bloque (justo abajo de la rodilla) & x10@100, 110, 120 & A\\
+Peso muerto sumo hasta justo abajo de las rodillas & x10@90, 100, 110 & B\\
 \hline
 \end{tabular}
 \end{center}
 
-\section{Comentarios t�cnicos}
-\label{sec:orgfef0af2}
-\subsection{08/07/2019, ciclo 1, bloque a}
-\label{sec:org71767d7}
-\subsubsection{Sentadilla de competencia}
-\label{sec:org53a4c53}
-\begin{itemize}
-\item Fijarse en que el peso este bien balanceado a lo largo de todo el
-pie
-\item Cambiar la "vocal" del brace de a --> O
-\item Inflar los obliquos
-\item Luego del unrack, botas aire, haces braces, evita botadas de aire
-innecesarias, ya que eso solo va prolongar el comando de bajar
-\end{itemize}
-\subsubsection{Press banca de competencia}
-\label{sec:org855d6f1}
-\begin{itemize}
-\item Llevar activamente el pecho a la barra desde el momento del unrack
-\item Los antebrazos no deben tener un ángulo más abierto que 90° respecto
-al suelo
-\item Para lo anterior intenta tocar un poquito mas arriba en el pecho
-\item Imagina que en el pecho llevas un huevo, la barra de parar apenas
-tocando el huevo, evita que la barra caiga como saco de papas en tú
-pecho, ya que eso romperia el huevo
-\end{itemize}
-
-\subsection{09/07/2019, ciclo 1, bloque b}
-\label{sec:orgfe3e866}
-\subsubsection{Peso muerto de competencia (sumo)}
-\label{sec:org80083d2}
-\begin{itemize}
-\item Revisar los gif que te mande para empezar a implementar el setup
-"estatico" del que hablamos
-\item Tensar la barra hasta que todo este en posicion
-\item Una vez tensanda la barra empezar a levantarla del suelo
-\item Del suelo a las rodillas extender los menos posible las piernas
-\item Una vez la barra toque las rodillas extender agresivamente las
-rodillas
-\item Cuando este a mitad del muslo, piensa en llevar la cadera
-agresivamente hacia adelante
-\end{itemize}
-\subsubsection{Press banca agarre cerrado}
-\label{sec:org0c5283a}
-\begin{itemize}
-\item No me llego video de esto
-\end{itemize}
-
-\subsection{12/07/2019, ciclo 1, bloque a}
-\label{sec:org18859ce}
-\subsubsection{Sentadilla de competencia}
-\label{sec:orgc95fa4f}
-\begin{itemize}
-\item Considerar lo comentado en los audios
-\item Mantener el cuello hacia 'atr�s' a manera de tenir una postura mas
-erguida
-\item Walk-out de solo 2 pasos
-\item Fijar un punto con la mirada y seguirlo durante todo el
-levantamiento, esto tiende a ayudar en el balance significativamente
-\end{itemize}
-\subsubsection{Press banca de competencia}
-\label{sec:org1ba2a0e}
-\begin{itemize}
-\item El orden �ptimo para la banca es (1) brace, (2) unrack, (3)
-bajada/subida. Est�s haciendo el brace luego de sacarla, todo el
-posicionamiento sucede antes de sacarla y se sostiene. Es mucho m�s
-s�lido armarse sin peso en las manos que con peso en las manos
-\item Est� mejor la parada el pecho, pero a�n veo que la banca est�
-descansando en este, intenta buscar una pausa activa, es decir, que
-estes todo el ratos haciendo fuerza en la barra nunca descansas
-\item Finalmente, reforzar siempre el arco usando los pilares del rack
-\end{itemize}
-
-\subsection{13/07/2019, ciclo 1, bloque b}
-\label{sec:orgbf3e263}
-\subsubsection{Peso muerto de competencia (sumo)}
-\label{sec:org3715b61}
-\begin{itemize}
-\item Seguir practicando el nuevo setup para sumo
-\item Del suelo hasta bajo de las rodillas tu misi�n es mantener la
-posici�n los m�s poible sin extender mucho las rodillas
-\item Desde las rodillas hasta arriba, busca un bloqueo explosivo
-\end{itemize}
-\subsubsection{Press banca agarre cerrado}
-\label{sec:org942b594}
-\begin{itemize}
-\item Mas tensi�n en el pecho, trata de que la barra apenas si toque el
-pecho, nada de hundirla
-\item Prueba abrir mas los pies, y forzar mas arco, el objetivo por ahora
-sera que las rodillas quede bajo la cresta de tu cadera
-\end{itemize}
-
-\section{Registro de progreso}
-\label{sec:org4a4e040}
+\subsection{Ciclo 2 (descarga):}
+\label{sec:org21f4e16}
 \begin{center}
-\label{tab:org5a67036}
+\begin{tabular}{lll}
+\hline
+Ejercicio & Protocolo & Bloque\\
+Press banca de competencia & x12@9, 10\%, 3x10 & A\\
+Extensi�n de triceps & x20@9, 3x15 & A\\
+Banca con mancuernas & x20@9, 3x15 & A\\
+Curl de Biceps & 3 amraps & A\\
+\hline
+Sentadilla frontal & x1@6, 20\%, 5x1 & B\\
+Peso muerto sumo & x1@6, 20\%, 5x1 & B\\
+Estocadas con mancuernas & x10@9, 3 sets & B\\
+Step ups con mancuernas & x15@9, 3 sets & B\\
+Remo con mancuernas & x25@10, 2 sets & B\\
+\hline
+\end{tabular}
+\end{center}
+\subsection{Ciclo 3:}
+\label{sec:org90e9be8}
+\begin{center}
+\begin{tabular}{lll}
+\hline
+Ejercicio & Protocolo & Bloque\\
+\hline
+Press banca de competencia & x1@8, x5@8, 10\%, 3x5, 2x2 & A\\
+Press banca pies arriba, agarre medio & x5@8, 10\%, 4x4 & A\\
+Dips & x8@9, 3 sets @9 & A\\
+Push-ups & 2 amraps & A\\
+Frontales a caja & x1@6, 15\%, 2x8 & A\\
+\hline
+Press banca agarre cerrado & x8@9, 10\%, 4x7 & B\\
+Press banca con mancuernas & x15@9, 3 sets & B\\
+Press frances & x15@9, 3 sets & B\\
+Peso muerto sumo & x3@7, 15\%, 3x3 & B\\
+Press de hombros con mancuernas & x15@9, 2 sets & B\\
+ &  & \\
+\end{tabular}
+\end{center}
+\section{Comentarios t�cnicos}
+\label{sec:org3a6c60d}
+\subsection{11/06/2019 ciclo 1, bloque a:}
+\label{sec:org8a933d0}
+\subsubsection{Press banca de competencia:}
+\label{sec:org90d5487}
+
+\begin{enumerate}
+\item Ajustar mejor el RPE, hubo ligero undershoot (un poquito mas bajo
+de lo esperado)
+\item La planta del pie debe estar completamente apoyada en el suelo
+\item Para tomar la barra, rotar internamente las manos (un poco) de
+manera tal que la barra descanse mas abajo en la palma
+\item Aplicar "pausa activa", esto quiere decir, que la barra apenas toca
+la primera fibra de tú polera, no debe hundirse en tú pecho.
+\end{enumerate}
+
+\subsubsection{Press banca pies arriba:}
+\label{sec:orgc8e1761}
+
+\begin{enumerate}
+\item Aplicar "pausa activa" y rotación de muñecas como especifique
+arriba
+\item Dejar los pies estirados
+\item undershoot de RPE
+\end{enumerate}
+
+\subsubsection{Press banca con mancuernas:}
+\label{sec:org64b4734}
+
+\begin{enumerate}
+\item Undershoot de RPE
+\end{enumerate}
+
+\subsection{12/06/2019 ciclo 1, bloque b:}
+\label{sec:org5e8cc93}
+\subsubsection{Press banca de competencia tempo 600}
+\label{sec:org41e1cc6}
+\begin{enumerate}
+\item Seguir trabajando el tocar la fibra de la polera, ahora agregando
+el gesto de llevar el pecho hacia la barra, de manera activa
+\item Ligeramente ir aumentando la rotación de la muñeca al tomar la
+barra
+\item Al momento de subir estás haciendo mucho "flare" con los codos, es
+decir, los codos se te abren mucho, hasta cierto punto eso es
+deseable, pero en este caso fue mucho, busca que al salir del pecho
+los codos no se muevan tanto y permanezcan en su posici�n
+\end{enumerate}
+\subsubsection{Press banca agarre cerrado}
+\label{sec:org11d31d1}
+\begin{enumerate}
+\item Dado que este es un movimiento poco técnico, no hay muchas
+correcciones que hacer, solo orientarlo a una conexión
+mente-musculo mientras lo realizas, para obtener la mayor cantidad
+de beneficio posible de esta variante, que tiene como foco
+principal la hipertrofia
+\end{enumerate}
+
+\subsection{14/06/2019 ciclo 1, bloque a:}
+\label{sec:orgf428d6f}
+\subsubsection{Press banca de competencia}
+\label{sec:org30f2f27}
+\begin{enumerate}
+\item Calcular mejor el RPE, aún lo estás estimando muy para abajo
+\item Mantén mas tensión tocando el pecho, fuerza harto la clave de llevar el pecho a la barra
+\item Antes de subir la barra del pecho se movió ligeramente hacia tú
+cuello, eso puede ser por falta de tensión o simplemente perder la
+atención, pero de todas maneras ponle harto ojo
+\end{enumerate}
+\subsubsection{Press banca pies arriba}
+\label{sec:org69a4d5f}
+\begin{enumerate}
+\item Bien el RPE!
+\item Trata de controlar los codos, evitando tanto flare, que queden un
+poquito mas apegados a tus costillas
+\end{enumerate}
+\subsection{15/06/2019 ciclo 1, bloque b:}
+\label{sec:org57311ea}
+\subsubsection{Press banca de competencia tempo 600}
+\label{sec:orgabf7527}
+\begin{enumerate}
+\item Mantener el tempo hasta tocar el pecho, evitar que "rebote" o acelerar en los últimos centimetros
+\item Trata de mantener un trayectoria en diagonal (recta) desde el pecho
+hasta el rack, cualquier salida de esa línea imaginaria consideralo
+cómo infeciencia, buscas siempre permanecer dentro de esa línea
+\end{enumerate}
+\subsubsection{Press banca agarre cerrado}
+\label{sec:orgcd65a8c}
+\begin{enumerate}
+\item Nada que decir por ahora, esperaremos que tal va mientras van
+subiendo los kg
+\end{enumerate}
+\subsection{18/06/2019 ciclo 1, bloque a:}
+\label{sec:orgc12d315}
+\subsubsection{Press banca de competencia}
+\label{sec:org3e94fb8}
+\begin{enumerate}
+\item Concentrarse en tocar solo la fibra de la polera, nunca dejar de
+hacer fuerza, intentar que la barra "flote" en el pecho
+\item Al despegar no volver hundir la barra en el pecho
+\end{enumerate}
+\subsubsection{Press banca pies arriba}
+\label{sec:org3f00c41}
+\begin{enumerate}
+\item Los mismos comentarios que para la banca de competencia
+\end{enumerate}
+\subsection{19/06/2019 ciclo 1, bloque b:}
+\label{sec:org894e9f6}
+\subsubsection{Press banca de competencia tempo 600}
+\label{sec:org434f591}
+\begin{enumerate}
+\item Harto mejor el tocar la fibra del pecho
+\item Súper buena la sálida del pecho solo cuidar la posici�n de codos
+\end{enumerate}
+\subsubsection{Press banca agarre cerrado}
+\label{sec:org3275dca}
+\begin{enumerate}
+\item Bien el RPE, la técnica está precisa
+\end{enumerate}
+\subsection{21/06/2019 ciclo 1, bloque a:}
+\label{sec:org51ca587}
+\subsubsection{Press banca de competencia}
+\label{sec:orgcb75510}
+\begin{enumerate}
+\item Ya estás dominando el RPE y el toque de pausa activa en el pecho
+\item Ahora, el foco debiese estar en no lanzar los codos tan hacia
+afuera, intenta mantenerlos un poco más cerrado. Cómo te mencioné
+antes no es malo que los codoso queden afuera, de hecho puede ser
+hasta beneficioso, lo que no queremos ver es un cambio de ángulo
+drástico, ya que eso puede mover la barra
+\end{enumerate}
+\subsubsection{Press banca pies arriba}
+\label{sec:orgd55d848}
+\begin{enumerate}
+\item Exactamente los mismos comentarios que para la banca de competencia
+\end{enumerate}
+\subsection{22/06/2019 ciclo 1, bloque b:}
+\label{sec:orgc40fb6c}
+\subsubsection{Press banca de competencia tempo 600}
+\label{sec:org7cd212a}
+\begin{enumerate}
+\item Ya tienes casi dominada la tocada en el pecho ahora lo que esta
+faltando es la salida, cómo te he mencionado anteriormente, estás
+tirando los codos muy para atrás así que quiero que pruebes tocar
+ligeramente mas arriba en el pecho y partir con los codos un pelito
+mas abiertos en la bajda
+\item Aparte, antes de empezar con banca intenta meter unos remos
+ligeros, 2x15 y sentir un ligero bombeo
+\end{enumerate}
+\subsubsection{Press banca agarre cerrado}
+\label{sec:org2e4399c}
+\begin{enumerate}
+\item Por ahora nada que decir
+\end{enumerate}
+\subsection{24/06/2019 ciclo 1, bloque a:}
+\label{sec:org8aba959}
+\subsubsection{Press banca de competencia}
+\label{sec:org4668ed8}
+\begin{enumerate}
+\item El foco será evitar que los codos se vayan drásticamente hacía
+atrás, para ello harás dos cosas (a) los remos antes de la banca y
+(b) asegurarte de tocar más arriba en el pecho con la barra
+\end{enumerate}
+\subsubsection{Press banca pies arriba}
+\label{sec:org1595cfa}
+\begin{enumerate}
+\item Nada de momento
+\item 
+\end{enumerate}
+\subsection{26/06/2019 ciclo 1, bloque b:}
+\label{sec:org904fd0a}
+\subsubsection{Press banca de competencia tempo 600}
+\label{sec:org8880de3}
+\begin{enumerate}
+\item Tener ojo con el tocar la fibra de la polera, que salga siempre
+para que se consolide la técnica
+\item Los codos van mejorando, creo que puede ser útil tocar un poquito
+mas arriba en el pecho
+\end{enumerate}
+\subsubsection{Press banca agarre cerrado}
+\label{sec:org000aec2}
+\begin{enumerate}
+\item Por ahora nada que decir
+\end{enumerate}
+\subsection{27/06/2019 ciclo 1, bloque a:}
+\label{sec:org0efb133}
+\subsubsection{Press banca de competencia}
+\label{sec:org4b53868}
+\begin{enumerate}
+\item Seguir reforzando los de los codos
+\item Intenta que el cuello que completamente estirado en la banca
+\end{enumerate}
+\subsubsection{Press banca pies arriba}
+\label{sec:org5e64283}
+\begin{enumerate}
+\item Ser ligeramente mas conservador, sobre todo si se tocan pesos que
+no has tocado antes
+\end{enumerate}
+\subsection{01/07/2019 ciclo 1, bloque a:}
+\label{sec:orgb3ce6e1}
+\subsubsection{Press banca de competencia}
+\label{sec:org620021b}
+\begin{enumerate}
+\item Va impecable, por ahora concentrate sólo en repetir esa misma
+calidad en todo
+\end{enumerate}
+\subsubsection{Press banca pies arriba}
+\label{sec:org9d28ba8}
+\begin{enumerate}
+\item Nada por ahora
+\end{enumerate}
+\subsection{02/07/2019 ciclo 1, bloque b:}
+\label{sec:org83ce3fe}
+\subsubsection{Press banca de competencia tempo 600}
+\label{sec:org9600b09}
+\begin{enumerate}
+\item De momento todo va súper bien, sólo centrate en mantener la misma
+técnica durante todos los levantamiento
+\end{enumerate}
+\subsubsection{Press banca agarre cerrado}
+\label{sec:orgc3c2fb1}
+\begin{enumerate}
+\item Por ahora nada que decir
+\end{enumerate}
+\subsection{06/07/2019 ciclo 1, bloque b:}
+\label{sec:orgd615ba2}
+\subsubsection{Press banca de competencia tempo 600}
+\label{sec:org6ea91dd}
+\begin{enumerate}
+\item Más que corrección aquí van cosas que has hecho bien y debes seguir
+sosteniendo
+\item Le tensión en el arco, siempre tratando de llevar el pecho a la
+barra
+\item El tocar apenas la fibra de la polera
+\item El control de codos
+\end{enumerate}
+\subsubsection{Press banca agarre cerrado}
+\label{sec:orgdd66162}
+\begin{enumerate}
+\item Este siempre será un moviemiento de "baja habilidad", con ello
+quiero decir que es un movimiento dónde la técnica no juega un rol
+fundamental, por lo mismo no ha tenido mucha revisión durante el
+bloque, de todas maneras te sale súper sólido así que nada
+partícular que decir aquí
+\end{enumerate}
+\section{Registro de progreso}
+\label{sec:org78142ef}
+\begin{center}
+\label{tab:org7427369}
 \begin{tabular}{lrrl}
 Ejercicio & RPE & Peso & Fecha\\
 \hline
-Sentadilla de competencia & 8 & 175 & 08/07/2019\\
-Press banca de competencia & 7.5 & 85 & 08/07/2019\\
-Press banca agarre cerrado, pies arriba & nil & nil & 08/07/2019\\
-Press banca con mancuernas & nil & nil & 08/07/2019\\
-Press banca agarre cerrado & 8 & 80 & 09/07/2019\\
-Peso muerto de competencia (sumo) & 8 & 220 & 09/07/2019\\
-Peso muerto hasta las rodillas & 8 & 170 & 09/07/2019\\
-Peso muerto bloques & 8 & 120 & 09/07/2019\\
-Sentadila de compentecia & 8.5 & 184 & 12/07/2019\\
-Press banca de competencia & 8 & 88 & 12/07/2019\\
-Press banca agarre cerrado & 8.5 & 85 & 13/07/2019\\
-Peso muerto de compentecia & 8 & 200 & 13/07/2019\\
-Peso muerto hasta las rodillas & 8 & 170 & 13/07/2019\\
-Peso muerto bloques & 8 & 120 & 13/07/2019\\
+Press banca de competencia & 7 & 92 & 11/06/2019\\
+Press banca pies arriba & 7.5 & 85 & 11/06/2019\\
+Press banca de competencia tempo 600 & 8 & 87.5 & 12/06/2019\\
+Press banca agarre cerrado & 8 & 50 & 12/06/2019\\
+Press banca de competencia & 7.5 & 95 & 14/06/2019\\
+Press banca pies arriba & 8 & 87.5 & 14/06/2019\\
+Press banca de competencia tempo 600 & 8 & 92.5 & 15/06/2019\\
+Press banca agarre cerrado & 8 & 55 & 15/06/2019\\
+Press banca de competencia & 8 & 95 & 18/06/2019\\
+Press banca pies arriba & 8 & 87.5 & 18/06/2019\\
+Press banca de competencia tempo 600 & 7.5 & 90 & 19/06/2019\\
+Press banca agarre cerrado & 8 & 62 & 19/06/2019\\
+Press banca de competencia & 8 & 95 & 21/06/2019\\
+Press banca pies arriba & 8.5 & 87.5 & 21/06/2019\\
+Press banca de competencia tempo 600 & 8.5 & 95 & 22/06/2019\\
+Press banca agarre cerrado & 8 & 65 & 22/06/2019\\
+Press banca de competencia & 8 & 100 & 24/06/2019\\
+Press banca pies arriba & 8 & 90 & 24/06/2019\\
+Press banca de competencia tempo 600 & 8 & 95 & 26/06/2019\\
+Press banca agarre cerrado & 8 & 62.5 & 26/06/2019\\
+Press banca de competencia & 8 & 97.5 & 27/06/2019\\
+Press banca pies arriba & 7.5 & 90 & 27/06/2019\\
+Press banca de competencia tempo 600 & 8 & 92.5 & 28/06/2019\\
+Press banca agarre cerrado & 9 & 65 & 28/06/2019\\
+Press banca de competencia & 8 & 97.5 & 01/07/2019\\
+Press banca pies arriba & 8 & 90 & 01/07/2019\\
+Press banca de competencia tempo 600 & 8 & 97.5 & 02/07/2019\\
+Press banca agarre cerrado & 8 & 67.5 & 02/07/2019\\
+Press banca de competencia & 8 & 102.5 & 04/07/2019\\
+Press banca pies arriba & 8 & 92.5 & 04/07/2019\\
+Press banca de competencia tempo 600 & 8 & 95 & 06/07/2019\\
+Press banca agarre cerrado & 8 & 65 & 06/07/2019\\
  &  &  & \\
 \end{tabular}
 \end{center}
 \begin{center}
 \includegraphics[width=.9\linewidth]{tmp.png}
 \end{center}
+
+\section{Tiempo de peak}
+\label{sec:org9b8fee4}
+Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposici�n
 \end{document}
