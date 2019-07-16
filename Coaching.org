@@ -106,7 +106,14 @@ print(plot)
 | Sentadilla de competencia            |   8 |  155 | 10/07/2019 |
 | Sentadilla con pausa                 |   8 |  125 | 10/07/2019 |
 | Banca de competencia                 |   8 |  100 | 10/07/2019 |
-| Banca de competencia con pausa       |   8 |   80 | 10/07/2019 |
+| Banca con pausa                      |   8 |   80 | 10/07/2019 |
+| Sentadilla de competencia            |   8 |  155 | 15/07/2019 |
+| Banca de competencia                 |   8 |  105 | 15/07/2019 |
+| Banca con pausa                      |   8 |   80 | 15/07/2019 |
+| Peso muerto de competencia           |   8 |  180 | 11/07/2019 |
+| Peso muerto desde bloques            |   8 |  200 | 11/07/2019 |
+| Peso muerto hasta las rodillas pausa |   8 |  160 | 11/07/2019 |
+| Banca agarre cerrado                 |   8 |   95 | 11/07/2019 |
 |                                      |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_winchester :exports results
 library(ggplot2)
@@ -203,6 +210,16 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 - Tienes que coordinar el bloqueo de rodillas con el bloqueo de
   caderas de manera tal que estos sean casi simultaneos
 - Debes ser mas agresivo con los dos bloqueos que te mencion� m�s arriba
+*** 11/07/2019, ciclo 1, bloque a 
+****  Banca de competencia
+1. Muy importante hacer la pausa reglamentaria!
+*** 15/07/2019, ciclo 1, bloque b 
+**** Peso muerto de competencia
+- El inicio est� mejorando harto, eso s� trata de aceptar mejor que tu espalda
+  quede mas horizontal, eso es por tus proporciones y es la postura mas
+  ventajosa
+- Luego de hacer el hook, p�gale unos tirones a la barra para que se ajuste bien
+  el gancho y no te ruede la barra al empezar a subir
 ** Registro de progreso
 #+TBLNAME:ciclo1_Eduardo
 | Ejercicio                      | RPE |  Peso | Fecha      |
@@ -229,6 +246,10 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Peso muerto hasta las rodillas |   8 |   135 | 09/07/2019 |
 | Rack pull                      |   7 |   135 | 09/07/2019 |
 | Banca inclinada                |   8 |    55 | 09/07/2019 |
+| Squat highbar                  |   8 | 102.5 | 11/07/2019 |
+| Banca de competencia           |   8 |  72.5 | 11/07/2019 |
+| Press banca agarre cerrado     |   8 |    65 | 11/07/2019 |
+| Peso muerto de competencia     |   8 |   155 | 15/07/2019 |
 |                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
@@ -351,16 +372,21 @@ print(plot)
 | Peso muerto hasta las rodillas |   8 |    80 | 10/07/2019 |
 | Peso muerto bloques            |   8 |   100 | 10/07/2019 |
 | Banca agarre cerrado           |   8 |  47.5 | 10/07/2019 |
-| Sentadila de competencia       |   8 |  92.5 | 12/07/2019 |
+| Sentadilla de competencia      |   8 |  92.5 | 12/07/2019 |
 | Banca de competencia           |   8 |    60 | 12/07/2019 |
 | Peso muerto de competencia     |   8 |   115 | 12/07/2019 |
+| Sentadilla de competencia      |   8 |    95 | 14/07/2019 |
+| Sentadilla con pausa           |   8 |    60 | 14/07/2019 |
+| Banca de competencia           |   8 |    60 | 14/07/2019 |
+| Banca con pausa                |   8 |    55 | 14/07/2019 |
+|                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_cynthia :exports results
-library(ggplot2)
-library(ggrepel)
-df = data.frame(data)
-plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
-ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
-print(plot)
+  library(ggplot2)
+  library(ggrepel)
+  df = data.frame(data)
+  plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+  ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+  print(plot)
 #+END_SRC
 
 #+RESULTS:
@@ -421,199 +447,244 @@ print(plot)
  | Press de hombros con mancuernas       | x15@9, 2 sets             | B      |
  |                                       |                           |        |
 ** Comentarios t�cnicos
-#+EXPORT_FILE_NAME: Comentarios.PDF
-*** 11/06/2019 ciclo 1, bloque a: 
-**** Press banca de competencia:
+*** Ciclo 1
+ #+EXPORT_FILE_NAME: Comentarios.PDF
+**** 11/06/2019 ciclo 1, bloque a: 
+***** Press banca de competencia:
 
- 1. Ajustar mejor el RPE, hubo ligero undershoot (un poquito mas bajo
-    de lo esperado)
- 2. La planta del pie debe estar completamente apoyada en el suelo
- 3. Para tomar la barra, rotar internamente las manos (un poco) de
-    manera tal que la barra descanse mas abajo en la palma
- 4. Aplicar "pausa activa", esto quiere decir, que la barra apenas toca
-    la primera fibra de tú polera, no debe hundirse en tú pecho.
+  1. Ajustar mejor el RPE, hubo ligero undershoot (un poquito mas bajo
+     de lo esperado)
+  2. La planta del pie debe estar completamente apoyada en el suelo
+  3. Para tomar la barra, rotar internamente las manos (un poco) de
+     manera tal que la barra descanse mas abajo en la palma
+  4. Aplicar "pausa activa", esto quiere decir, que la barra apenas toca
+     la primera fibra de tú polera, no debe hundirse en tú pecho.
 
-**** Press banca pies arriba:
+***** Press banca pies arriba:
 
- 1. Aplicar "pausa activa" y rotación de muñecas como especifique
-    arriba
- 2. Dejar los pies estirados
- 3. undershoot de RPE
+  1. Aplicar "pausa activa" y rotación de muñecas como especifique
+     arriba
+  2. Dejar los pies estirados
+  3. undershoot de RPE
 
-**** Press banca con mancuernas:
+***** Press banca con mancuernas:
 
- 1. Undershoot de RPE
+  1. Undershoot de RPE
 
-*** 12/06/2019 ciclo 1, bloque b:
-**** Press banca de competencia tempo 600
- 1. Seguir trabajando el tocar la fibra de la polera, ahora agregando
-    el gesto de llevar el pecho hacia la barra, de manera activa
- 2. Ligeramente ir aumentando la rotación de la muñeca al tomar la
+**** 12/06/2019 ciclo 1, bloque b:
+***** Press banca de competencia tempo 600
+  1. Seguir trabajando el tocar la fibra de la polera, ahora agregando
+     el gesto de llevar el pecho hacia la barra, de manera activa
+  2. Ligeramente ir aumentando la rotación de la muñeca al tomar la
+     barra
+  3. Al momento de subir estás haciendo mucho "flare" con los codos, es
+     decir, los codos se te abren mucho, hasta cierto punto eso es
+     deseable, pero en este caso fue mucho, busca que al salir del pecho
+     los codos no se muevan tanto y permanezcan en su posici�n
+***** Press banca agarre cerrado
+  1. Dado que este es un movimiento poco técnico, no hay muchas
+     correcciones que hacer, solo orientarlo a una conexión
+     mente-musculo mientras lo realizas, para obtener la mayor cantidad
+     de beneficio posible de esta variante, que tiene como foco
+     principal la hipertrofia
+
+**** 14/06/2019 ciclo 1, bloque a:
+***** Press banca de competencia
+ 1. Calcular mejor el RPE, aún lo estás estimando muy para abajo
+ 2. Mantén mas tensión tocando el pecho, fuerza harto la clave de llevar el pecho a la barra
+ 3. Antes de subir la barra del pecho se movió ligeramente hacia tú
+    cuello, eso puede ser por falta de tensión o simplemente perder la
+    atención, pero de todas maneras ponle harto ojo
+***** Press banca pies arriba
+ 1. Bien el RPE!
+ 2. Trata de controlar los codos, evitando tanto flare, que queden un
+    poquito mas apegados a tus costillas
+**** 15/06/2019 ciclo 1, bloque b:
+***** Press banca de competencia tempo 600
+ 1. Mantener el tempo hasta tocar el pecho, evitar que "rebote" o acelerar en los últimos centimetros
+ 2. Trata de mantener un trayectoria en diagonal (recta) desde el pecho
+    hasta el rack, cualquier salida de esa línea imaginaria consideralo
+    cómo infeciencia, buscas siempre permanecer dentro de esa línea
+***** Press banca agarre cerrado
+ 1. Nada que decir por ahora, esperaremos que tal va mientras van
+    subiendo los kg
+**** 18/06/2019 ciclo 1, bloque a:
+***** Press banca de competencia
+ 1. Concentrarse en tocar solo la fibra de la polera, nunca dejar de
+    hacer fuerza, intentar que la barra "flote" en el pecho
+ 2. Al despegar no volver hundir la barra en el pecho
+***** Press banca pies arriba 
+ 1. Los mismos comentarios que para la banca de competencia
+**** 19/06/2019 ciclo 1, bloque b:
+***** Press banca de competencia tempo 600 
+ 1. Harto mejor el tocar la fibra del pecho
+ 2. Súper buena la sálida del pecho solo cuidar la posici�n de codos
+***** Press banca agarre cerrado 
+ 1. Bien el RPE, la técnica está precisa 
+**** 21/06/2019 ciclo 1, bloque a:
+***** Press banca de competencia
+ 1. Ya estás dominando el RPE y el toque de pausa activa en el pecho
+ 2. Ahora, el foco debiese estar en no lanzar los codos tan hacia
+    afuera, intenta mantenerlos un poco más cerrado. Cómo te mencioné
+    antes no es malo que los codoso queden afuera, de hecho puede ser
+    hasta beneficioso, lo que no queremos ver es un cambio de ángulo
+    drástico, ya que eso puede mover la barra
+***** Press banca pies arriba 
+ 1. Exactamente los mismos comentarios que para la banca de competencia 
+**** 22/06/2019 ciclo 1, bloque b:
+***** Press banca de competencia tempo 600 
+ 1. Ya tienes casi dominada la tocada en el pecho ahora lo que esta
+    faltando es la salida, cómo te he mencionado anteriormente, estás
+    tirando los codos muy para atrás así que quiero que pruebes tocar
+    ligeramente mas arriba en el pecho y partir con los codos un pelito
+    mas abiertos en la bajda
+ 2. Aparte, antes de empezar con banca intenta meter unos remos
+    ligeros, 2x15 y sentir un ligero bombeo 
+***** Press banca agarre cerrado 
+ 1. Por ahora nada que decir 
+**** 24/06/2019 ciclo 1, bloque a:
+***** Press banca de competencia
+ 1. El foco será evitar que los codos se vayan drásticamente hacía
+    atrás, para ello harás dos cosas (a) los remos antes de la banca y
+    (b) asegurarte de tocar más arriba en el pecho con la barra
+***** Press banca pies arriba 
+ 1. Nada de momento
+ 1. 
+**** 26/06/2019 ciclo 1, bloque b:
+***** Press banca de competencia tempo 600 
+ 1. Tener ojo con el tocar la fibra de la polera, que salga siempre
+    para que se consolide la técnica
+ 2. Los codos van mejorando, creo que puede ser útil tocar un poquito
+    mas arriba en el pecho
+***** Press banca agarre cerrado 
+ 1. Por ahora nada que decir 
+**** 27/06/2019 ciclo 1, bloque a:
+***** Press banca de competencia
+ 1. Seguir reforzando los de los codos
+ 2. Intenta que el cuello que completamente estirado en la banca
+***** Press banca pies arriba 
+ 1. Ser ligeramente mas conservador, sobre todo si se tocan pesos que
+    no has tocado antes
+**** 01/07/2019 ciclo 1, bloque a:
+***** Press banca de competencia
+ 1. Va impecable, por ahora concentrate sólo en repetir esa misma
+    calidad en todo
+***** Press banca pies arriba 
+ 1. Nada por ahora
+**** 02/07/2019 ciclo 1, bloque b:
+***** Press banca de competencia tempo 600 
+ 1. De momento todo va súper bien, sólo centrate en mantener la misma
+    técnica durante todos los levantamiento
+***** Press banca agarre cerrado 
+ 1. Por ahora nada que decir 
+**** 06/07/2019 ciclo 1, bloque b:
+***** Press banca de competencia tempo 600 
+ 1. Más que corrección aquí van cosas que has hecho bien y debes seguir
+    sosteniendo
+ 2. Le tensión en el arco, siempre tratando de llevar el pecho a la
     barra
- 3. Al momento de subir estás haciendo mucho "flare" con los codos, es
-    decir, los codos se te abren mucho, hasta cierto punto eso es
-    deseable, pero en este caso fue mucho, busca que al salir del pecho
-    los codos no se muevan tanto y permanezcan en su posici�n
-**** Press banca agarre cerrado
- 1. Dado que este es un movimiento poco técnico, no hay muchas
-    correcciones que hacer, solo orientarlo a una conexión
-    mente-musculo mientras lo realizas, para obtener la mayor cantidad
-    de beneficio posible de esta variante, que tiene como foco
-    principal la hipertrofia
-
-*** 14/06/2019 ciclo 1, bloque a:
-**** Press banca de competencia
-1. Calcular mejor el RPE, aún lo estás estimando muy para abajo
-2. Mantén mas tensión tocando el pecho, fuerza harto la clave de llevar el pecho a la barra
-3. Antes de subir la barra del pecho se movió ligeramente hacia tú
-   cuello, eso puede ser por falta de tensión o simplemente perder la
-   atención, pero de todas maneras ponle harto ojo
-**** Press banca pies arriba
-1. Bien el RPE!
-2. Trata de controlar los codos, evitando tanto flare, que queden un
-   poquito mas apegados a tus costillas
-*** 15/06/2019 ciclo 1, bloque b:
-**** Press banca de competencia tempo 600
-1. Mantener el tempo hasta tocar el pecho, evitar que "rebote" o acelerar en los últimos centimetros
-2. Trata de mantener un trayectoria en diagonal (recta) desde el pecho
-   hasta el rack, cualquier salida de esa línea imaginaria consideralo
-   cómo infeciencia, buscas siempre permanecer dentro de esa línea
-**** Press banca agarre cerrado
-1. Nada que decir por ahora, esperaremos que tal va mientras van
-   subiendo los kg
-*** 18/06/2019 ciclo 1, bloque a:
-**** Press banca de competencia
-1. Concentrarse en tocar solo la fibra de la polera, nunca dejar de
-   hacer fuerza, intentar que la barra "flote" en el pecho
-2. Al despegar no volver hundir la barra en el pecho
-**** Press banca pies arriba 
-1. Los mismos comentarios que para la banca de competencia
-*** 19/06/2019 ciclo 1, bloque b:
-**** Press banca de competencia tempo 600 
-1. Harto mejor el tocar la fibra del pecho
-2. Súper buena la sálida del pecho solo cuidar la posici�n de codos
-**** Press banca agarre cerrado 
-1. Bien el RPE, la técnica está precisa 
-*** 21/06/2019 ciclo 1, bloque a:
-**** Press banca de competencia
-1. Ya estás dominando el RPE y el toque de pausa activa en el pecho
-2. Ahora, el foco debiese estar en no lanzar los codos tan hacia
-   afuera, intenta mantenerlos un poco más cerrado. Cómo te mencioné
-   antes no es malo que los codoso queden afuera, de hecho puede ser
-   hasta beneficioso, lo que no queremos ver es un cambio de ángulo
-   drástico, ya que eso puede mover la barra
-**** Press banca pies arriba 
-1. Exactamente los mismos comentarios que para la banca de competencia 
-*** 22/06/2019 ciclo 1, bloque b:
-**** Press banca de competencia tempo 600 
-1. Ya tienes casi dominada la tocada en el pecho ahora lo que esta
-   faltando es la salida, cómo te he mencionado anteriormente, estás
-   tirando los codos muy para atrás así que quiero que pruebes tocar
-   ligeramente mas arriba en el pecho y partir con los codos un pelito
-   mas abiertos en la bajda
-2. Aparte, antes de empezar con banca intenta meter unos remos
-   ligeros, 2x15 y sentir un ligero bombeo 
-**** Press banca agarre cerrado 
-1. Por ahora nada que decir 
-*** 24/06/2019 ciclo 1, bloque a:
-**** Press banca de competencia
-1. El foco será evitar que los codos se vayan drásticamente hacía
-   atrás, para ello harás dos cosas (a) los remos antes de la banca y
-   (b) asegurarte de tocar más arriba en el pecho con la barra
-**** Press banca pies arriba 
-1. Nada de momento
-1. 
-*** 26/06/2019 ciclo 1, bloque b:
-**** Press banca de competencia tempo 600 
-1. Tener ojo con el tocar la fibra de la polera, que salga siempre
-   para que se consolide la técnica
-2. Los codos van mejorando, creo que puede ser útil tocar un poquito
-   mas arriba en el pecho
-**** Press banca agarre cerrado 
-1. Por ahora nada que decir 
-*** 27/06/2019 ciclo 1, bloque a:
-**** Press banca de competencia
-1. Seguir reforzando los de los codos
-2. Intenta que el cuello que completamente estirado en la banca
-**** Press banca pies arriba 
-1. Ser ligeramente mas conservador, sobre todo si se tocan pesos que
-   no has tocado antes
-*** 01/07/2019 ciclo 1, bloque a:
-**** Press banca de competencia
-1. Va impecable, por ahora concentrate sólo en repetir esa misma
-   calidad en todo
-**** Press banca pies arriba 
-1. Nada por ahora
-*** 02/07/2019 ciclo 1, bloque b:
-**** Press banca de competencia tempo 600 
-1. De momento todo va súper bien, sólo centrate en mantener la misma
-   técnica durante todos los levantamiento
-**** Press banca agarre cerrado 
-1. Por ahora nada que decir 
-*** 06/07/2019 ciclo 1, bloque b:
-**** Press banca de competencia tempo 600 
-1. Más que corrección aquí van cosas que has hecho bien y debes seguir
-   sosteniendo
-2. Le tensión en el arco, siempre tratando de llevar el pecho a la
-   barra
-3. El tocar apenas la fibra de la polera
-4. El control de codos
-**** Press banca agarre cerrado 
-1. Este siempre será un moviemiento de "baja habilidad", con ello
-   quiero decir que es un movimiento dónde la técnica no juega un rol
-   fundamental, por lo mismo no ha tenido mucha revisión durante el
-   bloque, de todas maneras te sale súper sólido así que nada
-   partícular que decir aquí
+ 3. El tocar apenas la fibra de la polera
+ 4. El control de codos
+***** Press banca agarre cerrado 
+ 1. Este siempre será un moviemiento de "baja habilidad", con ello
+    quiero decir que es un movimiento dónde la técnica no juega un rol
+    fundamental, por lo mismo no ha tenido mucha revisión durante el
+    bloque, de todas maneras te sale súper sólido así que nada
+    partícular que decir aquí
+*** Ciclo 2
+**** 15/07/2019, ciclo 2, bloque a:
+***** Banca competencia
+- Aprovechar las oportunidades a RPE alto para luchar el gesto del 'flare' de
+  codos
+- Buscar arquear mas, dentro de lo posible dado la banca
+- En general muy bien sobre a todo a RPE >=8
+***** Frontales
+- De momento lo �nico que me es relevante de este movimiento es evitar
+  molestias, as� que cualquiera que salga me la informas para hacer las
+  modificaciones pertinentes
+**** 16/07/2019, ciclo 2, bloque b:
+***** Banca agarre cerrado
+- Este ejercicio va ser, probablemente, bastante utilizado como accesorio para
+  la banca, lo tienes dominado y ya que es un ejercicio de 'baja habilidad' por
+  ahora no hay necesidad de correcciones
+***** Sumo
+- Casi nada que decir, la forma est� impecable
+- Para el top set trata de no usar straps, straps est�n permitidas para el
+  volumen
 ** Registro de progreso
-   #+TBLNAME:ciclo1_Johans
- | Ejercicio                            | RPE |  Peso | Fecha      |
- |--------------------------------------+-----+-------+------------|
- | Press banca de competencia           |   7 |    92 | 11/06/2019 |
- | Press banca pies arriba              | 7.5 |    85 | 11/06/2019 |
- | Press banca de competencia tempo 600 |   8 |  87.5 | 12/06/2019 |
- | Press banca agarre cerrado           |   8 |    50 | 12/06/2019 |
- | Press banca de competencia           | 7.5 |    95 | 14/06/2019 |
- | Press banca pies arriba              |   8 |  87.5 | 14/06/2019 |
- | Press banca de competencia tempo 600 |   8 |  92.5 | 15/06/2019 |
- | Press banca agarre cerrado           |   8 |    55 | 15/06/2019 |
- | Press banca de competencia           |   8 |    95 | 18/06/2019 |
- | Press banca pies arriba              |   8 |  87.5 | 18/06/2019 |
- | Press banca de competencia tempo 600 | 7.5 |    90 | 19/06/2019 |
- | Press banca agarre cerrado           |   8 |    62 | 19/06/2019 |
- | Press banca de competencia           |   8 |    95 | 21/06/2019 |
- | Press banca pies arriba              | 8.5 |  87.5 | 21/06/2019 |
- | Press banca de competencia tempo 600 | 8.5 |    95 | 22/06/2019 |
- | Press banca agarre cerrado           |   8 |    65 | 22/06/2019 |
- | Press banca de competencia           |   8 |   100 | 24/06/2019 |
- | Press banca pies arriba              |   8 |    90 | 24/06/2019 |
- | Press banca de competencia tempo 600 |   8 |    95 | 26/06/2019 |
- | Press banca agarre cerrado           |   8 |  62.5 | 26/06/2019 |
- | Press banca de competencia           |   8 |  97.5 | 27/06/2019 |
- | Press banca pies arriba              | 7.5 |    90 | 27/06/2019 |
- | Press banca de competencia tempo 600 |   8 |  92.5 | 28/06/2019 |
- | Press banca agarre cerrado           |   9 |    65 | 28/06/2019 |
- | Press banca de competencia           |   8 |  97.5 | 01/07/2019 |
- | Press banca pies arriba              |   8 |    90 | 01/07/2019 |
- | Press banca de competencia tempo 600 |   8 |  97.5 | 02/07/2019 |
- | Press banca agarre cerrado           |   8 |  67.5 | 02/07/2019 |
- | Press banca de competencia           |   8 | 102.5 | 04/07/2019 |
- | Press banca pies arriba              |   8 |  92.5 | 04/07/2019 |
- | Press banca de competencia tempo 600 |   8 |    95 | 06/07/2019 |
- | Press banca agarre cerrado           |   8 |    65 | 06/07/2019 |
- |                                      |     |       |            |
- #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
- library(ggplot2)
- library(ggrepel)
- df = data.frame(data)
- len = seq(1:length(df$Fecha))
- plot = ggplot(df, aes(x=len, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
- ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
- print(plot)
- #+END_SRC
+*** Ciclo 1
+    #+TBLNAME:ciclo1_Johans
+  | Ejercicio                            | RPE |  Peso | Fecha      |
+  |--------------------------------------+-----+-------+------------|
+  | Press banca de competencia           |   7 |    92 | 11/06/2019 |
+  | Press banca pies arriba              | 7.5 |    85 | 11/06/2019 |
+  | Press banca de competencia tempo 600 |   8 |  87.5 | 12/06/2019 |
+  | Press banca agarre cerrado           |   8 |    50 | 12/06/2019 |
+  | Press banca de competencia           | 7.5 |    95 | 14/06/2019 |
+  | Press banca pies arriba              |   8 |  87.5 | 14/06/2019 |
+  | Press banca de competencia tempo 600 |   8 |  92.5 | 15/06/2019 |
+  | Press banca agarre cerrado           |   8 |    55 | 15/06/2019 |
+  | Press banca de competencia           |   8 |    95 | 18/06/2019 |
+  | Press banca pies arriba              |   8 |  87.5 | 18/06/2019 |
+  | Press banca de competencia tempo 600 | 7.5 |    90 | 19/06/2019 |
+  | Press banca agarre cerrado           |   8 |    62 | 19/06/2019 |
+  | Press banca de competencia           |   8 |    95 | 21/06/2019 |
+  | Press banca pies arriba              | 8.5 |  87.5 | 21/06/2019 |
+  | Press banca de competencia tempo 600 | 8.5 |    95 | 22/06/2019 |
+  | Press banca agarre cerrado           |   8 |    65 | 22/06/2019 |
+  | Press banca de competencia           |   8 |   100 | 24/06/2019 |
+  | Press banca pies arriba              |   8 |    90 | 24/06/2019 |
+  | Press banca de competencia tempo 600 |   8 |    95 | 26/06/2019 |
+  | Press banca agarre cerrado           |   8 |  62.5 | 26/06/2019 |
+  | Press banca de competencia           |   8 |  97.5 | 27/06/2019 |
+  | Press banca pies arriba              | 7.5 |    90 | 27/06/2019 |
+  | Press banca de competencia tempo 600 |   8 |  92.5 | 28/06/2019 |
+  | Press banca agarre cerrado           |   9 |    65 | 28/06/2019 |
+  | Press banca de competencia           |   8 |  97.5 | 01/07/2019 |
+  | Press banca pies arriba              |   8 |    90 | 01/07/2019 |
+  | Press banca de competencia tempo 600 |   8 |  97.5 | 02/07/2019 |
+  | Press banca agarre cerrado           |   8 |  67.5 | 02/07/2019 |
+  | Press banca de competencia           |   8 | 102.5 | 04/07/2019 |
+  | Press banca pies arriba              |   8 |  92.5 | 04/07/2019 |
+  | Press banca de competencia tempo 600 |   8 |    95 | 06/07/2019 |
+  | Press banca agarre cerrado           |   8 |    65 | 06/07/2019 |
+  |                                      |     |       |            |
+  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Johans :exports results
+  library(ggplot2)
+  library(ggrepel)
+  df = data.frame(data)
+  len = seq(1:length(df$Fecha))
+  plot = ggplot(df, aes(x=len, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+  ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+  print(plot)
+  #+END_SRC
 
- #+RESULTS:
- [[file:tmp.png]]
+  #+RESULTS:
+  [[file:tmp.png]]
 
+*** Ciclo 2
+  #+TBLNAME:ciclo2_Johans
+  | Ejercicio                             | RPE | Peso | Fecha      |
+  |---------------------------------------+-----+------+------------|
+  | Press banca de competencia            | 8.5 | 97.5 | 15/07/2019 |
+  | Press banca pies arriba, agarre medio |   8 |   75 | 15/07/2019 |
+  | Dips                                  |   8 |   10 | 15/07/2019 |
+  | Frontales a caja                      |   6 |   80 | 15/07/2019 |
+  | Press banca agarre cerrado            |   9 | 72.5 | 16/07/2019 |
+  | Peso muerto sumo                      |   7 |  150 | 16/07/2019 |
+  |                                       |     |      |            |
+  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_Johans :exports results
+  library(ggplot2)
+  library(ggrepel)
+  df = data.frame(data)
+  len = seq(1:length(df$Fecha))
+  plot = ggplot(df, aes(x=len, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+  ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+  print(plot)
+  #+END_SRC
+
+  #+RESULTS:
+  [[file:tmp.png]]
 ** Tiempo de peak
 Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposici�n
 
@@ -696,6 +767,11 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposici�n
 - Prueba abrir mas los pies, y forzar mas arco, el objetivo por ahora
   sera que las rodillas quede bajo la cresta de tu cadera
 
+*** 15/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+- Correcci�n del cuello hacia atr�s
+- El unrack es una sentadilla m�s, mismo brace y todo
+- Aumentar el ingreso de aire para el brace
 ** Registro de progreso
  #+TBLNAME:ciclo1_zapata
  | Ejercicio                               | RPE | Peso | Fecha      |
@@ -714,6 +790,7 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposici�n
  | Peso muerto de competencia              |   8 |  200 | 13/07/2019 |
  | Peso muerto hasta las rodillas          |   8 |  170 | 13/07/2019 |
  | Peso muerto bloques                     |   8 |  120 | 13/07/2019 |
+ | Sentadilla de competencia               | 7.5 |  184 | 15/07/2019 |
  |                                         |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_zapata :exports results
  library(ggplot2)
@@ -855,6 +932,14 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposici�n
   volver a perder tensi�n
 **** Peso muerto sumo
 - Aplicar los mismos comentarios que para peso muerto convencional
+*** 15/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+- De aqu� en adelante utilizar la postura con el torso mas inclinado que
+  lograste en esta sesi�n
+- Bajar un poquito menos justo hasta despu�s de paralelo
+- Reducir la velocidad, que el descenso sea suave y controlado
+**** Banca de competencia
+- Concentrarse en hacer tensi�n con las piernas durante todo el movimiento
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
@@ -878,6 +963,9 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposici�n
 | Press banca agarre cerrado      |   8 |   34 | 13/07/2019 |
 | Peso muerto convencional        |   8 |   93 | 13/07/2019 |
 | Peso muerto sumo                |   8 |   60 | 13/07/2019 |
+| Sentadilla de competencia       |   8 |   60 | 15/07/2019 |
+| Press banca de competencia      |   8 |   38 | 15/07/2019 |
+| Press banca agarre cerrado      |   8 |   34 | 15/07/2019 |
 |                                 |     |      |            |
 *** Plots
 **** Ciclo 1
@@ -1102,6 +1190,10 @@ mirando derecho versus arriba
 | Lever squat                |    nil |   35 | 12/07/2019 |
 | Banca agarre cerrado       |      8 |  105 | 12/07/2019 |
 | Banca con mancuernas       |      9 |   16 | 12/07/2019 |
+| Squat de competencia       | 0.31ms |  205 | 15/07/2019 |
+| Banca de competencia       | 0.13ms |  150 | 15/07/2019 |
+| Peso muerto de competencia |      9 |  260 | 15/07/2019 |
+|                            |        |      |            |
 *** Plots
 **** Plot ciclo 1
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
