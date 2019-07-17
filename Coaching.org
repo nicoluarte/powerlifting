@@ -36,6 +36,7 @@ print(plot)
 
 * Winchester
 ** Ciclos
+*** Ciclo 1
 | Ejercicio                                  | Protocolo      | Bloque |
 |--------------------------------------------+----------------+--------|
 | Sentadilla de competencia                  | x5@8, 10%, 4x6 | A      |
@@ -55,6 +56,14 @@ print(plot)
 | Push ups                                   | 3 sets @9      | C      |
 | Extensión de triceps                       | x20@10, 3 sets | C      |
 |                                            |                |        |
+*** Warm-up
+| Ejercicio                                  | Protocolo                           |
+|--------------------------------------------+-------------------------------------|
+| Plancha normal                             | 1xtodo el tiempo posible, 3 sets @9 |
+| Plancha lateral                            | 3 sets @9                           |
+| Hip thrust con bandas                      | 2x30 @9                             |
+| Peso muerto piernas rigidaz con mancuernas | 3x15 @8                             |
+| Sentadilla + respiraciones profundas abajo | 3x10 (respiraciones) 60 kg          |
 ** Comentarios técnicos
 *** 08/07/2019, ciclo 1, bloque a
 **** Sentadilla de competencia
@@ -306,6 +315,7 @@ print(plot)
 
 * Cynthia
 ** Ciclos
+*** Ciclo 1
 | Ejercicio                                   | Protocolo        | Bloque |
 |---------------------------------------------+------------------+--------|
 | Sentadilla de competencia                   | x6@8, 15%, 4x7   | A      |
@@ -317,6 +327,23 @@ print(plot)
 | Peso muerto de competencia (sumo)           | x5@8, 15%, 3x5   | B      |
 | Peso muerto hasta las rodillas              | x7@8, 15%, 2x7   | B      |
 | Peso muerto bloques (abajo de las rodillas) | x10@8, 10%, 2x10 | B      |
+*** Ciclo 2 (descarga)
+| Ejercicio                           | Protocolo                           | Bloque |
+|-------------------------------------+-------------------------------------+--------|
+| Plancha normal                      | 1xtodo el tiempo posible, 3 sets @9 | A      |
+| Plancha lateral                     | 3 sets @9                           | A      |
+| Pajaro-Perro (bird-dog)             | 3 sets @9                           | A      |
+| Sentadilla de competencia tempo 700 | x3@7, 15%, 4x3                      | A      |
+| Hip-thrust con bandas               | 20@9, 3x15                          | A      |
+| Buenos días sentada                 | x15@8, 3x10                         | A      |
+| Elevaciones de piernas              | 1xamrap, 3 sets @9                  | A      |
+|-------------------------------------+-------------------------------------+--------|
+| Banca de competencia tempo 700      | x3@7, 15%, 4x3                      | B      |
+| Aperturas con mancuerna             | x20@9, 3 sets                       | B      |
+| Remos con mancuerna                 | x15@9, 3 sets                       | B      |
+| Hip hinge                           | 1x100                               | B      |
+| Squat-morning                       | 2x25                                | B      |
+| Caminatas de granjero unilateral    | 3 set @8-9                          | B      |
 ** Comentarios técnicos
 *** 04/07/2019, ciclo 1, bloque b
 **** Peso muerto de competencia
@@ -379,6 +406,8 @@ print(plot)
 | Sentadilla con pausa           |   8 |    60 | 14/07/2019 |
 | Banca de competencia           |   8 |    60 | 14/07/2019 |
 | Banca con pausa                |   8 |    55 | 14/07/2019 |
+| Banca agarre cerrado           |   8 |    56 | 16/07/2019 |
+| Peso muerto de competencia     |   8 |   115 | 16/07/2019 |
 |                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_cynthia :exports results
   library(ggplot2)
