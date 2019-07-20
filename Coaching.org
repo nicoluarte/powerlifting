@@ -229,6 +229,17 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
   ventajosa
 - Luego de hacer el hook, pégale unos tirones a la barra para que se ajuste bien
   el gancho y no te ruede la barra al empezar a subir
+*** 17/07/2019, ciclo 1, bloque a 
+**** Sentadilla de competencia
+- Antes de bajar inclinate mas y busca el balance en la plata de tu pie 
+- En la primera repetición bajaste demasiado vertical y sacaste la barra del eje
+  hacia atrás
+****  Banca de competencia
+- Bien la pausa reglamentaria
+- Ahora la idea es ir trabajando desde ese mismo estandar
+*** 18/07/2019, ciclo 1, bloque b 
+**** Peso muerto de competencia
+- CARGA BIEN LA BARRA jajaja
 ** Registro de progreso
 #+TBLNAME:ciclo1_Eduardo
 | Ejercicio                      | RPE |  Peso | Fecha      |
@@ -259,6 +270,12 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Banca de competencia           |   8 |  72.5 | 11/07/2019 |
 | Press banca agarre cerrado     |   8 |    65 | 11/07/2019 |
 | Peso muerto de competencia     |   8 |   155 | 15/07/2019 |
+| Squat highbar                  |   8 |   105 | 17/07/2019 |
+| Front squat                    | 7.5 |    80 | 17/07/2019 |
+| Banca de competencia           |   8 |    70 | 17/07/2019 |
+| Press banca agarre cerrado     |   8 |    65 | 17/07/2019 |
+| Peso muerto de competencia     |   8 |   145 | 18/07/2019 |
+| Peso muerto hasta las rodillas |   8 |   120 | 18/07/2019 |
 |                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
@@ -301,6 +318,10 @@ print(plot)
 | Peso muerto de competencia |   8 |   80 | 10/07/2019 |
 | Peso muerto con pausa      |   8 |   70 | 10/07/2019 |
 | Peso muerto desde bloques  |   8 |   85 | 10/07/2019 |
+| Sentadilla de competencia  |   8 |   70 | 15/07/2019 |
+| Sentadilla con pausa       |   8 |   55 | 15/07/2019 |
+| Banca de competencia       |   8 |   30 | 15/07/2019 |
+| Banca agarre cerrado       |   8 |   25 | 15/07/2019 |
 |                            |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_javi :exports results
 library(ggplot2)
@@ -463,7 +484,7 @@ print(plot)
  |---------------------------------------+---------------------------+--------|
  | Ejercicio                             | Protocolo                 | Bloque |
  |---------------------------------------+---------------------------+--------|
- | Press banca de competencia            | x1@8, x5@8, 10%, 3x5, 2x2 | A      |
+ | Press banca de competencia            | x1@8, x5@8, 10%, 3x5, 2x4 | A      |
  | Press banca pies arriba, agarre medio | x5@8, 10%, 4x4            | A      |
  | Dips                                  | x8@9, 3 sets @9           | A      |
  | Push-ups                              | 2 amraps                  | A      |
@@ -640,6 +661,22 @@ print(plot)
 - Casi nada que decir, la forma está impecable
 - Para el top set trata de no usar straps, straps están permitidas para el
   volumen
+**** 18/07/2019, ciclo 2, bloque a:
+***** Banca competencia
+- Probablemente por la banca, pero estuvo bien exagerado el tema de los codos
+- Igualmente falto armar más y mejor el arco
+***** Frontales
+- De momento lo único que me es relevante de este movimiento es evitar
+  molestias, así que cualquiera que salga me la informas para hacer las
+  modificaciones pertinentes
+**** 19/07/2019, ciclo 2, bloque b:
+***** Banca agarre cerrado
+- Reduce un poquito la velocidad de descenso
+***** Sumo
+- Date un poco mas de tiempo con la barra en tensión, hasta que tu cadera suba
+  sola y luego de eso recién la sacas del suelo
+- En sumo está súper que las caderas queden "altas", la cosa es que no se muevan
+  una vez empiezas a levantar
 ** Registro de progreso
 *** Ciclo 1
     #+TBLNAME:ciclo1_Johans
@@ -701,6 +738,12 @@ print(plot)
   | Frontales a caja                      |   6 |   80 | 15/07/2019 |
   | Press banca agarre cerrado            |   9 | 72.5 | 16/07/2019 |
   | Peso muerto sumo                      |   7 |  150 | 16/07/2019 |
+  | Press banca de competencia            |   8 |   95 | 18/07/2019 |
+  | Press banca pies arriba, agarre medio |   8 |   75 | 18/07/2019 |
+  | Dips                                  |   8 |   10 | 18/07/2019 |
+  | Frontales a caja                      |   6 |   80 | 18/07/2019 |
+  | Press banca agarre cerrado            | 8.5 |   70 | 19/07/2019 |
+  | Peso muerto sumo                      |   6 |  150 | 19/07/2019 |
   |                                       |     |      |            |
   #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_Johans :exports results
   library(ggplot2)
@@ -801,6 +844,19 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 - Corrección del cuello hacia atrás
 - El unrack es una sentadilla más, mismo brace y todo
 - Aumentar el ingreso de aire para el brace
+*** 17/07/2019, ciclo 1, bloque b
+**** Peso muerto de competencia (sumo)
+- La parte de tensar la barra va súper, así que seguir reforzando eso
+- Ahora, ojo que la barra está partiendo un poco despegada de las canillas,
+  asegurate que esté bien firme ahí antes de despegarla
+- Trata de ir agregando tensión a la barra más lento
+- Prueba haciendo el brace abajo v/s arriba y dime que tal se siente
+**** Press banca agarre cerrado
+- Mas tensión en el pecho, trata de que la barra apenas si toque el
+  pecho, nada de hundirla
+- Prueba abrir mas los pies, y forzar mas arco, el objetivo por ahora
+  sera que las rodillas quede bajo la cresta de tu cadera
+
 ** Registro de progreso
  #+TBLNAME:ciclo1_zapata
  | Ejercicio                               | RPE | Peso | Fecha      |
@@ -820,6 +876,10 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
  | Peso muerto hasta las rodillas          |   8 |  170 | 13/07/2019 |
  | Peso muerto bloques                     |   8 |  120 | 13/07/2019 |
  | Sentadilla de competencia               | 7.5 |  184 | 15/07/2019 |
+ | Peso muerto de competencia              |   8 |  210 | 17/07/2019 |
+ | Peso muerto hasta las rodillas          |   8 |  170 | 17/07/2019 |
+ | Peso muerto bloques                     |   8 |  130 | 17/07/2019 |
+ | Press banca agarre cerrado              | 8.5 |   85 | 17/07/2019 |
  |                                         |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_zapata :exports results
  library(ggplot2)
@@ -969,6 +1029,27 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 - Reducir la velocidad, que el descenso sea suave y controlado
 **** Banca de competencia
 - Concentrarse en hacer tensión con las piernas durante todo el movimiento
+*** 17/07/2019, ciclo 1, bloque b
+**** Press banca agarre cerrado
+- Forzar mas la retracción de escapulas
+- Aumentar el arco llevando activamente el pecho hacia la barra mientras esta
+  baja
+**** Peso muerto convencional
+- Vamos a probar ir por una postura mucho mas cerrado una distancia de 2-3 entre
+  cada pie y ligeramente con las punteras hacia afuera
+**** Peso muerto sumo
+- Cierra un poquito mas la postura hasta que las canillas te queden
+  perpendiculares al suelo
+- Busca dejar la caderas arriba, todo tenso y luego levantar
+*** 19/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+- Buenísima la postura, trata de mantener esta misma forma todas sesiones
+- Vamos a mantenerla durante 1 a 2 ciclos, y luego cambiaremos a una forma para
+  levantar más, pero primero necesito que te afirmes harto con este postura
+**** Banca de competencia
+- Mejor el tema de las piernas, pero aún falta trabajo ahí, esto toma su tiempo
+- Aún queda un poquito de "mini rebote" ojalá eliminarlo en 100%, ya que puede
+  ser medio problematico en competencia
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
@@ -995,6 +1076,12 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Sentadilla de competencia       |   8 |   60 | 15/07/2019 |
 | Press banca de competencia      |   8 |   38 | 15/07/2019 |
 | Press banca agarre cerrado      |   8 |   34 | 15/07/2019 |
+| Peso muerto convencional        |   8 |   84 | 17/07/2019 |
+| Peso muerto sumo                |   8 |   60 | 17/07/2019 |
+| Press banca agarre cerrado      |   8 |   36 | 17/07/2019 |
+| Sentadilla de competencia       |   8 |   56 | 19/07/2019 |
+| Press banca de competencia      |   8 |   38 | 19/07/2019 |
+| Press banca agarre cerrado      |   8 |   34 | 19/07/2019 |
 |                                 |     |      |            |
 *** Plots
 **** Ciclo 1
