@@ -123,6 +123,7 @@ print(plot)
 | Peso muerto desde bloques            |   8 |  200 | 11/07/2019 |
 | Peso muerto hasta las rodillas pausa |   8 |  160 | 11/07/2019 |
 | Banca agarre cerrado                 |   8 |   95 | 11/07/2019 |
+| Banca de competencia                 |   8 |  110 | 22/07/2019 |
 |                                      |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_winchester :exports results
 library(ggplot2)
@@ -276,6 +277,10 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Press banca agarre cerrado     |   8 |    65 | 17/07/2019 |
 | Peso muerto de competencia     |   8 |   145 | 18/07/2019 |
 | Peso muerto hasta las rodillas |   8 |   120 | 18/07/2019 |
+| Squat highbar                  |   8 | 102.5 | 22/07/2019 |
+| Front squat                    |   8 |    80 | 22/07/2019 |
+| Banca de competencia           |   8 |    70 | 22/07/2019 |
+| Press banca agarre cerrado     |   8 |    65 | 22/07/2019 |
 |                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
@@ -322,6 +327,10 @@ print(plot)
 | Sentadilla con pausa       |   8 |   55 | 15/07/2019 |
 | Banca de competencia       |   8 |   30 | 15/07/2019 |
 | Banca agarre cerrado       |   8 |   25 | 15/07/2019 |
+| Sentadilla de competencia  |   8 |   60 | 23/07/2019 |
+| Sentadilla con pausa       |   8 |   50 | 23/07/2019 |
+| Banca de competencia       |   8 |   35 | 23/07/2019 |
+| Banca agarre cerrado       |   8 |   32 | 23/07/2019 |
 |                            |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_javi :exports results
 library(ggplot2)
@@ -677,6 +686,30 @@ print(plot)
   sola y luego de eso recién la sacas del suelo
 - En sumo está súper que las caderas queden "altas", la cosa es que no se muevan
   una vez empiezas a levantar
+**** 22/07/2019, ciclo 2, bloque a:
+***** Banca competencia
+- Impecable el flare de los codos, mantener ese estandar
+- Cuando la barra pase la mitad del recorrido (hacia arriba) el bloqueo trata de
+  hacerlo mas explosivo
+- Intenta reposar la barra mas abajo de la muñeca
+- En el set x5, intenta, sobretodo en la última repe, no bajarla tan rápido. Es
+  entendible por la fatiga hacer eso, pero lo que buscamos con esto es que la
+  técnica se mantenga inalterada pese a la alta fatiga
+***** Banca agarre medio 
+- Al igual que la banca de competencia, busca dejar la barra más abajo de la
+  palma
+- Aparte de eso está todo súper
+***** Dips
+- Respecto a los dips, no tengo capacidad para observar bien la técnica, pero ya
+  que no lo tratamos como movimiento principal no debiese ser crítico
+- Lo que mas me interesa que reportes es si este movimiento te esta generando
+  algún tipo de molestia y que me indique el grado en una escala de 1-10, siendo
+  1 nada de dolor y 10 dolor agudo
+***** Sentadilla frontal
+- Aquí igualmente me interesa saber si existe dolor mas que nada
+- Lo otro, cómo clave mental, al salir de abajo, piensa en sacar el torso
+  primero, esto tiende a mejorar la postura de los codos (que estos queden mas arriba)
+
 ** Registro de progreso
 *** Ciclo 1
     #+TBLNAME:ciclo1_Johans
@@ -744,6 +777,10 @@ print(plot)
   | Frontales a caja                      |   6 |   80 | 18/07/2019 |
   | Press banca agarre cerrado            | 8.5 |   70 | 19/07/2019 |
   | Peso muerto sumo                      |   6 |  150 | 19/07/2019 |
+  | Press banca de competencia            |   8 |   95 | 22/07/2019 |
+  | Press banca pies arriba, agarre medio | 8.5 |   75 | 22/07/2019 |
+  | Dips                                  | 8.5 |   12 | 22/07/2019 |
+  | Frontales a caja                      |   6 |   85 | 22/07/2019 |
   |                                       |     |      |            |
   #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_Johans :exports results
   library(ggplot2)
@@ -1049,6 +1086,17 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 - Mejor el tema de las piernas, pero aún falta trabajo ahí, esto toma su tiempo
 - Aún queda un poquito de "mini rebote" ojalá eliminarlo en 100%, ya que puede
   ser medio problematico en competencia
+*** 20/07/2019, ciclo 1, bloque b
+**** Peso muerto convencional
+- Le estás agarrando la mano a la posición inicial y al tensar la barra, así que bien ahí
+- Ahora, lo que te pediré es que esperes mas tiempo con la barra en tensión
+  antes de levantarla, esto va a ser súper súper sufrido y probablemente haga
+  que levantes menos en un inicio, pero te va a dar una base muy sólida de aquí
+  en adelante
+- Busca que la barra te rasmille súper fuerte la canilla, una canilla bien
+  rasmillada es signo de que estás haciendo bien el peso muerto, es normal que
+  duela y que a veces sangre, por eso asegurate de apegar bien fuerte la barra a
+  las canillas
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
@@ -1310,6 +1358,23 @@ mirando derecho versus arriba
 | Squat de competencia       | 0.31ms |  205 | 15/07/2019 |
 | Banca de competencia       | 0.13ms |  150 | 15/07/2019 |
 | Peso muerto de competencia |      9 |  260 | 15/07/2019 |
+| Squat barra alta           |      9 |  145 | 16/07/2019 |
+| Lever squat                |      9 |   40 | 16/07/2019 |
+| Banca agarre cerrado       |      8 |  110 | 16/07/2019 |
+| Banca con mancuernas       |      9 | 17.5 | 16/07/2019 |
+| Good mornings              |      8 |  105 | 17/07/2019 |
+| Seated good mornings       |      8 |   40 | 17/07/2019 |
+| Lever row                  |      8 |   35 | 17/07/2019 |
+| Leg-extensions             |     10 |  3.5 | 17/07/2019 |
+| Leg press                  |     10 |  7.5 | 17/07/2019 |
+| Tricep extensions          |     10 |  3.5 | 17/07/2019 |
+| Squat de competencia       | 0.32ms |  205 | 21/07/2019 |
+| Banca de competencia       | 0.15ms |  143 | 21/07/2019 |
+| Peso muerto de competencia |      9 |  255 | 21/07/2019 |
+| Squat barra alta           |      9 |  150 | 22/07/2019 |
+| Lever squat                |      9 |   50 | 22/07/2019 |
+| Banca agarre cerrado       |      9 |  113 | 22/07/2019 |
+| Banca con mancuernas       |      9 |   20 | 22/07/2019 |
 |                            |        |      |            |
 *** Plots
 **** Plot ciclo 1
@@ -1343,4 +1408,168 @@ print(plot)
 ** Tiempo de peak
 5 exposiciones
 
+
+* Programación emergente
+
+** Panorama general
+
+*** Programación emergente y programación tradicional o centralizada
+La programación tradicional comprende tener un plan que está pensado de antemano
+para maximizar los resultados en un período de tiempo. Por ello, es de extrema
+relevancia tener un buena teoría de como funciona, por ejemplo, la adaptación
+muscular, el progreso técnico, etc. Además, debe considerar la variación de
+respuesta individual. Para lograr todo esto dentro de una sola planificación se
+recurre a mecanismos bastante complejos de periodización. Típicamente dentro de
+una misma semana vemos significativa variación entre los días y más aún entre
+semanas.
+
+| Ejercicio              | Día | Semana |
+| Sentadilla variante A  |   1 |      1 |
+| Sentadilla variante B  |   2 |      1 |
+| Sentadilla variante C  |   3 |      1 |
+| Sentadilla variante A' |   1 |      2 |
+| Sentadilla variante B' |   2 |      2 |
+| Sentadilla variante C' |   3 |      2 |
+
+Cada letra indica una distinta variante, por ejemplo, A = sentadilla de
+competencia, B = sentadilla frontal, C = sentadilla barra alta, etc. Luego, A',
+B', C', indican misma variante, pero con un protocolo de carga distinto, por
+ejemplo, A = 5x5@80%, A' = 5x3@90%.
+
+La ventaja que tiene este tipo de periodización es que puede capturar patrones
+muy complejos de ondulación de intensidad, variación, etc. Pero, en su contra,
+debido a la gran complejidad, es difícil capturar qué es lo que más resultado
+da, es el hecho que el atleta haga sentadillas frontales o es el hecho que ocupa
+una alta intensidad o más complejo aún, es la combinación de sentadilla frontal
+con sentadilla barra alta (?) y así sucesivamente. Esto es un problema sobretodo
+cuando el atleta llega un nivel intermedio y los 'cookie cutter' ya no le son
+efectivos y necesita una planificación con un mayor nivel de individualización.
+
+En respuesta a eso se genera la 'programación emergente' (el espíritu de esto
+nace de Anatoliy Bondarchuk, pero cómo todo tiene influencia de muchas otras
+áreas), este paradigma opta por algo totalmente inverso, busca la máxima
+simplicidad, minimizando patrones complejos de periodización para así maximizar
+la capacidad de detectar que es lo que más efecto tiene sobre el atleta y en
+consecuencia busca individualizar lo más posible. Cómo ejemplo mirar la
+siguiente ilustración.
+
+| Ejercicio             | Día | Semana |
+| Sentadilla variante A |   1 |      1 |
+| Sentadilla variante B |   2 |      1 |
+| Sentadilla variante A |   3 |      1 |
+| Sentadilla variante A |   1 |      2 |
+| Sentadilla variante B |   2 |      2 |
+| Sentadilla variante A |   3 |      2 |
+
+La cantidad de variantes se reduce significativamente, típicamente a no más de
+1-2 por ejercicio. Además entre semanas no existe variación ni intensidad ni en
+tipo de movimiento.
+
+*** Programación emergente en la práctica
+La programación emergente ocupa un método muy similar al método científico. En
+lo personal soy afín a utilizar la terminología científica, sin embargo existe
+toda una tipología desarrollada por Bondarchuk y Tuscherer. A continuación se
+presenta paso por paso como desarrollar una programación emergente.
+
+1. Recopilación de datos
+
+Es un de los principales pasos y consistente en juntar la mayor cantidad de
+información posible del atleta fijándose especialmente que le ha resultado y que
+no le ha resultado en el pasado. Así mismo tienden a existir algunos
+lineamientos que pueden ayudar a depurar el punto de partida. Recomiendo los
+lineamientos de volumen de Mike Israetel y los de JTS.
+
+2. Generación de hipótesis
+
+Luego de haber recopilado los datos iniciales, se busca generar una hipótesis
+por movimiento principal. Por ejemplo.
+
+- Sentadilla: el atleta response bien a intensidad media y alto volumen
+- Banca: el atleta responde bien a baja intensidad y alto volumen
+- Peso muerto: el atleta responde bien a alta intensidad y bajo volumen
+
+Cómo se observa la primera hipótesis es para los movimientos de competencia y
+solo busca controlar los parámetros de intensidad y volumen ni más ni menos.
+Inicialmente, no se buscan cambios técnicos, cambio de equipamiento, ni nada.
+
+La segunda hipótesis corresponde a los 'accesorios', acá hay múltiples maneras
+de hacerlo, la que yo recomiendo es usar categorías. Otro idea para esto es
+probar movimiento uno a uno, esto tiene la ventaja que en teoría tienes
+garantizado a encontrar el mejor movimiento pero te tardaras mucho, considera
+que sólo puedes probar una hipótesis por ciclo y un ciclo típicamente dura entre
+4-8 semanas. 
+
+El sistema de categorías es mucho más rápido y nos permite tener cierto
+flexibilidad con el atleta. A continuación un ejemplo.
+
+| Movimiento           | Categoría A    | Categoría B          |
+| Sentadilla frontal   | + ROM          | Alta demanda técnica |
+| Sentadilla parcial   | Sobrecarga     | Baja demanda técnica |
+| Extensión de piernas | Patrón parcial | Baja demanda técnica |
+
+La categoría A tiene tres sub-conjuntos (1) + ROM, movimiento similar al de
+competencia pero con más rango de movimiento, (2) sobrecarga, movimiento similar
+al de competencia pero con menos rango de movimiento y por lo tanto utiliza más
+carga, (3) Patrón parcial, movimiento distinto al de competencia, pero que
+utiliza músculos similares. La categoría B tiene dos sub-conjuntos (1) alta y
+(2) baja demanda técnica, esto se refiere a que tan difícil o fácil es realizar
+el movimiento a un buen estándar.
+
+Luego, la segunda hipótesis corresponde también por cada movimiento de
+competencia.
+
+- Sentadilla: el atleta responde bien a accesorios de Patrón parcial y baja
+  demanda técnica
+- etc.
+
+El movimiento particular a elegir debe cumplir dos características de los
+contrario no es un buen candidato: (1) no incurrir en molestia o lesión y (2)
+tener alguna correlación con la mejora del movimiento de competencia. Aquí, es
+muy importante destacar una diferencia con el sistema de planificación
+tradicional, en vez de pensar teóricamente sobre que movimiento será mejor o
+peor dado el atleta, nos tomamos una libertad y exploramos de manera ingenua
+distintos movimiento y luego, de manera empírica, vemos si estos correlacionan
+con aumento en los movimientos de competencia.
+
+Con estas dos hipótesis en mano estamos listos para crear el primer esquema de
+planificación. Aquí daré un ejemplo ilustrativo sólo ocupando la sentadilla por
+brevedad.
+
+Hipótesis 1: el atleta responde bien a alta intensidad, bajo volumen
+Hipótesis 2: el atleta responde bien a + ROM y alta demanda técnica
+
+| Ejercicio                 | Protocolo      | Bloque |
+| Sentadilla de competencia | x1@9, 15%, 5x2 | A      |
+| Overhead squat            | x5@7, 10%, 3x5 | A      |
+| Sentadilla Frontal        | x1@9, 15%, 5x2 | B      |
+| Sentadilla Frontal Tempo  | x5@7, 10%, 3x5 | B      |
+
+Ahora, acá aparecen cosas nuevas como 'Protocolo' y 'Bloque', a continuación
+explico cada una de ellas.
+
+- Protocolo: es simplemente como vamos a manejar las cargas, acá ocupo RPE y una
+  notación personal, pero puede ser en teoría cualquier manera de gestionar la
+  carga, usar RPE o equivalente es ideal al reducir la complejidad.
+
+- Bloque: una semana esta compuesta de bloques típicamente se usan dos bloques
+  'A' y 'B', pero pueden ser menos o más. Si alguien entrena 4 veces por semana
+  tendrá dos bloques A y dos bloques B. De la siguiente forma:
+
+Lunes: Bloque A
+Martes: Bloque B
+Miércoles: Descanso
+Jueves: Bloque A
+Viernes: Bloque B
+Sábado: Descanso
+Domingo: Descanso
+
+Lo bloque son siempre idénticos!, se repiten tal cual, lo único que puede
+cambiar son los kg en la barra, por eso el RPE es tan fundamental.
+
+Y ya está! con eso se puede construir un ciclo de entrenamiento emergente, súper
+simple. Existen muchos más detalles, pero lo central es esto.
+
+
+
+ 
 
