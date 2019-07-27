@@ -1467,6 +1467,10 @@ mirando derecho versus arriba
 | Squat de competencia       | 0.28ms |  210 | 24/07/2019 |
 | Banca de competencia       | 0.12ms |  150 | 24/07/2019 |
 | Peso muerto de competencia |      9 |  250 | 24/07/2019 |
+| Squat barra alta           |      9 |  155 | 26/07/2019 |
+| Lever squat                |      9 |   55 | 26/07/2019 |
+| Banca agarre cerrado       |      9 |  115 | 26/07/2019 |
+| Banca con mancueras        |      9 |   29 | 26/07/2019 |
 |                            |        |      |            |
 *** Plots
 **** Plot ciclo 1
