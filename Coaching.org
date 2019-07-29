@@ -242,6 +242,21 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 *** 18/07/2019, ciclo 1, bloque b 
 **** Peso muerto de competencia
 - CARGA BIEN LA BARRA jajaja
+*** 26/07/2019, ciclo 1, bloque a 
+**** Sentadilla de competencia
+- Partir con el torso mas inclinado
+- Mantenerse mirando, durante todo el descenso, un punto fijo en el suelo 
+****  Banca de competencia
+- Mandar video / peso
+*** 27/07/2019, ciclo 1, bloque b 
+**** Peso muerto de competencia
+- Bien en el bloque de las rodillas y cadera, buscar que esto se repita todas las sesiones
+- Tratar de mantener la rodillas quietas mientras vas despegando la barra del suelo
+**** Rack pull 
+- Bajar la barra 3-4 cm, tal como lo hablamos
+**** Banca inclinada
+- Mandar video y peso
+
 ** Registro de progreso
 #+TBLNAME:ciclo1_Eduardo
 | Ejercicio                      | RPE |  Peso | Fecha      |
@@ -282,6 +297,16 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Front squat                    |   8 |    80 | 22/07/2019 |
 | Banca de competencia           |   8 |    70 | 22/07/2019 |
 | Press banca agarre cerrado     |   8 |    65 | 22/07/2019 |
+| Peso muerto de competencia     |   8 |   155 | 23/07/2019 |
+| Peso muerto hasta las rodillas |   8 |   130 | 23/07/2019 |
+| Rack pull                      |   8 |   140 | 23/07/2019 |
+| Banca inclinada                |   8 |    60 | 23/07/2019 |
+| Squat highbar                  |   8 |   105 | 26/07/2019 |
+| Front squat                    |   8 |    55 | 26/07/2019 |
+| Peso muerto de compentecia     |   8 |   160 | 27/07/2019 |
+| Peso muerto hasta las rodillas |   8 |   130 | 27/07/2019 |
+| Rack pull                      |   8 |   150 | 27/07/2019 |
+| Banca de competencia           |   8 |    70 | 26/07/2019 |
 |                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
@@ -390,32 +415,43 @@ print(plot)
 | Extensiones de quads                  | 25@9, 2x20      | B      |
 | Bulgarian split squats con mancuernas | 15@9, 2x12      | B      |
 ** Comentarios técnicos
-*** 04/07/2019, ciclo 1, bloque b
-**** Peso muerto de competencia
-1. Buscar mantener la posición del suelo hasta abajo de las rodillas
-2. Acentuar el gesto del bloqueo
-*** 08/07/2019, ciclo 1, bloque b
-**** Peso muerto de competencia
-- Tensar la barra hasta que todo el cuerpo este en posición, y solo
-  ahí empezar el empuje
-- Visualiza que del suelo a las rodillas la idea es mantener la
-  posición y la barra bien apegada a las canillas, la suela del pie
-  perfectamente en el suelo
-- Luego, de las rodillas a la cadera, el movimiento es explosivo e
-  intenta que el bloqueo se transforme en un mero tramite
-*** 10/07/2019, ciclo 1, bloque b
-**** Peso muerto de competencia
-- Lograste una muy buena posición de inicio, así que continuar con eso
-  para todas las sesiones y variantes de peso muerto
-- Intentar extender lo mínimo posible tus piernas antes de la barra
-  llegue a la rodilla, en ese punto (cúando llegue abajo de la
-  rodilla) las empiezas a extender de esa manera te dara un "vuelito"
-  para finalizar el bloqueo
-**** Peso muerto bloques
-- La ejecución está súper, sigue con ese bloqueo fuerte, la idea de
-  este ejercicio es que te fuerza para bloquear bien en sumo. Así que
-  simula es bloqueo agresivo de cadera durante todas las repes
+*** Ciclo 1
+**** 04/07/2019, ciclo 1, bloque b
+***** Peso muerto de competencia
+ 1. Buscar mantener la posición del suelo hasta abajo de las rodillas
+ 2. Acentuar el gesto del bloqueo
+**** 08/07/2019, ciclo 1, bloque b
+***** Peso muerto de competencia
+ - Tensar la barra hasta que todo el cuerpo este en posición, y solo
+   ahí empezar el empuje
+ - Visualiza que del suelo a las rodillas la idea es mantener la
+   posición y la barra bien apegada a las canillas, la suela del pie
+   perfectamente en el suelo
+ - Luego, de las rodillas a la cadera, el movimiento es explosivo e
+   intenta que el bloqueo se transforme en un mero tramite
+**** 10/07/2019, ciclo 1, bloque b
+***** Peso muerto de competencia
+ - Lograste una muy buena posición de inicio, así que continuar con eso
+   para todas las sesiones y variantes de peso muerto
+ - Intentar extender lo mínimo posible tus piernas antes de la barra
+   llegue a la rodilla, en ese punto (cúando llegue abajo de la
+   rodilla) las empiezas a extender de esa manera te dara un "vuelito"
+   para finalizar el bloqueo
+***** Peso muerto bloques
+ - La ejecución está súper, sigue con ese bloqueo fuerte, la idea de
+   este ejercicio es que te fuerza para bloquear bien en sumo. Así que
+   simula es bloqueo agresivo de cadera durante todas las repes
 
+*** Ciclo 2
+**** 24/07/2019, ciclo 2, bloque A 
+***** Sentadilla de competencia
+- Súper bien la inclinación del torso, mantén esta técnica para todas las sentadillas hasta que se vuelva hábito
+- En la subida te recomiendo mirar de una hacia arriba, así, a veces, mejora una poco la posición del torso
+***** Banca de competencia
+- De momento va súper bien a continuar así nomás
+**** 25/07/2019, ciclo 2, bloque B 
+***** Peso muerto de competencia
+- Va bien la posición de inicio y el moviemiento en general, falta ponerle mas explosividad al bloqueo
 ** Registro de progreso
 *** Ciclo 1
  #+TBLNAME:ciclo1_cynthia
@@ -468,11 +504,12 @@ print(plot)
  [[file:tmp.png]]
 *** Ciclo 2 
  #+TBLNAME:ciclo2_cynthia
- | Ejercicio                 | RPE | Peso | Fecha      |
- |---------------------------+-----+------+------------|
- | Sentadilla de competencia |   8 |  105 | 24/07/2019 |
- | Banca de competencia      |   8 | 67.5 | 24/07/2019 |
- |                           |     |      |            |
+ | Ejercicio                  | RPE | Peso | Fecha      |
+ |----------------------------+-----+------+------------|
+ | Sentadilla de competencia  |   8 |  105 | 24/07/2019 |
+ | Banca de competencia       |   8 | 67.5 | 24/07/2019 |
+ | Peso muerto de competencia |   8 |  140 | 25/07/2019 |
+ | Banca agarre cerrado       |   8 |   50 | 25/07/2019 |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_cynthia :exports results
    library(ggplot2)
    library(ggrepel)
@@ -751,6 +788,15 @@ print(plot)
 - Date un poco mas de tiempo con la barra en tensión, hasta que tu cadera suba
   sola y luego de eso recién la sacas del suelo
 - Buscar realizar el gesto de bloque agresivo de rodillas y luego caderas, tener en mente la técnica tipo Yuri Belkin
+**** 25/07/2019, ciclo 2, bloque a:
+***** Banca competencia
+- De momento solo mejorar la explosividad en el último tramo antes de bloquear
+**** 26/07/2019, ciclo 2, bloque b:
+***** Banca agarre cerrado
+- Nada por ahora
+***** Sumo
+- Replica esta misma técnica, ya que esta impecable
+- Lo única modificación, es sobretodo para competencia. Intenta dejar los hombros un poco mas atrás de la barra al bloquear
 ** Registro de progreso
 *** Ciclo 1
     #+TBLNAME:ciclo1_Johans
@@ -824,6 +870,12 @@ print(plot)
   | Frontales a caja                      |   6 |   85 | 22/07/2019 |
   | Press banca agarre cerrado            |   9 | 72.5 | 23/07/2019 |
   | Peso muerto sumo                      |   7 |  155 | 23/07/2019 |
+  | Press banca de competencia            |   9 | 97.5 | 25/07/2019 |
+  | Press banca pies arriba, agarre medio |   8 |   75 | 25/07/2019 |
+  | Dips                                  |   9 |   15 | 25/07/2019 |
+  | Frontales a caja                      |   6 |   90 | 25/07/2019 |
+  | Press banca agarre cerrado            | 8.5 |   70 | 26/07/2019 |
+  | Peso muerto sumo                      |   7 |  155 | 26/07/2019 |
   |                                       |     |      |            |
   #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_Johans :exports results
   library(ggplot2)
@@ -946,6 +998,13 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 **** Peso muerto de competencia (sumo)
 - Aumentar el tiempo con la barra tensa para hacer mas consistente el setup
 
+*** 25/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+- Aparte de lo conversado, sólo tener en cuenta que el gesto de sacar la cadera es sin flectar las rodillas
+*** 26/07/2019, ciclo 1, bloque b
+**** Peso muerto de competencia (sumo)
+- Aumentar el tiempo con la barra tensa para hacer mas consistente el setup <- lo mismo que la semana anterior
+
 ** Registro de progreso
  #+TBLNAME:ciclo1_zapata
  | Ejercicio                               | RPE | Peso | Fecha      |
@@ -973,6 +1032,11 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
  | Peso muerto de competencia              |   8 |  215 | 24/07/2019 |
  | Peso muerto hasta las rodillas          |   8 |  175 | 24/07/2019 |
  | Peso muerto bloques                     |   8 |  140 | 24/07/2019 |
+ | Sentadilla de competencia               |   8 |  180 | 25/07/2019 |
+ | Press banca de competencia              |   9 |   85 | 25/07/2019 |
+ | Press banca agarre cerrado, pies arriba |   9 |   60 | 25/07/2019 |
+ | Peso muerto sumo                        |   8 |  215 | 26/07/2019 |
+ | Peso muerto hasta las rodillas          |   8 |  180 | 26/07/2019 |
  |                                         |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_zapata :exports results
  library(ggplot2)
@@ -1162,6 +1226,14 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 - Falto más tensión al llegar al pecho
 - Busca arquear lo más posible tu espalda
 - Refuerza la retracción de escapulas
+*** 25/07/2019, ciclo 1, bloque b
+**** Peso muerto convencional
+- De momento, en lo que mas quiero que te concentres, es en sostener la tensión en la barra durante unos segundos antes de levantarla
+*** 24/07/2019, ciclo 1, bloque a
+**** Sentadilla de competencia
+- Lograste muy buena profundidad y control de rodillas, bastante mejor a lo anterior
+- Al parecer las claves fueron mirar hacia abajo a un punto estático y tal vez, más concentración en el descenso
+- De posible mantener esta misma técnica de aquí en adelante
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
@@ -1199,6 +1271,10 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Sentadilla de competencia       |   8 |   65 | 24/07/2019 |
 | Banca de competencia            |   8 |   38 | 24/07/2019 |
 | Press banca agarre cerrado      |   8 |   33 | 24/07/2019 |
+| Press banca agarre cerrado      |   8 |   34 | 25/07/2019 |
+| Peso muerto convencional        |   8 |   90 | 25/07/2019 |
+| Peso muerto sumo                |   8 |   65 | 25/07/2019 |
+| Sentadilla de competencia       |   8 |   65 | 27/07/2019 |
 |                                 |     |      |            |
 *** Plots
 **** Ciclo 1
@@ -1281,12 +1357,32 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Leg press (unilateral)     | 2xamrap        | C      |
 |                            |                |        |
 
+*** Ciclo descarga 2
+| Ejercicio                      | Protocolo      | Bloque |
+|--------------------------------+----------------+--------|
+| Sentadilla barra               | 155x8, 3x7x140 | A      |
+| Hip thrust                     | 8@9, 10%, 2x7  | A      |
+| Step ups                       | 50 steps       | A      |
+| Extension quad                 | 2 amraps       | A      |
+| Press banca                    | 105x8, 3x7x100 | B      |
+| Push ups                       | 2 amraps       | B      |
+| Extension tricep               | 2 amraps       | B      |
+| Press hombros mancuernas       | 2 amraps       | B      |
+| Peso muerto                    | x8@8, 10%, 2x6 | C      |
+| Peso muerto hasta las rodillas | x8@8, 10%, 1x6 | C      |
+| Peso muerto bloques            | x8@8, 10%, 1x6 | C      |
+| Belt squat                     | 2x15           | D      |
+| Press mancuernas               | 2x15           | D      |
+| Pull ups                       | 3 amraps       | D      |
+| Remos con mancuernas           | 2x25           | D      |
+| Biceps                         | 3x10           | D      |
+
 *** Ciclo 3:
 | Ejercicio                      | Protocolo      | Bloque |
 |--------------------------------+----------------+--------|
 | Squat de competencia           | x1@8, 20%, 4x5 | A      |
-| Banca de competencia           | x1@9, 20%, 4x6 | A      |
-| Peso muerto de competencia     | x1@9, 20%, 4x5 | A      |
+| Banca de competencia           | x1@8, 20%, 4x6 | A      |
+| Peso muerto de competencia     | x1@8, 20%, 4x5 | A      |
 |--------------------------------+----------------+--------|
 | Squat barra alta               | x1@7, 25%, 4x7 | B      |
 | Lever squat                    | x15@10, 3 sets | B      |
