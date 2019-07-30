@@ -64,6 +64,17 @@ print(plot)
 | Hip thrust con bandas                      | 2x30 @9                             |
 | Peso muerto piernas rigidaz con mancuernas | 3x15 @8                             |
 | Sentadilla + respiraciones profundas abajo | 3x10 (respiraciones) 60 kg          |
+*** Ciclo 1 descarga
+| Ejercicio                | Protocolo         | Bloque |
+|--------------------------+-------------------+--------|
+| Banca de competencia     | x15@10, 10%, 2x10 | A      |
+| Push ups                 | 3 amraps          | A      |
+| Extensiones de triceps   | 3 amraps          | A      |
+| Aperturas con mancuernas | 3 amraps          | A      |
+| Pull ups                 | 5x5               | B      |
+| Remos con mancuerna      | 3x15              | B      |
+| Curl de biceps           | 3x15              | B      |
+| Vuelos laterales         | 3x15              | B      |
 ** Comentarios técnicos
 *** 08/07/2019, ciclo 1, bloque a
 **** Sentadilla de competencia
