@@ -1447,14 +1447,11 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Banca agarre cerrado           | x1@7, 25%, 4x8 | B      |
 | Banca inclinada agarre cerrado | x12@10, 3 sets | B      |
 |--------------------------------+----------------+--------|
-| Good mornings                  | x5@8, 10%, 3x5 | C      |
-| Seated good mornings           | 3x10           | C      |
-| Lever row                      | x15@10, 3 sets | C      |
-| Step-ups                       | 50             | C      |
+| Hip-thrust                     | x1@8, 20%, 5x5 | C      |
+| Estocadas                      | 3x10 @8-9      | C      |
+| Step-ups                       | 4x15           | C      |
 | Leg-extensions                 | 3xamrap        | C      |
 | Tricep extensions              | 3xamrap        | C      |
-| Leg press (unilateral)         | 2xamrap        | C      |
-|                                |                |        |
 
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
