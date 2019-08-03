@@ -204,6 +204,22 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Peso muerto sumo hasta las rodillas         | x5@8, 10%, 2x5 | B      |
 | Peso muerto bloques (abajo de las rodillas) | x5@8, 10%, 2x5 | B      |
 |---------------------------------------------+----------------+--------|
+*** Ciclo 2 (descarga):
+| Ejercicio                  | Protocolo     | Bloque |
+|----------------------------+---------------+--------|
+| Sentadilla competencia     | x10@6, 7, 8   | A      |
+| Estocadas                  | 3x10          | A      |
+| Step ups                   | 2x15          | A      |
+| Plancha                    | 2 x 2 minutos | A      |
+| Plancha lateral            | 2 x 1 minuto  | A      |
+| Banca de competencia       | x12@6, 7, 8   | B      |
+| Press militar              | x8@6, 7, 8    | B      |
+| Push ups                   | 50            | B      |
+| Press con mancuernas       | 3x15          | B      |
+| Peso muerto de competencia | x8@6, 7, 8    | C      |
+| Peso muerto rumano         | x8@6, 7, 8    | C      |
+| Pull ups                   | 3x10          | C      |
+| Remos con barra            | 2x15          | C      |
 ** Comentarios técnicos
 *** 02/07/2019, ciclo 1, bloque b 
 **** Peso muerto de competencia
@@ -325,6 +341,14 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Peso muerto hasta las rodillas |   8 |   120 | 30/07/2019 |
 | Rack pull                      |   8 | 152.5 | 30/07/2019 |
 | Banca inclinada                |   8 |    60 | 30/07/2019 |
+| Squat highbar                  |   8 | 107.5 | 31/07/2019 |
+| Front squat                    |   8 |    80 | 31/07/2019 |
+| Banca de competencia           |   8 |  72.5 | 31/07/2019 |
+| Press banca agarre cerrado     |   8 |  67.5 | 31/07/2019 |
+| Peso muerto competencia        |   8 | 157.5 | 02/08/2019 |
+| Peso muerto hasta las rodillas |   8 |   120 | 02/08/2019 |
+| Rack pull                      |   8 |   145 | 02/08/2019 |
+| Banca inclinada                |   8 |    60 | 02/08/2019 |
 |                                |     |       |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_Eduardo :exports results
 library(ggplot2)
@@ -375,6 +399,9 @@ print(plot)
 | Sentadilla con pausa       |   8 |   50 | 23/07/2019 |
 | Banca de competencia       |   8 |   35 | 23/07/2019 |
 | Banca agarre cerrado       |   8 |   32 | 23/07/2019 |
+| Peso muerto de competencia |   8 |  100 | 02/08/2019 |
+| Peso muerto con pausa      |   8 |   90 | 02/08/2019 |
+| Press banca triple pausa   |   8 |   30 | 02/08/2019 |
 |                            |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_javi :exports results
 library(ggplot2)
@@ -531,8 +558,10 @@ print(plot)
  | Banca agarre cerrado       |   8 |   50 | 25/07/2019 |
  | Sentadilla de competencia  |   9 |  110 | 27/07/2019 |
  | Banca de competencia       |   8 |   70 | 27/07/2019 |
- | Peso muerto de competencia |   8 |  139 | 31/07/2019 |
+ | Peso muerto de competencia |   8 |  140 | 31/07/2019 |
  | Banca agarre cerrado       |   9 |   55 | 31/07/2019 |
+ | Peso muerto competencia    |   8 |  135 | 01/07/2019 |
+ | Banca agarre cerrado       |   9 |   55 | 01/07/2019 |
  |                            |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_cynthia :exports results
    library(ggplot2)
@@ -833,6 +862,10 @@ print(plot)
 ***** Sumo
 - Al bloquear mira hacia arriba y tira los hombros un poco para atrás, de esta
   manera el juez tiende a dar el baje mas rápido
+**** 31/07/2019, ciclo 2, bloque a:
+***** Banca competencia
+- Pequeño detalle, apretar mas fuerte la barra con las manos para evitar ese leve movimiento de manos en la subida
+
 ** Registro de progreso
 *** Ciclo 1
     #+TBLNAME:ciclo1_Johans
@@ -918,6 +951,11 @@ print(plot)
   | Frontales a caja                      |   6 |  100 | 29/07/2019 |
   | Press banca agarre cerrado            | 8.5 |   70 | 30/07/2019 |
   | Peso muerto sumo                      |   7 |  160 | 30/07/2019 |
+  | Press banca de competencia            |   8 |   95 | 01/08/2019 |
+  | Press banca pies arriba, agarre medio |     |      |            |
+  | Dips                                  |   9 |   15 | 01/08/2019 |
+  | Frontales a caja                      |   6 |  105 | 01/08/2019 |
+  | Press banca pies arriba, agarre medio | 8.5 |   75 | 01/08/2019 |
   |                                       |     |      |            |
   #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_Johans :exports results
   library(ggplot2)
@@ -1118,16 +1156,34 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Fortalecimiento de psoas  |      3x10 |
 |                           |           |
 ** Ciclos
-| Ejercicio                                | Protocolo      | Bloque |
-|------------------------------------------+----------------+--------|
-| Sentadilla de competencia                | x5@8, 10%, 5x5 | A      |
-| Banca de competencia                     | x6@8, 10%, 5x6 | A      |
-| Press banca pies arriba (agarre cerrado) | x6@8, 15%, 5x6 | A      |
-|------------------------------------------+----------------+--------|
-| Press banca agarre cerrado               | x7@8, 10%, 4x6 | B      |
-| Peso muerto convencional                 | x3@8, 10%, 2x3 | B      |
-| Peso muerto sumo                         | x3@8, 10%, 2x3 | B      |
-|------------------------------------------+----------------+--------|
+*** Ciclo 1
+ | Ejercicio                                | Protocolo      | Bloque |
+ |------------------------------------------+----------------+--------|
+ | Sentadilla de competencia                | x5@8, 10%, 5x5 | A      |
+ | Banca de competencia                     | x6@8, 10%, 5x6 | A      |
+ | Press banca pies arriba (agarre cerrado) | x6@8, 15%, 5x6 | A      |
+ |------------------------------------------+----------------+--------|
+ | Press banca agarre cerrado               | x7@8, 10%, 4x6 | B      |
+ | Peso muerto convencional                 | x3@8, 10%, 2x3 | B      |
+ | Peso muerto sumo                         | x3@8, 10%, 2x3 | B      |
+ |------------------------------------------+----------------+--------|
+*** Ciclo 2
+| Ejercicio                                  | Protocolo            | Bloque |
+|--------------------------------------------+----------------------+--------|
+| Plancha                                    | 2x1-2min             | A      |
+| Plancha Lateral                            | 2x1-2min             | A      |
+| Levantamiento de rodillas                  | 2x15                 | A      |
+| Puentes unilaterales mantener 2 sec arriba | 2x15                 | A      |
+| Sentadilla de competencia                  | x1@8, 20%, 4x5       | A      |
+| Banca de competencia                       | x1@8, 20%, 4x6       | A      |
+| Banca competencia tempo 600                | x1@8, x5@8, 15%, 3x4 | A      |
+|--------------------------------------------+----------------------+--------|
+| Peso muerto rumano a una pierna            | 2x15                 | B      |
+| Levantamiento de rodillas                  | 2x15                 | B      |
+| Hiper-extensiones                          | 2x15                 | B      |
+| Peso muerto de competencia                 | x1@8, 20%, 4x5       | B      |
+| Pero muerto con pausa mitad de canillas    | x1@8, x5@8, 15%, 3x3 | B      |
+| Banca de competencia SPOTO (2 sec)         | x1@8, 20%, 4x5       | B      |
 ** Comentarios técnicos
 *** 01/07/2019, ciclo 1, bloque a
 **** Sentadilla de competencia
@@ -1373,6 +1429,19 @@ print(plot)
 | Side planks                      | 2x 1 minuto (por lado)    | D      |
 | RKC planks                       | 2x todo el tiempo posible | D      |
 | Rodillas al pecho colgando (abs) | 3xamrap                   | D      |
+*** Ciclo 2
+| Ejercicio                             |            Protocolo | Bloque |
+|---------------------------------------+----------------------+--------|
+| Press banca pies arriba               |       x1@8, 20%, 4x6 | A      |
+| Press banca inclinado                 | x1@8, x5@8, 15%, 3x5 | A      |
+| Press banca agarre cerrado            |     x1@15, 10%, 2x10 | A      |
+| Remos con mancuerna                   |                 4x15 | A      |
+|---------------------------------------+----------------------+--------|
+| Peso muerto unilateral con kettlebelt |                 3x15 | B      |
+| Back extension                        |                 4x15 | B      |
+| Crunches (en ghd)                     |                  5x5 | B      |
+| RKC planks                            |            3 x 2 min | B      |
+| Squat Tempo 640                       |                  5x5 | B      |
 *** Links
 **** Bus drivers
 https://www.youtube.com/watch?v=xDvNnxgF8Gc
