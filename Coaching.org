@@ -475,7 +475,7 @@ print(plot)
 *** Ciclo 3
 | Ejercicio                             | Protocolo       | Bloque |
 |---------------------------------------+-----------------+--------|
-| Sentadilla de competencia             | x1@8, 15%, 5x4  | A      |
+| Sentadilla de competencia             | x6@8, 15%, 4x6  | A      |
 | Banca de competencia                  | x1@8, 12%, 4x6  | A      |
 | Press militar de pie                  | x8@9, 10%, 3x8  | A      |
 | Step ups con mancuernas (super-set)   | 15@9, 3 sets    | A      |
@@ -983,6 +983,8 @@ print(plot)
   | Dips                                  |   9 |   15 | 01/08/2019 |
   | Frontales a caja                      |   6 |  105 | 01/08/2019 |
   | Press banca pies arriba, agarre medio | 8.5 |   75 | 01/08/2019 |
+  | Press banca agarre cerrado            |   1 |   75 | 03/08/2019 |
+  | Peso muerto sumo                      |   7 |  160 | 03/08/2019 |
   |                                       |     |      |            |
   #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_Johans :exports results
   library(ggplot2)
@@ -1016,6 +1018,34 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Peso muerto bloques                     | x10@8, 2 sets    | B      |
 |-----------------------------------------+------------------+--------|
 
+*** Ciclo 1 descarga:
+| Ejercicio                          | Protocolo                         | Bloque |
+| Sentadilla barra alta sin cinturon | x10@8, 5%, 1x10, 5%, 1x6, 5% 1x10 | A      |
+| Estocadas con mancuerna            | 50 pasos en total                 | A      |
+| Peso muerto rumano                 | x8@8, 3 sets                      | A      |
+|------------------------------------+-----------------------------------+--------|
+| Banca pies arriba agarre ancho     | x12@9, 10%, 2x10, 5%, 1x10        | B      |
+| Press banca con mancuernas         | x15@9, 3 sets                     | B      |
+| Maquina triceps o pecho            | x15@9, 3 sets                     | B      |
+|------------------------------------+-----------------------------------+--------|
+| Peso muerto sumo sin cinturon      | x10@8, 5%, 1x10, 5%, 1x6          | C      |
+| Remos con mancuerna                | x20@9, 3 sets                     | C      |
+| Curl de biceps                     | x15@9, 2 sets                     | C      |
+| Press de hombro con mancuernas     | x15@9, 3 sets                     | C      |
+|                                    |                                   |        |
+*** Ciclo 2
+| Ejercicio                            | Protocolo              | Bloque |
+|--------------------------------------+------------------------+--------|
+| Press banca de competencia           | x1@8, 15%, 4x6         | A      |
+| Sentadilla de competencia            | x1@8, 20%, 5x4         | A      |
+| Press banca de competencia           | x8@9, 5-10%, 3x8       | A      |
+| Press banca con mancuernas           | 15-20@10, 3 sets@9     | A      |
+| Extensión de triceps o press frances | 15-20@10, 3 sets@9     | A      |
+|--------------------------------------+------------------------+--------|
+| Press banca inclinado                | x1@8, x3@9, 5-10%, 4x3 | B      |
+| Peso muerto de competencia           | x1@8, 20%, 5x4         | B      |
+| Peso muerto bloques                  | x1@8, x5@9, 20%, 2x5   | B      |
+| Press militar                        | x1@8, x3@9, 5-10%, 4x3 | B      |
 ** Comentarios técnicos
 *** 08/07/2019, ciclo 1, bloque a
 **** Sentadilla de competencia
@@ -1152,7 +1182,7 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
  | Sentadilla de competencia               |   8 |  180 | 25/07/2019 |
  | Press banca de competencia              |   9 |   85 | 25/07/2019 |
  | Press banca agarre cerrado, pies arriba |   9 |   60 | 25/07/2019 |
- | Peso muerto sumo                        |   8 |  215 | 26/07/2019 |
+ | Peso muerto de competencia              |   8 |  215 | 26/07/2019 |
  | Peso muerto hasta las rodillas          |   8 |  180 | 26/07/2019 |
  | Sentadilla de competencia               |   8 |  175 | 29/07/2019 |
  | Press banca de competencia              |   8 |   80 | 29/07/2019 |
@@ -1160,6 +1190,12 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
  | Peso muerto de competencia              |   8 |  215 | 30/07/2019 |
  | Peso muerto hasta las rodillas          |   8 |  180 | 30/07/2019 |
  | Peso muerto bloques                     |   8 |  140 | 30/07/2019 |
+ | Sentadilla de competencia               |   8 |  180 | 02/08/2019 |
+ | Press banca de competencia              |   8 |   80 | 02/08/2019 |
+ | Press banca agarre cerrado              |   8 | 82.5 | 03/08/2019 |
+ | Peso muerto de competencia              |   8 |  225 | 03/08/2019 |
+ | Peso muerto hasta las rodillas          |   8 |  185 | 03/08/2019 |
+ | Peso muerto bloques                     |   8 |  145 | 03/08/2019 |
  |                                         |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_zapata :exports results
  library(ggplot2)
