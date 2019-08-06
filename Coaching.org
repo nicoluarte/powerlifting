@@ -429,6 +429,7 @@ print(plot)
 | Peso muerto de competencia |   8 |  100 | 02/08/2019 |
 | Peso muerto con pausa      |   8 |   90 | 02/08/2019 |
 | Press banca triple pausa   |   8 |   30 | 02/08/2019 |
+| Sentadilla de competencia  |   8 |   60 | 05/08/2019 |
 |                            |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_javi :exports results
 library(ggplot2)
@@ -587,8 +588,9 @@ print(plot)
  | Banca de competencia       |   8 |   70 | 27/07/2019 |
  | Peso muerto de competencia |   8 |  140 | 31/07/2019 |
  | Banca agarre cerrado       |   9 |   55 | 31/07/2019 |
- | Peso muerto competencia    |   8 |  135 | 01/07/2019 |
- | Banca agarre cerrado       |   9 |   55 | 01/07/2019 |
+ | Peso muerto competencia    |   8 |  135 | 01/08/2019 |
+ | Banca agarre cerrado       |   9 |   55 | 01/08/2019 |
+ | Sentadilla de competencia  |   8 |   95 | 05/08/2019 |
  |                            |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_cynthia :exports results
    library(ggplot2)
@@ -656,6 +658,19 @@ print(plot)
  | Peso muerto sumo                      | x3@7, 15%, 3x3            | B      |
  | Press de hombros con mancuernas       | x15@9, 2 sets             | B      |
  |                                       |                           |        |
+*** Ciclo 4:
+| Ejercicio                            | Protocolo            | Bloque |
+| Press banca de competencia           | x1@8, 15%, 4x5       | A      |
+| Press inclinado                      | x1@8, 20%, 4x6       | A      |
+| Press banca inclinado agarre cerrado | x8@8, 10%, 3x8       | A      |
+| Frontales caja mas baja              | x1@7, x4@9, 10%, 2x4 | A      |
+|--------------------------------------+----------------------+--------|
+| Press banca 3 ct pause               | x1@8, 20%, 4x4       | B      |
+| Dips                                 | x5@8, 4 sets         | B      |
+| Press militar                        | x8@7, 8, 9           | B      |
+| Peso muerto sumo                     | x1@8, 20%, 4x3       | B      |
+| Press militar con mancuerna          | x15@9, 3 sets        | B      |
+|                                      |                      |        |
 ** Comentarios técnicos
 *** Ciclo 1
  #+EXPORT_FILE_NAME: Comentarios.PDF
@@ -1574,7 +1589,6 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Press banca competencia          | x1@8, 15%, 4x6         | A      |
 | Press banca inclinado close grip | x8@9, 5-10%, 3x8       | A      |
 | Peso muerto competencia          | x1@8, 20%, 5x4         | A      |
-| Hip thrust                       | x1@8, 20%, 4x6 sets    | A      |
 |----------------------------------+------------------------+--------|
 | Pin Squat                        | x1@8, x4@9, 5-10%, 2x4 | A      |
 | 3ct bench                        | x1@8, x3@9, 5-10%, 4x3 | A      |
@@ -1750,6 +1764,15 @@ mirando derecho versus arriba
 | Banca agarre cerrado       |      9 |  115 | 26/07/2019 |
 | Banca con mancueras        |      9 |   29 | 26/07/2019 |
 |                            |        |      |            |
+*** Ciclo 3
+#+TBLNAME:ciclo2_yo
+| Ejercicio                  | RPE | Peso | Fecha      |
+| Sentadilla de competencia  |   8 |  180 | 05/08/2019 |
+| Banca de competencia       |   8 |  130 | 05/08/2019 |
+| Banca inclinada close grip |   8 |   75 | 05/08/2019 |
+| Peso muerto de competencia |   8 |  230 | 05/08/2019 |
+|                            |     |      |            |
+
 *** Plots
 **** Plot ciclo 1
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
