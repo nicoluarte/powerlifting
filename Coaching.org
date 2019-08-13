@@ -187,6 +187,7 @@ print(plot)
 | Banca competencia |  11 |  115 | 05/08/2019 |
 | Banca tempo       |  11 |  102 | 06/08/2019 |
 | Banca competencia |   8 |  115 | 07/08/2019 |
+| Banca tempo       |   8 |  100 | 09/08/2019 |
 |                   |     |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_winchester :exports results
@@ -428,6 +429,7 @@ print(plot)
 
 * Javiera
 ** Ciclos
+*** Ciclo 1
 | Ejercicio                    | Protocolo      | Bloque |
 |------------------------------+----------------+--------|
 | Sentadilla de competencia    | x6@8, 10%, 4x6 | A      |
@@ -440,6 +442,16 @@ print(plot)
 | Peso muerto con pausa (3 ct) | x3@8, 15%, 2x4 | B      |
 | Peso muerto desde bloques    | x3@8, 15%, 2x5 | B      |
 
+*** Ciclo 1 (descarga)
+| Ejercicio                 | Protocolo        | Bloque |
+|---------------------------+------------------+--------|
+| Sentadilla de competencia | x10@8, 10%, 1x10 | A      |
+| Estocadas con mancuernas  | 3x15             | A      |
+| Banca de competencia      | x10@8, 10%, 1x10 | A      |
+|---------------------------+------------------+--------|
+| Peso muerto compentecia   | x8@8, 10%, 1x8   | B      |
+| Remo con barra            | 3x8              | B      |
+| Curl de biceps            | 3x10             | B      |
 ** Comentarios técnicos
 ** Registro de progreso
 #+TBLNAME:ciclo1_javi
@@ -627,6 +639,11 @@ print(plot)
  | Banca agarre cerrado       |   9 |   55 | 01/08/2019 |
  | Sentadilla de competencia  |   8 |   95 | 05/08/2019 |
  | Peso muerto de competencia |   9 |  135 | 07/08/2019 |
+ | Banca de competencia       |   8 |   75 | 09/08/2019 |
+ | Sentadilla de competencia  |   9 |  100 | 09/08/2019 |
+ | Peso muerto de competencia |   8 |  130 | 10/08/2019 |
+ | Sentadilla de competencia  |   8 |   95 | 12/08/2019 |
+ | Banca de competencia       |   8 | 72.5 | 12/08/2019 |
  |                            |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_cynthia :exports results
    library(ggplot2)
@@ -664,7 +681,7 @@ print(plot)
  | Peso muerto sumo hasta justo abajo de las rodillas        | x10@90, 100, 110  | B      |
  |-----------------------------------------------------------+-------------------+--------|
 
-*** Ciclo 2 (descarga):
+*** Ciclo 1 (descarga):
 |----------------------------+------------------+--------|
 | Ejercicio                  | Protocolo        | Bloque |
 | Press banca de competencia | x12@9, 10%, 3x10 | A      |
@@ -678,7 +695,7 @@ print(plot)
 | Step ups con mancuernas    | x15@9, 3 sets    | B      |
 | Remo con mancuernas        | x25@10, 2 sets   | B      |
 |----------------------------+------------------+--------|
-*** Ciclo 3:
+*** Ciclo 2:
  |---------------------------------------+---------------------------+--------|
  | Ejercicio                             | Protocolo                 | Bloque |
  |---------------------------------------+---------------------------+--------|
@@ -694,7 +711,17 @@ print(plot)
  | Peso muerto sumo                      | x3@7, 15%, 3x3            | B      |
  | Press de hombros con mancuernas       | x15@9, 2 sets             | B      |
  |                                       |                           |        |
-*** Ciclo 4:
+*** Ciclo 2 (descarga)
+| Ejercicio                  | Protocolo                    | Bloque |
+|----------------------------+------------------------------+--------|
+| Press banca de competencia | x10@9, 10%, 3x10             | A      |
+| Peso muerto sumo           | x8@6, 7, 8                   | A      |
+| Dips                       | x5@6, 7, 8                   | A      |
+|----------------------------+------------------------------+--------|
+| Sentadilla frontal         | x8@6, 7, 8                   | B      |
+| Estocadas con mancuerna    | x10@6, 7, 8                  | B      |
+| Remos con mancuerna        | 3 sets @9-10, min repxset 15 | B      |
+*** Ciclo 3:
 | Ejercicio                            | Protocolo            | Bloque |
 | Press banca de competencia           | x1@8, 15%, 4x5       | A      |
 | Press inclinado                      | x1@8, 20%, 4x6       | A      |
@@ -944,6 +971,13 @@ print(plot)
 ***** Banca competencia
 - Pequeño detalle, apretar mas fuerte la barra con las manos para evitar ese leve movimiento de manos en la subida
 
+**** COMENTARIO GENERAL DEL BLOQUE
+- En general la técnica es sólida en todos los movimientos, las correcciones son detalles mas que nada
+- Por lo mismo, de ahora en adelante vamos a buscar mantener el mismo estandar, pero a rpe's mas alto (en media)
+- Este próximo bloque equilibraremos un poco los tres movimientos (en la medida de lo posible) y por lo tanto te iré dejando como "tareas" para cada movimiento 
+- Una tarea es algo especifico de la tecnica que quiero que mejores, pero a diferencia de un comentario técnico por día, yo te iré dando una evaluación de la misma cosa cada sesión
+- Por ejemplo, si viera en la sentadilla un problema con las rodillas (digamos, valgo) se harían dos cosas (1) te daría un tip o clave mental a trabajar y (2) un ejercicio a realizar como calentamiento
+- Cada sesión te preguntare por el ejercicio y hare modifcaciones menores, y evaluare de 1 a 10 el progreso técnico para que tengas feed-back
 ** Registro de progreso
 *** Ciclo 1
     #+TBLNAME:ciclo1_Johans
@@ -1468,6 +1502,35 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 - Lograste muy buena profundidad y control de rodillas, bastante mejor a lo anterior
 - Al parecer las claves fueron mirar hacia abajo a un punto estático y tal vez, más concentración en el descenso
 - De posible mantener esta misma técnica de aquí en adelante
+*** 06/08/2019, ciclo 2, bloque a
+| Movimiento | Valgo | Ángulo de torso | Profundidad | Tensión Pecho | Pausa | Arco |
+|------------+-------+-----------------+-------------+---------------+-------+------|
+| Sentadilla | 8/10  | 7.5/10          | 10/10       | -             | -     | -    |
+| Banca      | -     | -               | -           | 6/10          | 10/10 | 3/10 |
+*** 07/08/2019, ciclo 2, bloque b
+| Movimiento  | Inicio | Bloqueo | Nivel rodillas | Tensión | Pausa | Arco |
+|-------------+--------+---------+----------------+---------+-------+------|
+| Peso muerto | 8/10   | 7.5/10  | 10/10          | -       | -     | -    |
+| Banca Spoto | -      | -       | -              | 5/10   | 08/10 | 3/10 |
+*** Semana del 05/08/2019, ciclo 2
+**** Squat
+- La profundidad y el ángulo del torso al descender están súper bien
+- La velocidad de descenso está ok, pero creo que te podría beneficiar hacerla un poquito mas lenta
+- El valgo va bien, hay un poco, pero dentro de lo normal si empeora volveremos
+  a incluir mas trabajo de bandas
+- Al subir se te está inclinando un poco el torso, para evitar eso piensa en
+  mantener las rodillas adelante y "empujar la barra hacia atrás"
+**** Bench
+- Esta semana ha estado mejor la posición y arco, se ve más sólida
+- La velocidad de descenso esta un poco rápida
+- Esta volviendo un poco de ese rebote que hacias antes
+- Buscar llegar con más tensión al pecho
+**** Deadlift
+- Esta mejor el tema de dejar la barra apegada a las canillas
+- Aumentar un poco la pausa en el peso muerto con pausa
+- Pensar en mantener "rodillas afuera" cuando levantes, abrir un poquito el
+  ángulo de los pies ayuda
+
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
@@ -1510,9 +1573,39 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Peso muerto sumo                |   8 |   65 | 25/07/2019 |
 | Sentadilla de competencia       |   8 |   65 | 27/07/2019 |
 |                                 |     |      |            |
+*** Ciclo 2
+#+TBLNAME:ciclo2_fran
+| Ejercicio                  | RPE | Peso | Fecha      |
+|----------------------------+-----+------+------------|
+| Sentadilla de competencia  |   8 |   74 | 06/08/2019 |
+| Banca de competencia       |   8 |   43 | 06/08/2019 |
+| Banca tempo                |   8 |   38 | 06/08/2019 |
+| Peso muerto de competencia |   8 |   93 | 07/08/2019 |
+| Peso muerto pausado        |   8 |   88 | 07/08/2019 |
+| Banca de competencia SPOTO |   8 |   38 | 07/08/2019 |
+| Sentadilla de competencia  |   8 |   80 | 09/08/2019 |
+| Banca de competencia       |   8 |   45 | 09/08/2019 |
+| Banca tempo                |   8 |   38 | 09/08/2019 |
+| Peso muerto de competencia |   8 |   93 | 10/08/2019 |
+| Peso muerto pausado        |   8 |   82 | 10/08/2019 |
+| Banca de competencia SPOTO |   8 |   38 | 10/08/2019 |
+|                            |     |      |            |
 *** Plots
 **** Ciclo 1
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_fran :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
+
+**** Ciclo 2
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_fran :exports results
 library(ggplot2)
 library(ggrepel)
 df = data.frame(data)
@@ -1815,6 +1908,8 @@ mirando derecho versus arriba
 | Sentadilla pin             | 9.5 |  180 | 06/08/2019 |
 | 3ct bench                  |   8 |  125 | 06/08/2019 |
 | Peso muerto convencional   |   8 |  210 | 06/08/2019 |
+| Sentadilla de competencia  |   9 |  200 | 12/08/2019 |
+|                            |     |      |            |
 
 *** Plots
 **** Plot ciclo 1
