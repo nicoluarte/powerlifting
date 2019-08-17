@@ -644,6 +644,7 @@ print(plot)
  | Peso muerto de competencia |   8 |  130 | 10/08/2019 |
  | Sentadilla de competencia  |   8 |   95 | 12/08/2019 |
  | Banca de competencia       |   8 | 72.5 | 12/08/2019 |
+ | Peso muerto de competencia |   8 |  145 | 14/08/2019 |
  |                            |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_cynthia :exports results
    library(ggplot2)
@@ -1908,7 +1909,20 @@ mirando derecho versus arriba
 | Sentadilla pin             | 9.5 |  180 | 06/08/2019 |
 | 3ct bench                  |   8 |  125 | 06/08/2019 |
 | Peso muerto convencional   |   8 |  210 | 06/08/2019 |
-| Sentadilla de competencia  |   9 |  200 | 12/08/2019 |
+| Sentadilla de competencia  |   8 |  195 | 08/08/2019 |
+| Banca de competencia       |   8 |  140 | 08/08/2019 |
+| Banca inclinada close grip |   8 |   80 | 08/08/2019 |
+| Peso muerto de competencia |   8 |  250 | 08/08/2019 |
+| Sentadilla pin             |   8 |  175 | 09/08/2019 |
+| 3ct bench                  |   8 |  130 | 09/08/2019 |
+| Peso muerto convencional   | 8.5 |  220 | 09/08/2019 |
+| Sentadilla de competencia  |   8 |  200 | 12/08/2019 |
+| Banca de competencia       |   8 |  145 | 12/08/2019 |
+| Banca inclinada close grip |   8 |   90 | 12/08/2019 |
+| Peso muerto de competencia |   8 |  255 | 12/08/2019 |
+| Sentadilla pin             |   8 |  181 | 13/08/2019 |
+| 3ct bench                  |   8 |  135 | 13/08/2019 |
+| Peso muerto convencional   |   8 |  210 | 13/08/2019 |
 |                            |     |      |            |
 
 *** Plots
