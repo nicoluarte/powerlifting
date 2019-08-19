@@ -93,54 +93,62 @@ print(plot)
 | Back extension                    | 4x10           | A      |
 | Hip thrust con bandas 2 sec pausa | x8@8, 10%, 4x7 | A      |
 ** Comentarios tÈcnicos
-*** 08/07/2019, ciclo 1, bloque a
-**** Sentadilla de competencia
-1. Buscar aumentar un poco m√°s el rebote abajo
-**** Sentadilla con pausa 
-1. Usar una postura mas ancha de pies
-2. Reportar si eso alivia la molestia en lo gluteos
-**** Banca de competencia
-1. Buscar una diagonal mas pronunciada saliendo del pecho
-2. Llevar con mas fuerza el pecho hacia la barra, se est√° hundiendo
-   mucho la barra en el pecho
-**** Sentadilla de competencia
-1. Buscar aumentar un poco m√°s el rebote abajo
-**** Sentadilla con pausa 
-1. Usar una postura mas ancha de pies
-2. Reportar si eso alivia la molestia en lo gluteos
-**** Banca de competencia
-1. Buscar una diagonal mas pronunciada saliendo del pecho
-2. Llevar con mas fuerza el pecho hacia la barra, se est√° hundiendo
-   mucho la barra en el pecho
-*** 09/07/2019, ciclo 1, bloque b
-**** Peso muerto de compentecia
-- Del suelo a las rodillas intentar no extender mucho las piernas
-- Concentrarse en el momento que la barra empiece a tocar las rodillas
-  para iniciar la extensiÛn de piernas, tener cuidado con extenderlas antes
-*** 10/07/2019, ciclo 1, bloque a
-**** Sentadilla de competencia
-- Tener ojo con cambiar la velocidad de descenso entre repes de un
-  mismo set
-**** Sentadilla con pausa 
-- Evitar volver a hundirse, piensa en mantener las rodillas adelante
-  para lograr esto
-**** Banca de competencia
-- Nada por ahora
-**** Banca de competencia con pausa
-- Necesito que extiendas las pausas a 5 misisipis
-*** 05/08/2019, ciclo 2, bloque a
-**** Banca de competencia
-- Regular mejor el RPE
-- Realizar saltos de peso mas pequeÒos
-*** 06/08/2019, ciclo 2, bloque b
-**** Banca tempo
-- Realiza todas las series de aproximaciÛn con el tempo adecuado
-- Ojal· usar metronomo a 60 bpm para hacer un buen conteo del tempo
+*** Ciclo 1
+**** 08/07/2019, ciclo 1, bloque a
+***** Sentadilla de competencia
+ 1. Buscar aumentar un poco m√°s el rebote abajo
+***** Sentadilla con pausa 
+ 1. Usar una postura mas ancha de pies
+ 2. Reportar si eso alivia la molestia en lo gluteos
+***** Banca de competencia
+ 1. Buscar una diagonal mas pronunciada saliendo del pecho
+ 2. Llevar con mas fuerza el pecho hacia la barra, se est√° hundiendo
+    mucho la barra en el pecho
+***** Sentadilla de competencia
+ 1. Buscar aumentar un poco m√°s el rebote abajo
+***** Sentadilla con pausa 
+ 1. Usar una postura mas ancha de pies
+ 2. Reportar si eso alivia la molestia en lo gluteos
+***** Banca de competencia
+ 1. Buscar una diagonal mas pronunciada saliendo del pecho
+ 2. Llevar con mas fuerza el pecho hacia la barra, se est√° hundiendo
+    mucho la barra en el pecho
+**** 09/07/2019, ciclo 1, bloque b
+***** Peso muerto de compentecia
+ - Del suelo a las rodillas intentar no extender mucho las piernas
+ - Concentrarse en el momento que la barra empiece a tocar las rodillas
+   para iniciar la extensiÛn de piernas, tener cuidado con extenderlas antes
+**** 10/07/2019, ciclo 1, bloque a
+***** Sentadilla de competencia
+ - Tener ojo con cambiar la velocidad de descenso entre repes de un
+   mismo set
+***** Sentadilla con pausa 
+ - Evitar volver a hundirse, piensa en mantener las rodillas adelante
+   para lograr esto
+***** Banca de competencia
+ - Nada por ahora
+***** Banca de competencia con pausa
+ - Necesito que extiendas las pausas a 5 misisipis
+**** 05/08/2019, ciclo 2, bloque a
+***** Banca de competencia
+ - Regular mejor el RPE
+ - Realizar saltos de peso mas pequeÒos
+**** 06/08/2019, ciclo 2, bloque b
+***** Banca tempo
+ - Realiza todas las series de aproximaciÛn con el tempo adecuado
+ - Ojal· usar metronomo a 60 bpm para hacer un buen conteo del tempo
 
-*** 07/08/2019, ciclo 2, bloque a
-**** Banca de competencia
-- Debes realizar la pausa reglamentaria solo en la primera repeticiÛn, despues puedes hacer el resto sin pausa (evitar rebotar eso si)
-- Respecto al agarre: (1) deja la barra un poquito mas abajo en la palma, (2) separa ligeramente el Ìndice del resto de los dedos
+**** 07/08/2019, ciclo 2, bloque a
+***** Banca de competencia
+ - Debes realizar la pausa reglamentaria solo en la primera repeticiÛn, despues puedes hacer el resto sin pausa (evitar rebotar eso si)
+ - Respecto al agarre: (1) deja la barra un poquito mas abajo en la palma, (2) separa ligeramente el Ìndice del resto de los dedos
+*** Ciclo 2
+**** Banca
+- Buscar pausa reglamentaria en el primera repe de cada set
+**** Sentadilla
+- Buscar el peso correcto antes de llegar al umbral de dolor
+**** Hip thrust
+- Buscar progresar en los pesos, mandar videos con ·ngulo de perfil para observar tÈcnica
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_winchester
@@ -188,6 +196,9 @@ print(plot)
 | Banca tempo       |  11 |  102 | 06/08/2019 |
 | Banca competencia |   8 |  115 | 07/08/2019 |
 | Banca tempo       |   8 |  100 | 09/08/2019 |
+| Banca competencia |   8 |  115 | 11/08/2019 |
+| Banca tempo       |   8 |  102 | 12/08/2019 |
+| Banca competencia |  11 |  120 | 16/08/2019 |
 |                   |     |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_winchester :exports results
@@ -284,70 +295,83 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Banca competencia (3 ct pause)      | x1@8, x3@9, 10-15%, 4x3 | A      |
 | Peso muerto (sin belt) (3 ct pause) | x1@8, x4@9, 10-15%, 2x4 | A      |
 ** Comentarios tÈcnicos
-*** 02/07/2019, ciclo 1, bloque b 
-**** Peso muerto de competencia
-1. Tensar mejor la barra antes de empezar el pull, asegurarse que no
-   se mueva y est√© completamente fija
-2. Una vez la barra llegue a las rodillas, bloquear agresivamente
-   estas, para que el bloqueo sea r√°pido
-**** Banca inclinada
-1. Nada por ahora
-*** 04/07/2019, ciclo 1, bloque a 
-****  Squat highbar
-1. No cambiar la velocidad de descenso entre repes, dentro del set
-2. Al rebotar abajo pelea por mantener la posiciÛn de tu torso
-****  Banca de competencia
-1. Necesito que hagas la pausa reglamentaria en la banca 
-2. Recuerda que la barra no se debe hundir en el pecho, sino solo tocarlo
-*** 06/07/2019, ciclo 1, bloque b 
-**** Peso muerto de competencia
-1. Aceptar que existen d√≠as malos y buenos
-2. Aceptar que no siempre se levantaran los mejores pesos
-3. Dejar que los pesos fluyan de sesi√≥n en sesi√≥n
-*** 09/07/2019, ciclo 1, bloque b 
-**** Peso muerto de competencia
-- Mantener el ·ngulo que te mostrÈ en la foto para el inicio del peso
-  muerto, estar vertical es peor!
-- Tienes que coordinar el bloqueo de rodillas con el bloqueo de
-  caderas de manera tal que estos sean casi simultaneos
-- Debes ser mas agresivo con los dos bloqueos que te mencionÈ m·s arriba
-*** 11/07/2019, ciclo 1, bloque a 
-****  Banca de competencia
-1. Muy importante hacer la pausa reglamentaria!
-*** 15/07/2019, ciclo 1, bloque b 
-**** Peso muerto de competencia
-- El inicio est· mejorando harto, eso sÌ trata de aceptar mejor que tu espalda
-  quede mas horizontal, eso es por tus proporciones y es la postura mas
-  ventajosa
-- Luego de hacer el hook, pÈgale unos tirones a la barra para que se ajuste bien
-  el gancho y no te ruede la barra al empezar a subir
-*** 17/07/2019, ciclo 1, bloque a 
-**** Sentadilla de competencia
-- Antes de bajar inclinate mas y busca el balance en la plata de tu pie 
-- En la primera repeticiÛn bajaste demasiado vertical y sacaste la barra del eje
-  hacia atr·s
-****  Banca de competencia
-- Bien la pausa reglamentaria
-- Ahora la idea es ir trabajando desde ese mismo estandar
-*** 18/07/2019, ciclo 1, bloque b 
-**** Peso muerto de competencia
-- CARGA BIEN LA BARRA jajaja
-*** 26/07/2019, ciclo 1, bloque a 
-**** Sentadilla de competencia
-- Partir con el torso mas inclinado
-- Mantenerse mirando, durante todo el descenso, un punto fijo en el suelo 
-****  Banca de competencia
-- Mandar video / peso
-*** 27/07/2019, ciclo 1, bloque b 
-**** Peso muerto de competencia
-- Bien en el bloque de las rodillas y cadera, buscar que esto se repita todas las sesiones
-- Tratar de mantener la rodillas quietas mientras vas despegando la barra del suelo
-**** Rack pull 
-- Bajar la barra 3-4 cm, tal como lo hablamos
-**** Banca inclinada
-- Mandar video y peso
+*** Ciclo 1
+**** 02/07/2019, ciclo 1, bloque b 
+***** Peso muerto de competencia
+ 1. Tensar mejor la barra antes de empezar el pull, asegurarse que no
+    se mueva y est√© completamente fija
+ 2. Una vez la barra llegue a las rodillas, bloquear agresivamente
+    estas, para que el bloqueo sea r√°pido
+***** Banca inclinada
+ 1. Nada por ahora
+**** 04/07/2019, ciclo 1, bloque a 
+*****  Squat highbar
+ 1. No cambiar la velocidad de descenso entre repes, dentro del set
+ 2. Al rebotar abajo pelea por mantener la posiciÛn de tu torso
+*****  Banca de competencia
+ 1. Necesito que hagas la pausa reglamentaria en la banca 
+ 2. Recuerda que la barra no se debe hundir en el pecho, sino solo tocarlo
+**** 06/07/2019, ciclo 1, bloque b 
+***** Peso muerto de competencia
+ 1. Aceptar que existen d√≠as malos y buenos
+ 2. Aceptar que no siempre se levantaran los mejores pesos
+ 3. Dejar que los pesos fluyan de sesi√≥n en sesi√≥n
+**** 09/07/2019, ciclo 1, bloque b 
+***** Peso muerto de competencia
+ - Mantener el ·ngulo que te mostrÈ en la foto para el inicio del peso
+   muerto, estar vertical es peor!
+ - Tienes que coordinar el bloqueo de rodillas con el bloqueo de
+   caderas de manera tal que estos sean casi simultaneos
+ - Debes ser mas agresivo con los dos bloqueos que te mencionÈ m·s arriba
+**** 11/07/2019, ciclo 1, bloque a 
+*****  Banca de competencia
+ 1. Muy importante hacer la pausa reglamentaria!
+**** 15/07/2019, ciclo 1, bloque b 
+***** Peso muerto de competencia
+ - El inicio est· mejorando harto, eso sÌ trata de aceptar mejor que tu espalda
+   quede mas horizontal, eso es por tus proporciones y es la postura mas
+   ventajosa
+ - Luego de hacer el hook, pÈgale unos tirones a la barra para que se ajuste bien
+   el gancho y no te ruede la barra al empezar a subir
+**** 17/07/2019, ciclo 1, bloque a 
+***** Sentadilla de competencia
+ - Antes de bajar inclinate mas y busca el balance en la plata de tu pie 
+ - En la primera repeticiÛn bajaste demasiado vertical y sacaste la barra del eje
+   hacia atr·s
+*****  Banca de competencia
+ - Bien la pausa reglamentaria
+ - Ahora la idea es ir trabajando desde ese mismo estandar
+**** 18/07/2019, ciclo 1, bloque b 
+***** Peso muerto de competencia
+ - CARGA BIEN LA BARRA jajaja
+**** 26/07/2019, ciclo 1, bloque a 
+***** Sentadilla de competencia
+ - Partir con el torso mas inclinado
+ - Mantenerse mirando, durante todo el descenso, un punto fijo en el suelo 
+*****  Banca de competencia
+ - Mandar video / peso
+**** 27/07/2019, ciclo 1, bloque b 
+***** Peso muerto de competencia
+ - Bien en el bloque de las rodillas y cadera, buscar que esto se repita todas las sesiones
+ - Tratar de mantener la rodillas quietas mientras vas despegando la barra del suelo
+***** Rack pull 
+ - Bajar la barra 3-4 cm, tal como lo hablamos
+***** Banca inclinada
+ - Mandar video y peso
+
+*** Ciclo 2
+*** Semana del 12/08/2019
+**** Sentadilla
+- Mandar videos de pin squat
+- Buscar la inclinaciÛn perfecta antes del descenso
+- Tratar de llegar abajo con mayor control (disminuir levemente la velocidad de descenso)
+**** Banca
+- Controlar mas la pausa en el pectoral
+**** Peso muerto
+- Nada por ahora
 
 ** Registro de progreso
+*** Ciclo 1
 #+TBLNAME:ciclo1_Eduardo
 | Ejercicio                      | RPE |  Peso | Fecha      |
 |--------------------------------+-----+-------+------------|
@@ -425,6 +449,34 @@ print(plot)
 #+RESULTS:
 [[file:tmp.png]]
 
+*** Ciclo 2
+#+TBLNAME:ciclo2_Eduardo
+| Ejercicio               | RPE | Peso | Fecha      |
+|-------------------------+-----+------+------------|
+| Squat competencia       |   8 |  115 | 12/08/2019 |
+| Banca competencia       |   8 |   80 | 12/08/2019 |
+| Peso muerto competencia |   8 |  150 | 12/08/2019 |
+| Pin squat               |   8 |   90 | 13/08/2019 |
+| Banca 3ct               |   8 |   75 | 13/08/2019 |
+| Peso muerto pausa       |   8 |  120 | 13/08/2019 |
+| Squat competencia       |   8 |  115 | 14/08/2019 |
+| Banca competencia       |   9 |   80 | 14/08/2019 |
+| Peso muerto competencia |   8 |  155 | 14/08/2019 |
+| Pin squat               |   8 |   95 | 15/08/2019 |
+| Banca 3ct               |   8 |   75 | 15/08/2019 |
+| Peso muerto pausa       |   8 |  122 | 15/08/2019 |
+|                         |     |      |            |
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_Eduardo :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
 
 
 * Javiera
@@ -441,7 +493,6 @@ print(plot)
 | Peso muerto de competencia   | x3@8, 15%, 3x4 | B      |
 | Peso muerto con pausa (3 ct) | x3@8, 15%, 2x4 | B      |
 | Peso muerto desde bloques    | x3@8, 15%, 2x5 | B      |
-
 *** Ciclo 1 (descarga)
 | Ejercicio                 | Protocolo        | Bloque |
 |---------------------------+------------------+--------|
@@ -452,8 +503,22 @@ print(plot)
 | Peso muerto compentecia   | x8@8, 10%, 1x8   | B      |
 | Remo con barra            | 3x8              | B      |
 | Curl de biceps            | 3x10             | B      |
+*** Ciclo 2
+| Ejercicio                       | Protocolo                       | Bloque |
+|---------------------------------+---------------------------------+--------|
+| Sentadilla de competencia       | x1@8, 20%, 5x5                  | A      |
+| Sentadilla con pausa (3 ct)     | x6@8, 10%, 2x6                  | A      |
+| Banca de competencia            | x1@8, 15%, 4x7                  | A      |
+| Banca tempo 600                 | x1@8, 10%, 1x4, 10%, 4x3        | A      |
+|---------------------------------+---------------------------------+--------|
+| Peso muerto de competencia      | x1@8, 20%, 5x5                  | B      |
+| Peso muerto con pausa (3 ct)    | x1@8, 10%, 1x4, 10%, 1x5        | B      |
+| Banca de competencia 5sec pausa | x1@8, 10%, 1x3, 10%, 4x3        | B      |
+| Banca sin pausa                 | x1@8, 20%, 1x7, 5%, 1x7, 5% 1x8 | B      |
 ** Comentarios tÈcnicos
+*** Ciclo 2
 ** Registro de progreso
+*** Ciclo 1
 #+TBLNAME:ciclo1_javi
 | Ejercicio                  | RPE | Peso | Fecha      |
 |----------------------------+-----+------+------------|
@@ -479,6 +544,21 @@ print(plot)
 | Sentadilla de competencia  |   8 |   60 | 05/08/2019 |
 |                            |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_javi :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+
+*** Ciclo 2
+#+TBLNAME:ciclo2_javi
+| Ejercicio                  | RPE | Peso | Fecha      |
+|----------------------------+-----+------+------------|
+|                            |     |      |            |
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_javi :exports results
 library(ggplot2)
 library(ggrepel)
 df = data.frame(data)
@@ -535,6 +615,18 @@ print(plot)
 | Extensiones de quads                  | 25@9, 2x20      | B      |
 | Bulgarian split squats con mancuernas | 15@9, 2x12      | B      |
 |                                       |                 |        |
+*** Ciclo 4
+| Ejercicio                         | Protocolo                       | Bloque |
+|-----------------------------------+---------------------------------+--------|
+| Sentadilla de competencia         | x4@8, 20%, 5x5                  | A      |
+| Sentadilla frontal                | x1@8, 10%, 1x4, 10%, 2x4        | A      |
+| Banca de competencia              | x1@8, 5%, 1x3, 7%, 3x6, 5%, 1x6 | A      |
+| Banca pies arriba                 | x1@8, 10%, 1x3, 10%, 4x3        | A      |
+|-----------------------------------+---------------------------------+--------|
+| Peso muerto de competencia (sumo) | x1@8, 20%, 5x5                  | B      |
+| Peso muerto sumo pausa 3 segundos | x1@8, 10%, 1x3, 10%, 1x4        | B      |
+| Banca con pausa 5 segundos        | x1@8, 10%, 1x4, 10%, 4x3        | B      |
+| Banca con mancuernas              | x5@8, 15%, 4x6                  | B      |
 ** Comentarios tÈcnicos
 *** Ciclo 1
 **** 04/07/2019, ciclo 1, bloque b
@@ -723,18 +815,17 @@ print(plot)
 | Estocadas con mancuerna    | x10@6, 7, 8                  | B      |
 | Remos con mancuerna        | 3 sets @9-10, min repxset 15 | B      |
 *** Ciclo 3:
-| Ejercicio                            | Protocolo            | Bloque |
-| Press banca de competencia           | x1@8, 15%, 4x5       | A      |
-| Press inclinado                      | x1@8, 20%, 4x6       | A      |
-| Press banca inclinado agarre cerrado | x8@8, 10%, 3x8       | A      |
-| Frontales caja mas baja              | x1@7, x4@9, 10%, 2x4 | A      |
-|--------------------------------------+----------------------+--------|
-| Press banca 3 ct pause               | x1@8, 20%, 4x4       | B      |
-| Dips                                 | x5@8, 4 sets         | B      |
-| Press militar                        | x8@7, 8, 9           | B      |
-| Peso muerto sumo                     | x1@8, 20%, 4x3       | B      |
-| Press militar con mancuerna          | x15@9, 3 sets        | B      |
-|                                      |                      |        |
+| Ejercicio                            | Protocolo                | Bloque |
+| Press banca de competencia           | x1@8, 15%, 4x6           | A      |
+| Press inclinado                      | x1@8, 10%, 1x4, 10%, 4x3 | A      |
+| Press banca inclinado agarre cerrado | x8@8, 10%, 3x8           | A      |
+| Frontales caja mas baja              | x1@7, x4@8, 10%, 2x4     | A      |
+|--------------------------------------+--------------------------+--------|
+| Press banca 3 ct pause               | x1@8, 20%, 4x4           | B      |
+| Dips                                 | x5@8, 4 sets             | B      |
+| Press militar                        | x8@7, 8, 9               | B      |
+| Peso muerto sumo                     | x1@7, 20%, 6x2           | B      |
+| Press militar con mancuerna          | x15@9, 3 sets            | B      |
 ** Comentarios tÈcnicos
 *** Ciclo 1
  #+EXPORT_FILE_NAME: Comentarios.PDF
@@ -1245,6 +1336,7 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposiciÛn
 - Lo que hubo fue un problema de coordinaciÛn, empezaste a extender las rodillas antes de tiempo
 - La extensiÛn de rodilla comienza cuando la barra toca abajo de la rodilla, aquÌ la empezaste como 3/4 de canilla
 ** Registro de progreso
+*** Ciclo 1
  #+TBLNAME:ciclo1_zapata
  | Ejercicio                               | RPE | Peso | Fecha      |
  |-----------------------------------------+-----+------+------------|
@@ -1302,6 +1394,24 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposiciÛn
  #+RESULTS:
  [[file:tmp.png]]
 
+*** Ciclo 2
+ #+TBLNAME:ciclo2_zapata
+ | Ejercicio | RPE | Peso | Fecha |
+ |-----------+-----+------+-------|
+ |           |     |      |       |
+ #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_zapata :exports results
+ library(ggplot2)
+ library(ggrepel)
+ df = data.frame(data)
+ len = seq(1:length(df$Fecha))
+ plot = ggplot(df, aes(x=len, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+ print(plot)
+ #+END_SRC
+
+ #+RESULTS:
+ [[file:tmp.png]]
+
 
 * Francisca
 ** Calentamientos
@@ -1340,197 +1450,217 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposiciÛn
 | Pero muerto con pausa mitad de canillas    | x1@8, x5@8, 15%, 3x3 | B      |
 | Banca de competencia SPOTO (2 sec)         | x1@8, 20%, 4x5       | B      |
 ** Comentarios tÈcnicos
-*** 01/07/2019, ciclo 1, bloque a
-**** Sentadilla de competencia
-1. Juntar un poquito m√°s los pies
-2. Reducir el √°ngulo de las punteras de los pies
-3. Concentrarse en mantener las rodilas adelante
-4. Reducir la velocidad de descenso
-5. Pensar en llevar las rodillas hacia adelante
-6. Realizar todo los sets luego del drop, con bandas alrededor de las
-   piernas, a altura de las rodillas
-**** Banca de competencia
-1. Pausa activa, piensa que hay un huevo en t√∫ pecho y no lo puedes
-   reventar
-2. Retracci√≥n escapular, piensa que tienes que apretar una moneda que
-   te ponen en t√∫ espalda con los hombros
-**** Press banca pies arriba
-1. Mismos comentarios que para press banca
-*** 02/07/2019, ciclo 1, bloque b
-**** Press banca agarre cerrado
-1. Centrarse en pensar que tienes un huevo en el pecho y por lo tanto
-   debes tener cuidado de no romperlo al bajar la barra
-2. Baja un poco mas lento la barra
-**** Peso muerto convencional
-1. Debes tomar mas aire por t√∫ boca, llevarlo a tu estomago, inflarlo
-   y luego apretar los abdominales hacia abajo
-2. El bloqueo debe ser s√∫per agresivo y r√°pido, toma la costumbre
-   desde el primer calentamiento, bloquear caderas r√°pido
-**** Peso muerto sumo
-1. Por ahora, solo trabajar en ir aumentando la apertura de las rodillas
-*** 04/07/2019, ciclo 1, bloque a
-**** Sentadilla de competencia
-1. Juntar un poquito m√°s los pies
-2. Reducir el √°ngulo de las punteras de los pies
-3. Concentrarse en mantener las rodilas adelante
-4. Reducir la velocidad de descenso
-5. Pensar en llevar las rodillas hacia adelante
-6. Realizar todo los sets luego del drop, con bandas alrededor de las
-   piernas, a altura de las rodillas
-7. Bajar levemente los codos y hacer retracci√≥n escapular antes de
-   sacar la barra del rack, manteniendola durante todo el movimiento
-8. Hacer mas exagerada la tomada de aire, y hacer tambi√©n antes de
-   sacar la barra
-**** Banca de competencia
-1. Pausa activa, piensa que hay un huevo en t√∫ pecho y no lo puedes
-   reventar
-2. Retracci√≥n escapular, piensa que tienes que apretar una moneda que
-   te ponen en t√∫ espalda con los hombros
-3. Evitar ese rebote que haces para sacar la barra del pecho, recuerda
-   que la barra apenas debe tocar el pecho y luego salir de ah√≠
-4. Piensa es llevar el pecho hacia la barra, en vez de la barra hacia
-   el pecho, con eso busco que exageres sacar el pecho mientras haces
-   la banca
-**** Press banca pies arriba
-1. Mismos comentarios que para press banca
-*** 06/07/2019, ciclo 1, bloque b
-**** Press banca agarre cerrado
-1. Centrarse en pensar que tienes un huevo en el pecho y por lo tanto
-   debes tener cuidado de no romperlo al bajar la barra
-2. Baja un poco mas lento la barra
-3. Cuidar de hacer la pausa reglamentaria
-4. Mejoraste bastante el arco y la tocada en el pecho, revisa tu v√≠deo
-   para tomar nota mental para la siguiente sesi√≥n de banca, este es
-   un buen h√°bito c√∫ando te salga bien un levantamiento revisalo,
-   fijandose y recordando las sensaciones y claves mentales que usaste
-**** Peso muerto convencional
-1. Debes tomar mas aire por t√∫ boca, llevarlo a tu estomago, inflarlo
-   y luego apretar los abdominales hacia abajo <- esto es
-   tremendamente fundamental sobretodo en peso muerto, piensa es tomar
-   todo el aire el gym y apretar como roca los abdominales
-2. Busca ser paciente en el peso muerto. Ser paciente significa
-   principalmente dos cosas (a) debe estar todo en posiciÛn antes de
-   iniciar el levantamiento y por lo mismo evita rodar la barra y
-   bajar y volver a subir las cadera, (b) busca que las caderas queden
-   "altas" si bien puede se vea "feo" as√≠ es como se levanta
-   m√°s. Cuando todo este en perfecta posiciÛn empiezas a tensar la
-   barra de a poquito hasta que este apunto de levantarse, aguantas un
-   segundo as√≠ y vas con todo para arriba
-**** Peso muerto sumo
-1. Por ahora, solo trabajar en ir aumentando la apertura de las rodillas
-*** 11/07/2019, ciclo 1, bloque a
-**** Sentadilla de competencia
-- Abrir la postura un poco m·s (hasta dÛnde sea cÛmodo)
-- Reducir la velocidad de descenso, debes contar mÌnimo 3 missisipis
-  mientras vas descendiendo antes de llegar a profundidad
-- Realizar 3 sets de 25-40 repeticiones en la extensiÛn de cuadriceps,
-  usando poco peso
-- Tratar de controlar lo mejor posible la subida, aunque eso disminuya
-  la velocidad, buscando dejar las rodillas en posiciÛn
-- Usar bandas en las rodillas para todas las variantes de sentadilla
-  al momento del volumen
-**** Banca de competencia
-- Por ahora concentrarse en mantener la tensiÛn tocando el pecho y
-  hacer fuerza con la piernas para empujarte hacia atr·s durante todo
-  el levantamiento
-*** 13/07/2019, ciclo 1, bloque b
-*CONSIDERAR NUEVO PROTOCOLO DE CALENTAMIENTO, SE DEBE REALIZAR ANTES DE
- CADA SESI”N*
-**** Press banca agarre cerrado
-- Cuidar que la barra no se hunda en el pecho
-- Seguir reforzando la pausa activa, esto es, que la barra apenas
-  toque el pecho, siempre en tensiÛn
-**** Peso muerto convencional
-- Practicar tensar la barra ("sacarle el slack")
-- Mantener la tensiÛn constante por 1-2 segundos, luego levantar sin
-  volver a perder tensiÛn
-**** Peso muerto sumo
-- Aplicar los mismos comentarios que para peso muerto convencional
-*** 15/07/2019, ciclo 1, bloque a
-**** Sentadilla de competencia
-- De aquÌ en adelante utilizar la postura con el torso mas inclinado que
-  lograste en esta sesiÛn
-- Bajar un poquito menos justo hasta despuÈs de paralelo
-- Reducir la velocidad, que el descenso sea suave y controlado
-**** Banca de competencia
-- Concentrarse en hacer tensiÛn con las piernas durante todo el movimiento
-*** 17/07/2019, ciclo 1, bloque b
-**** Press banca agarre cerrado
-- Forzar mas la retracciÛn de escapulas
-- Aumentar el arco llevando activamente el pecho hacia la barra mientras esta
-  baja
-**** Peso muerto convencional
-- Vamos a probar ir por una postura mucho mas cerrado una distancia de 2-3 entre
-  cada pie y ligeramente con las punteras hacia afuera
-**** Peso muerto sumo
-- Cierra un poquito mas la postura hasta que las canillas te queden
-  perpendiculares al suelo
-- Busca dejar la caderas arriba, todo tenso y luego levantar
-*** 19/07/2019, ciclo 1, bloque a
-**** Sentadilla de competencia
-- BuenÌsima la postura, trata de mantener esta misma forma todas sesiones
-- Vamos a mantenerla durante 1 a 2 ciclos, y luego cambiaremos a una forma para
-  levantar m·s, pero primero necesito que te afirmes harto con este postura
-**** Banca de competencia
-- Mejor el tema de las piernas, pero a˙n falta trabajo ahÌ, esto toma su tiempo
-- A˙n queda un poquito de "mini rebote" ojal· eliminarlo en 100%, ya que puede
-  ser medio problematico en competencia
-*** 20/07/2019, ciclo 1, bloque b
-**** Peso muerto convencional
-- Le est·s agarrando la mano a la posiciÛn inicial y al tensar la barra, asÌ que bien ahÌ
-- Ahora, lo que te pedirÈ es que esperes mas tiempo con la barra en tensiÛn
-  antes de levantarla, esto va a ser s˙per s˙per sufrido y probablemente haga
-  que levantes menos en un inicio, pero te va a dar una base muy sÛlida de aquÌ
-  en adelante
-- Busca que la barra te rasmille s˙per fuerte la canilla, una canilla bien
-  rasmillada es signo de que est·s haciendo bien el peso muerto, es normal que
-  duela y que a veces sangre, por eso asegurate de apegar bien fuerte la barra a
-  las canillas
-*** 24/07/2019, ciclo 1, bloque a
-**** Sentadilla de competencia
-- Bien la postura del torso, sigue reforzando el patrÛn
-- Busca mantener las rodillas adelante durante toda la subida
-- Concentrate en sentir bien los cuadriceps y cargarlos apropiadamente
-**** Banca de competencia
-- Falto m·s tensiÛn al llegar al pecho
-- Busca arquear lo m·s posible tu espalda
-- Refuerza la retracciÛn de escapulas
-*** 25/07/2019, ciclo 1, bloque b
-**** Peso muerto convencional
-- De momento, en lo que mas quiero que te concentres, es en sostener la tensiÛn en la barra durante unos segundos antes de levantarla
-*** 24/07/2019, ciclo 1, bloque a
-**** Sentadilla de competencia
-- Lograste muy buena profundidad y control de rodillas, bastante mejor a lo anterior
-- Al parecer las claves fueron mirar hacia abajo a un punto est·tico y tal vez, m·s concentraciÛn en el descenso
-- De posible mantener esta misma tÈcnica de aquÌ en adelante
-*** 06/08/2019, ciclo 2, bloque a
-| Movimiento | Valgo | ¡ngulo de torso | Profundidad | TensiÛn Pecho | Pausa | Arco |
-|------------+-------+-----------------+-------------+---------------+-------+------|
-| Sentadilla | 8/10  | 7.5/10          | 10/10       | -             | -     | -    |
-| Banca      | -     | -               | -           | 6/10          | 10/10 | 3/10 |
-*** 07/08/2019, ciclo 2, bloque b
-| Movimiento  | Inicio | Bloqueo | Nivel rodillas | TensiÛn | Pausa | Arco |
-|-------------+--------+---------+----------------+---------+-------+------|
-| Peso muerto | 8/10   | 7.5/10  | 10/10          | -       | -     | -    |
-| Banca Spoto | -      | -       | -              | 5/10   | 08/10 | 3/10 |
-*** Semana del 05/08/2019, ciclo 2
-**** Squat
-- La profundidad y el ·ngulo del torso al descender est·n s˙per bien
-- La velocidad de descenso est· ok, pero creo que te podrÌa beneficiar hacerla un poquito mas lenta
-- El valgo va bien, hay un poco, pero dentro de lo normal si empeora volveremos
-  a incluir mas trabajo de bandas
-- Al subir se te est· inclinando un poco el torso, para evitar eso piensa en
-  mantener las rodillas adelante y "empujar la barra hacia atr·s"
-**** Bench
-- Esta semana ha estado mejor la posiciÛn y arco, se ve m·s sÛlida
-- La velocidad de descenso esta un poco r·pida
-- Esta volviendo un poco de ese rebote que hacias antes
-- Buscar llegar con m·s tensiÛn al pecho
-**** Deadlift
-- Esta mejor el tema de dejar la barra apegada a las canillas
-- Aumentar un poco la pausa en el peso muerto con pausa
-- Pensar en mantener "rodillas afuera" cuando levantes, abrir un poquito el
-  ·ngulo de los pies ayuda
+*** Ciclo 1
+**** 01/07/2019, ciclo 1, bloque a
+***** Sentadilla de competencia
+ 1. Juntar un poquito m√°s los pies
+ 2. Reducir el √°ngulo de las punteras de los pies
+ 3. Concentrarse en mantener las rodilas adelante
+ 4. Reducir la velocidad de descenso
+ 5. Pensar en llevar las rodillas hacia adelante
+ 6. Realizar todo los sets luego del drop, con bandas alrededor de las
+    piernas, a altura de las rodillas
+***** Banca de competencia
+ 1. Pausa activa, piensa que hay un huevo en t√∫ pecho y no lo puedes
+    reventar
+ 2. Retracci√≥n escapular, piensa que tienes que apretar una moneda que
+    te ponen en t√∫ espalda con los hombros
+***** Press banca pies arriba
+ 1. Mismos comentarios que para press banca
+**** 02/07/2019, ciclo 1, bloque b
+***** Press banca agarre cerrado
+ 1. Centrarse en pensar que tienes un huevo en el pecho y por lo tanto
+    debes tener cuidado de no romperlo al bajar la barra
+ 2. Baja un poco mas lento la barra
+***** Peso muerto convencional
+ 1. Debes tomar mas aire por t√∫ boca, llevarlo a tu estomago, inflarlo
+    y luego apretar los abdominales hacia abajo
+ 2. El bloqueo debe ser s√∫per agresivo y r√°pido, toma la costumbre
+    desde el primer calentamiento, bloquear caderas r√°pido
+***** Peso muerto sumo
+ 1. Por ahora, solo trabajar en ir aumentando la apertura de las rodillas
+**** 04/07/2019, ciclo 1, bloque a
+***** Sentadilla de competencia
+ 1. Juntar un poquito m√°s los pies
+ 2. Reducir el √°ngulo de las punteras de los pies
+ 3. Concentrarse en mantener las rodilas adelante
+ 4. Reducir la velocidad de descenso
+ 5. Pensar en llevar las rodillas hacia adelante
+ 6. Realizar todo los sets luego del drop, con bandas alrededor de las
+    piernas, a altura de las rodillas
+ 7. Bajar levemente los codos y hacer retracci√≥n escapular antes de
+    sacar la barra del rack, manteniendola durante todo el movimiento
+ 8. Hacer mas exagerada la tomada de aire, y hacer tambi√©n antes de
+    sacar la barra
+***** Banca de competencia
+ 1. Pausa activa, piensa que hay un huevo en t√∫ pecho y no lo puedes
+    reventar
+ 2. Retracci√≥n escapular, piensa que tienes que apretar una moneda que
+    te ponen en t√∫ espalda con los hombros
+ 3. Evitar ese rebote que haces para sacar la barra del pecho, recuerda
+    que la barra apenas debe tocar el pecho y luego salir de ah√≠
+ 4. Piensa es llevar el pecho hacia la barra, en vez de la barra hacia
+    el pecho, con eso busco que exageres sacar el pecho mientras haces
+    la banca
+***** Press banca pies arriba
+ 1. Mismos comentarios que para press banca
+**** 06/07/2019, ciclo 1, bloque b
+***** Press banca agarre cerrado
+ 1. Centrarse en pensar que tienes un huevo en el pecho y por lo tanto
+    debes tener cuidado de no romperlo al bajar la barra
+ 2. Baja un poco mas lento la barra
+ 3. Cuidar de hacer la pausa reglamentaria
+ 4. Mejoraste bastante el arco y la tocada en el pecho, revisa tu v√≠deo
+    para tomar nota mental para la siguiente sesi√≥n de banca, este es
+    un buen h√°bito c√∫ando te salga bien un levantamiento revisalo,
+    fijandose y recordando las sensaciones y claves mentales que usaste
+***** Peso muerto convencional
+ 1. Debes tomar mas aire por t√∫ boca, llevarlo a tu estomago, inflarlo
+    y luego apretar los abdominales hacia abajo <- esto es
+    tremendamente fundamental sobretodo en peso muerto, piensa es tomar
+    todo el aire el gym y apretar como roca los abdominales
+ 2. Busca ser paciente en el peso muerto. Ser paciente significa
+    principalmente dos cosas (a) debe estar todo en posiciÛn antes de
+    iniciar el levantamiento y por lo mismo evita rodar la barra y
+    bajar y volver a subir las cadera, (b) busca que las caderas queden
+    "altas" si bien puede se vea "feo" as√≠ es como se levanta
+    m√°s. Cuando todo este en perfecta posiciÛn empiezas a tensar la
+    barra de a poquito hasta que este apunto de levantarse, aguantas un
+    segundo as√≠ y vas con todo para arriba
+***** Peso muerto sumo
+ 1. Por ahora, solo trabajar en ir aumentando la apertura de las rodillas
+**** 11/07/2019, ciclo 1, bloque a
+***** Sentadilla de competencia
+ - Abrir la postura un poco m·s (hasta dÛnde sea cÛmodo)
+ - Reducir la velocidad de descenso, debes contar mÌnimo 3 missisipis
+   mientras vas descendiendo antes de llegar a profundidad
+ - Realizar 3 sets de 25-40 repeticiones en la extensiÛn de cuadriceps,
+   usando poco peso
+ - Tratar de controlar lo mejor posible la subida, aunque eso disminuya
+   la velocidad, buscando dejar las rodillas en posiciÛn
+ - Usar bandas en las rodillas para todas las variantes de sentadilla
+   al momento del volumen
+***** Banca de competencia
+ - Por ahora concentrarse en mantener la tensiÛn tocando el pecho y
+   hacer fuerza con la piernas para empujarte hacia atr·s durante todo
+   el levantamiento
+**** 13/07/2019, ciclo 1, bloque b
+ *CONSIDERAR NUEVO PROTOCOLO DE CALENTAMIENTO, SE DEBE REALIZAR ANTES DE
+  CADA SESI”N*
+***** Press banca agarre cerrado
+ - Cuidar que la barra no se hunda en el pecho
+ - Seguir reforzando la pausa activa, esto es, que la barra apenas
+   toque el pecho, siempre en tensiÛn
+***** Peso muerto convencional
+ - Practicar tensar la barra ("sacarle el slack")
+ - Mantener la tensiÛn constante por 1-2 segundos, luego levantar sin
+   volver a perder tensiÛn
+***** Peso muerto sumo
+ - Aplicar los mismos comentarios que para peso muerto convencional
+**** 15/07/2019, ciclo 1, bloque a
+***** Sentadilla de competencia
+ - De aquÌ en adelante utilizar la postura con el torso mas inclinado que
+   lograste en esta sesiÛn
+ - Bajar un poquito menos justo hasta despuÈs de paralelo
+ - Reducir la velocidad, que el descenso sea suave y controlado
+***** Banca de competencia
+ - Concentrarse en hacer tensiÛn con las piernas durante todo el movimiento
+**** 17/07/2019, ciclo 1, bloque b
+***** Press banca agarre cerrado
+ - Forzar mas la retracciÛn de escapulas
+ - Aumentar el arco llevando activamente el pecho hacia la barra mientras esta
+   baja
+***** Peso muerto convencional
+ - Vamos a probar ir por una postura mucho mas cerrado una distancia de 2-3 entre
+   cada pie y ligeramente con las punteras hacia afuera
+***** Peso muerto sumo
+ - Cierra un poquito mas la postura hasta que las canillas te queden
+   perpendiculares al suelo
+ - Busca dejar la caderas arriba, todo tenso y luego levantar
+**** 19/07/2019, ciclo 1, bloque a
+***** Sentadilla de competencia
+ - BuenÌsima la postura, trata de mantener esta misma forma todas sesiones
+ - Vamos a mantenerla durante 1 a 2 ciclos, y luego cambiaremos a una forma para
+   levantar m·s, pero primero necesito que te afirmes harto con este postura
+***** Banca de competencia
+ - Mejor el tema de las piernas, pero a˙n falta trabajo ahÌ, esto toma su tiempo
+ - A˙n queda un poquito de "mini rebote" ojal· eliminarlo en 100%, ya que puede
+   ser medio problematico en competencia
+**** 20/07/2019, ciclo 1, bloque b
+***** Peso muerto convencional
+ - Le est·s agarrando la mano a la posiciÛn inicial y al tensar la barra, asÌ que bien ahÌ
+ - Ahora, lo que te pedirÈ es que esperes mas tiempo con la barra en tensiÛn
+   antes de levantarla, esto va a ser s˙per s˙per sufrido y probablemente haga
+   que levantes menos en un inicio, pero te va a dar una base muy sÛlida de aquÌ
+   en adelante
+ - Busca que la barra te rasmille s˙per fuerte la canilla, una canilla bien
+   rasmillada es signo de que est·s haciendo bien el peso muerto, es normal que
+   duela y que a veces sangre, por eso asegurate de apegar bien fuerte la barra a
+   las canillas
+**** 24/07/2019, ciclo 1, bloque a
+***** Sentadilla de competencia
+ - Bien la postura del torso, sigue reforzando el patrÛn
+ - Busca mantener las rodillas adelante durante toda la subida
+ - Concentrate en sentir bien los cuadriceps y cargarlos apropiadamente
+***** Banca de competencia
+ - Falto m·s tensiÛn al llegar al pecho
+ - Busca arquear lo m·s posible tu espalda
+ - Refuerza la retracciÛn de escapulas
+**** 25/07/2019, ciclo 1, bloque b
+***** Peso muerto convencional
+ - De momento, en lo que mas quiero que te concentres, es en sostener la tensiÛn en la barra durante unos segundos antes de levantarla
+**** 24/07/2019, ciclo 1, bloque a
+***** Sentadilla de competencia
+ - Lograste muy buena profundidad y control de rodillas, bastante mejor a lo anterior
+ - Al parecer las claves fueron mirar hacia abajo a un punto est·tico y tal vez, m·s concentraciÛn en el descenso
+ - De posible mantener esta misma tÈcnica de aquÌ en adelante
+**** 06/08/2019, ciclo 2, bloque a
+ | Movimiento | Valgo | ¡ngulo de torso | Profundidad | TensiÛn Pecho | Pausa | Arco |
+ |------------+-------+-----------------+-------------+---------------+-------+------|
+ | Sentadilla | 8/10  | 7.5/10          | 10/10       | -             | -     | -    |
+ | Banca      | -     | -               | -           | 6/10          | 10/10 | 3/10 |
+**** 07/08/2019, ciclo 2, bloque b
+ | Movimiento  | Inicio | Bloqueo | Nivel rodillas | TensiÛn | Pausa | Arco |
+ |-------------+--------+---------+----------------+---------+-------+------|
+ | Peso muerto | 8/10   | 7.5/10  | 10/10          | -       | -     | -    |
+ | Banca Spoto | -      | -       | -              | 5/10   | 08/10 | 3/10 |
+*** Ciclo 2
+**** Semana del 05/08/2019, ciclo 2
+***** Squat
+ - La profundidad y el ·ngulo del torso al descender est·n s˙per bien
+ - La velocidad de descenso est· ok, pero creo que te podrÌa beneficiar hacerla un poquito mas lenta
+ - El valgo va bien, hay un poco, pero dentro de lo normal si empeora volveremos
+   a incluir mas trabajo de bandas
+ - Al subir se te est· inclinando un poco el torso, para evitar eso piensa en
+   mantener las rodillas adelante y "empujar la barra hacia atr·s"
+***** Bench
+ - Esta semana ha estado mejor la posiciÛn y arco, se ve m·s sÛlida
+ - La velocidad de descenso esta un poco r·pida
+ - Esta volviendo un poco de ese rebote que hacias antes
+ - Buscar llegar con m·s tensiÛn al pecho
+***** Deadlift
+ - Esta mejor el tema de dejar la barra apegada a las canillas
+ - Aumentar un poco la pausa en el peso muerto con pausa
+ - Pensar en mantener "rodillas afuera" cuando levantes, abrir un poquito el
+   ·ngulo de los pies ayuda
+
+**** Semana del 12/08/2019, ciclo 2
+***** Squat
+- Esta s˙per sÛlida, los puntos de mejora ya son mas detalles y son los siguientes:
+- AnteversiÛn pelvica al incio
+- Pie tripode
+- Por lo dem·s, ya est·s para arriesgarte con un poquito mas de peso
+***** Bench
+- A tener ojo en el tempo, que sea parejito
+- Solidificar la tÈcnica que ya llevas, la tocada al pecho con harta tensiÛn, etc.
+- Ya no fallas en nada "grande", asÌ que te empezarÈ a comentar por detalles
+***** Deadlift
+- Mucha mejora en este movimiento, te est· pegando la fatiga, pero la forma va muchÌsimo mejor
+- El bloqueo excelente
+- El trabajo es justo en la rodillas
+- Para ello debes trabajar en tensar mas la barra antes de empezar a levantarla
+- Eso te va a cansar mucho, pero la recompensa es grande
+- Piensa el peso muerto como 1segundo de pausa con la barra en tensiÛn m·xima y luego despegarla
 
 ** Registro de progreso
 *** Ciclo 1
@@ -1590,6 +1720,18 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposiciÛn
 | Peso muerto de competencia |   8 |   93 | 10/08/2019 |
 | Peso muerto pausado        |   8 |   82 | 10/08/2019 |
 | Banca de competencia SPOTO |   8 |   38 | 10/08/2019 |
+| Sentadilla de competencia  |   8 |   79 | 12/08/2019 |
+| Banca de competencia       |   8 |   45 | 12/08/2019 |
+| Banca tempo                |   8 |   40 | 12/08/2019 |
+| Peso muerto de competencia |   8 |   88 | 13/08/2019 |
+| Peso muerto pausado        |   8 |   79 | 13/08/2019 |
+| Banca de competencia SPOTO |   8 |   42 | 13/08/2019 |
+| Sentadilla de competencia  |   8 |   80 | 14/08/2019 |
+| Banca de competencia       |   8 |   44 | 14/08/2019 |
+| Banca tempo                |   8 |   40 | 14/08/2019 |
+| Peso muerto de competencia |   8 |   78 | 15/08/2019 |
+| Peso muerto pausado        |   8 |   74 | 15/08/2019 |
+| Banca de competencia SPOTO |   8 |   45 | 15/08/2019 |
 |                            |     |      |            |
 *** Plots
 **** Ciclo 1
