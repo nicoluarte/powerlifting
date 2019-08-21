@@ -2042,8 +2042,9 @@ mirando derecho versus arriba
 | Banca con mancueras        |      9 |   29 | 26/07/2019 |
 |                            |        |      |            |
 *** Ciclo 3
-#+TBLNAME:ciclo2_yo
+#+TBLNAME:ciclo3_yo
 | Ejercicio                  | RPE | Peso | Fecha      |
+|----------------------------+-----+------+------------|
 | Sentadilla de competencia  |   8 |  180 | 05/08/2019 |
 | Banca de competencia       |   8 |  130 | 05/08/2019 |
 | Banca inclinada close grip |   8 |   75 | 05/08/2019 |
@@ -2065,8 +2066,29 @@ mirando derecho versus arriba
 | Sentadilla pin             |   8 |  181 | 13/08/2019 |
 | 3ct bench                  |   8 |  135 | 13/08/2019 |
 | Peso muerto convencional   |   8 |  210 | 13/08/2019 |
+| Sentadilla de competencia  |   8 |  202 | 15/08/2019 |
+| Banca de competencia       |   8 |  145 | 15/08/2019 |
+| Banca inclinada close grip |   9 |   95 | 15/08/2019 |
+| Peso muerto de competencia |   8 |  255 | 15/08/2019 |
+| Sentadillla pin            |   8 |  185 | 16/08/2019 |
+| 3ct bench                  |   8 |  140 | 16/08/2019 |
+| Peso muerto convencional   |   8 |  225 | 16/08/2019 |
+| Sentadilla de competencia  |   9 |  210 | 19/08/2019 |
+| Banca de competencia       |   9 |  150 | 19/08/2019 |
+| Peso muerto de competencia |   9 |  260 | 19/08/2019 |
 |                            |     |      |            |
 
+*** Ciclo 3 (descarga)
+| Ejercicio                       | Protocolo            | Bloque |
+|---------------------------------+----------------------+--------|
+| Cardio                          | 20min                | A      |
+| Leg extensions                  | 3xamrap              | A      |
+| Peck deck                       | 3xamrap              | A      |
+| Hiperextensions                 | 3xamrap              | A      |
+| Cardio                          | 20 min               | A      |
+| Squat competencia               | 1x10x150, 2x10x135   | B      |
+| Banca competencia               | 1xamrapx100, 2x10x90 | B      |
+| Peso muerto competencia bloques | 1xamrapx250          | B      |
 *** Plots
 **** Plot ciclo 1
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_yo :exports results
@@ -2082,6 +2104,22 @@ print(plot)
 [[file:tmp.png]]
 **** Plot ciclo 2
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_yo :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) +
+  geom_line() +
+  geom_point() +
+  geom_label_repel(aes(label = RPE)) +
+  ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
+
+**** Plot ciclo 3
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo3_yo :exports results
 library(ggplot2)
 library(ggrepel)
 df = data.frame(data)
