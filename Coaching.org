@@ -143,12 +143,17 @@ print(plot)
  - Debes realizar la pausa reglamentaria solo en la primera repetición, despues puedes hacer el resto sin pausa (evitar rebotar eso si)
  - Respecto al agarre: (1) deja la barra un poquito mas abajo en la palma, (2) separa ligeramente el índice del resto de los dedos
 *** Ciclo 2
-**** Banca
-- Buscar pausa reglamentaria en el primera repe de cada set
-**** Sentadilla
-- Buscar el peso correcto antes de llegar al umbral de dolor
-**** Hip thrust
-- Buscar progresar en los pesos, mandar videos con ángulo de perfil para observar técnica
+**** Semana del 12/08
+***** Banca
+ - Buscar pausa reglamentaria en el primera repe de cada set
+***** Sentadilla
+ - Buscar el peso correcto antes de llegar al umbral de dolor
+***** Hip thrust
+ - Buscar progresar en los pesos, mandar videos con ángulo de perfil para observar técnica
+**** Semana del 19/08
+***** Banca
+- Aumentar los segundos de descenso y pausa en la banca con tempo
+- Un poco mas de pausa en la primera repe de la banca de competencia
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_winchester
@@ -199,6 +204,10 @@ print(plot)
 | Banca competencia |   8 |  115 | 11/08/2019 |
 | Banca tempo       |   8 |  102 | 12/08/2019 |
 | Banca competencia |  11 |  120 | 16/08/2019 |
+| Banca competencia |   8 |  120 | 19/08/2019 |
+| Banca tempo       |   8 |  110 | 20/08/2019 |
+| Banca competencia |   8 |  120 | 21/08/2019 |
+| Banca tempo       |   8 |  105 | 22/08/2019 |
 |                   |     |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_winchester :exports results
@@ -370,6 +379,14 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 **** Peso muerto
 - Nada por ahora
 
+*** Semana del 19/08/2019
+**** Sentadilla
+- Al ascender intenta "tirar hacia atrás la barra"
+**** Banca
+- Cuida que el angulo descrito entre tu antebrazo y el piso no supere los 90°
+**** Peso muerto
+- Nada por ahora
+
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_Eduardo
@@ -465,7 +482,17 @@ print(plot)
 | Pin squat               |   8 |   95 | 15/08/2019 |
 | Banca 3ct               |   8 |   75 | 15/08/2019 |
 | Peso muerto pausa       |   8 |  122 | 15/08/2019 |
-|                         |     |      |            |
+| Squat competencia       |   8 |  110 | 19/08/2019 |
+| Banca competencia       |   8 |   80 | 19/08/2019 |
+| Peso muerto competencia |   8 |  157 | 19/08/2019 |
+| Pin squat               |   8 |   95 | 20/08/2019 |
+| Banca 3ct               |   8 |   75 | 20/08/2019 |
+| Squat competencia       |   8 |  117 | 22/08/2019 |
+| Banca competencia       |   8 |   75 | 22/08/2019 |
+| Peso muerto competencia |   8 |  160 | 22/08/2019 |
+| Pin squat               |   8 |   95 | 23/08/2019 |
+| Banca 3ct               |   8 |   80 | 23/08/2019 |
+| Peso muerto pausa       |   8 |  120 | 23/08/2019 |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_Eduardo :exports results
 library(ggplot2)
 library(ggrepel)
@@ -517,6 +544,20 @@ print(plot)
 | Banca sin pausa                 | x1@8, 20%, 1x7, 5%, 1x7, 5% 1x8 | B      |
 ** Comentarios técnicos
 *** Ciclo 2
+**** Comentario semama del 19/08
+***** Squat
+- Falta profundidad
+- Revisa video del día lunes y tomar nota de lo que crees que hiciste bien
+- Recuerda baja los pins de seguridad de manera que al bajar no choques con ellos
+- Elongar harto los talones
+- Inflar el estomago contra el cinturon para hacer un brace fuerte
+***** Banca
+- Buscar que el press sea diagonal de subida, evitar salir muy vertical
+***** Peso muerto
+- Fijarse que la tomada este simetrica
+- Aun sigues tironeando la barra
+- Recuerda tensar la barra al maximo antes de levantarla
+
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_javi
@@ -552,12 +593,19 @@ ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
 print(plot)
 #+END_SRC
 
-
 *** Ciclo 2
 #+TBLNAME:ciclo2_javi
-| Ejercicio                  | RPE | Peso | Fecha      |
-|----------------------------+-----+------+------------|
-|                            |     |      |            |
+| Ejercicio     | RPE | Peso | Fecha      |
+|---------------+-----+------+------------|
+| Sentadilla    |   8 |   70 | 19/08/2019 |
+| Banca         |   8 |   30 | 19/08/2019 |
+| Peso muerto   |   8 |  105 | 20/08/2019 |
+| Banca pausada |   8 |   37 | 20/08/2019 |
+| Sentadilla    |   8 |   80 | 22/08/2019 |
+| Banca         |   8 |   40 | 22/08/2019 |
+| Peso muerto   |   8 |  100 | 23/08/2019 |
+| Banca pausada |   8 |   40 | 23/08/2019 |
+
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_javi :exports results
 library(ggplot2)
 library(ggrepel)
