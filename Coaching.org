@@ -713,6 +713,7 @@ print(plot)
 **** 25/07/2019, ciclo 2, bloque B 
 ***** Peso muerto de competencia
 - Va bien la posición de inicio y el moviemiento en general, falta ponerle mas explosividad al bloqueo
+*** Ciclo 4
 ** Registro de progreso
 *** Ciclo 1
  #+TBLNAME:ciclo1_cynthia
@@ -763,7 +764,7 @@ print(plot)
 
  #+RESULTS:
  [[file:tmp.png]]
-*** Ciclo 2 
+*** Ciclo 3 
  #+TBLNAME:ciclo2_cynthia
  | Ejercicio                  | RPE | Peso | Fecha      |
  |----------------------------+-----+------+------------|
@@ -798,6 +799,25 @@ print(plot)
  #+RESULTS:
  [[file:tmp.png]]
 
+*** Ciclo 4
+ #+TBLNAME:ciclo4_cynthia
+ | Ejercicio   | RPE |  Peso | Fecha      |
+ |-------------+-----+-------+------------|
+ | Squat       | 8.5 |   115 | 19/08/2019 |
+ | Bench       |  10 |  77.5 | 19/08/2019 |
+ | Bench pausa |   7 |  62.5 | 20/08/2019 |
+ | Deadlift    |   8 | 142.5 | 20/08/2019 |
+ | Squat       | 100 |   7.5 | 22/08/2019 |
+ | Bench       |  70 |   7.5 | 22/08/2019 |
+ |             |     |       |            |
+ #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo4_cynthia :exports results
+   library(ggplot2)
+   library(ggrepel)
+   df = data.frame(data)
+   plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+   ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+   print(plot)
+ #+END_SRC
 ** Tiempo de peak
 5 exposiciones
 
@@ -1444,9 +1464,16 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 
 *** Ciclo 2
  #+TBLNAME:ciclo2_zapata
- | Ejercicio | RPE | Peso | Fecha |
- |-----------+-----+------+-------|
- |           |     |      |       |
+ | Ejercicio     | RPE | Peso | Fecha      |
+ |---------------+-----+------+------------|
+ | Squat         |   9 |  175 | 19/08/2019 |
+ | Bench         |   8 | 87.5 | 19/08/2019 |
+ | Deadlift      | 8.5 |  235 | 20/08/2019 |
+ | Bench incline |   - |    - | 20/08/2019 |
+ | Squat         |   8 |  170 | 22/08/2019 |
+ | Bench         | 8.5 |   85 | 22/08/2019 |
+ | Deadlift      |     |      |            |
+ | Bench incline |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_zapata :exports results
  library(ggplot2)
  library(ggrepel)
@@ -1710,6 +1737,15 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 - Eso te va a cansar mucho, pero la recompensa es grande
 - Piensa el peso muerto como 1segundo de pausa con la barra en tensión máxima y luego despegarla
 
+**** Semana del 19/08/2019, ciclo 2
+***** Squat
+- El brace al usar cinturon cambia un poquito, buscas extender el estomago contra el cinturon en primer instancia y luego apretarlo hacia abajo como es normal
+***** Bench
+- Va super, solo quiero que te concentres en el tempo para que quede "parejito" el tiempo
+- Ademas cuidar mas la tension en el pecho (no es que este mal porsia, solo que es algo siempre mejorable)
+***** Deadlift
+- Cuando la barra vaya llegando a las rodillas, empieza a extender tus piernas (bloquear rodillas)
+
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_fran
@@ -1780,6 +1816,14 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Peso muerto de competencia |   8 |   78 | 15/08/2019 |
 | Peso muerto pausado        |   8 |   74 | 15/08/2019 |
 | Banca de competencia SPOTO |   8 |   45 | 15/08/2019 |
+| Sentadilla de comeptencia  |   8 |   81 | 19/08/2019 |
+| Banca de competencia       |   8 |   47 | 19/08/2019 |
+| Peso muerto de competencia |   8 |   93 | 20/08/2019 |
+| Banca de competencia SPOTO |   8 |   47 | 20/08/2019 |
+| Sentadillla de competencia |   8 |   83 | 22/08/2019 |
+| Banca de competencia       |   8 |   47 | 22/08/2019 |
+| Peso muerto de competencia |   8 |   97 | 23/08/2019 |
+| Banca de competencia SPOTO |   8 |   45 | 23/08/2019 |
 |                            |     |      |            |
 *** Plots
 **** Ciclo 1
