@@ -303,6 +303,20 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Pin squat (sin belt, highbar)       | x1@8, x4@9, 5-10%, 2x4  | A      |
 | Banca competencia (3 ct pause)      | x1@8, x3@9, 10-15%, 4x3 | A      |
 | Peso muerto (sin belt) (3 ct pause) | x1@8, x4@9, 10-15%, 2x4 | A      |
+*** Ciclo 3 (descarga)
+| Ejercicio                      | Protocolo       | Bloque |
+|--------------------------------+-----------------+--------|
+| Sentadilla barra alta sin belt | x10@8, 10%, 3x5 | A      |
+| Hip thrust                     | 8@9, 10%, 2x7   | A      |
+| Step ups                       | 50 steps        | A      |
+| Extension quad                 | 2 amraps        | A      |
+| Press banca                    | x10@8, 10%, 3x6 | B      |
+| Push ups                       | 2 amraps        | B      |
+| Extension tricep               | 2 amraps        | B      |
+| Press hombros mancuernas       | 2 amraps        | B      |
+| Peso muerto                    | x8@8, 10%, 2x6  | C      |
+| Peso muerto hasta las rodillas | x8@8, 10%, 1x6  | C      |
+| Peso muerto bloques            | x8@8, 10%, 1x6  | C      |
 ** Comentarios técnicos
 *** Ciclo 1
 **** 02/07/2019, ciclo 1, bloque b 
@@ -493,6 +507,10 @@ print(plot)
 | Pin squat               |   8 |   95 | 23/08/2019 |
 | Banca 3ct               |   8 |   80 | 23/08/2019 |
 | Peso muerto pausa       |   8 |  120 | 23/08/2019 |
+| Squat competencia       |   8 |  125 | 26/08/2019 |
+| Banca competencia       | 7.5 |   82 | 26/08/2019 |
+| Peso muerto competencia |   9 |  170 | 26/08/2019 |
+|                         |     |      |            |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_Eduardo :exports results
 library(ggplot2)
 library(ggrepel)
@@ -675,6 +693,16 @@ print(plot)
 | Peso muerto sumo pausa 3 segundos | x1@8, 10%, 1x3, 10%, 1x4        | B      |
 | Banca con pausa 5 segundos        | x1@8, 10%, 1x4, 10%, 4x3        | B      |
 | Banca con mancuernas              | x5@8, 15%, 4x6                  | B      |
+*** Ciclo 4 (descarga)
+| Ejercicio                          | Protocolo                   | Bloque |
+|------------------------------------+-----------------------------+--------|
+| Estocadas con mancuernas           | x10@8, completar 30 "pasos" | A      |
+| Banca de competencia               | x12@7, 10%, 2x12            | A      |
+| Remos con mancuernas               | 3x15                        | A      |
+|------------------------------------+-----------------------------+--------|
+| Sentadilla barra alta sin cinturon | x10@7, 10%, 2x8             | B      |
+| Banca con mancuernas               | 3x15                        | B      |
+| Peso muerto rumano                 | 3x8                         | B      |
 ** Comentarios técnicos
 *** Ciclo 1
 **** 04/07/2019, ciclo 1, bloque b
@@ -1951,7 +1979,6 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Pull ups                       | 3 amraps       | D      |
 | Remos con mancuernas           | 2x25           | D      |
 | Biceps                         | 3x10           | D      |
-
 *** Ciclo 3:
 | Ejercicio                        | Protocolo              | Bloque |
 |----------------------------------+------------------------+--------|
@@ -1963,6 +1990,17 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Pin Squat                        | x1@8, x4@9, 5-10%, 2x4 | A      |
 | 3ct bench                        | x1@8, x3@9, 5-10%, 4x3 | A      |
 | Peso muerto convencional         | x1@8, x4@9, 5-10%, 1x4 | A      |
+*** Ciclo 4:
+| Ejercicio                 | Protocolo                                    | Bloque |
+|---------------------------+----------------------------------------------+--------|
+| Sentadilla de competencia | x1@8, 10%, 1x3, 10%, 4x4                     | A      |
+| Press banca competencia   | x1@8, 10%, 1x3, 25%, 1x9, 20%, 1x7, 15%, 1x6 | A      |
+| OHP                       | x5@8, 10%, 3x5                               | A      |
+| Peso muerto competencia   | x1@8, 20%, 5x4                               | A      |
+|---------------------------+----------------------------------------------+--------|
+| Squat highbar             | x1@8, x4@9, 5-10%, 2x4                       | A      |
+| 3ct mid grip bench        | x1@8, x3@9, 5-10%, 4x3                       | A      |
+| Snatch grip deadlift      | x1@8, x4@9, 5-10%, 1x4                       | A      |
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 *** 15/06/2019, ciclo 1, bloque a
