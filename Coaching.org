@@ -92,6 +92,27 @@ print(plot)
 | Press militar                     | x5@8, 10%, 4x4 | A      |
 | Back extension                    | 4x10           | A      |
 | Hip thrust con bandas 2 sec pausa | x8@8, 10%, 4x7 | A      |
+*** Ciclo 3
+| Ejercicio                   | Protocolo                   | Bloque |
+|-----------------------------+-----------------------------+--------|
+| Sentadilla de competencia   | 150@7-8 (0-10 repes)        | A      |
+| Sentadilla de competencia   | 120@8-9 (20-30 repes) 5x4-7 | A      |
+| Press banca de competencia  | 120@8 (0-6 repes)           | A      |
+| Press banca de competencia  | 102@9 (25-35 repes) 4x6-9   | A      |
+| Press banca agarre cerrado  | 100@9-10, 10%, @9-10        | A      |
+| Banca con mancuernas        | 3x@10                       | A      |
+| Press de hombros mancuernas | 3x@10                       | A      |
+|-----------------------------+-----------------------------+--------|
+| Sentadilla frontal          | 120@7-8 (0-8 repes)         | B      |
+| Sentadilla frontal          | 96@8-9 (15-25 repes) 3x5-8  | B      |
+| Press banca inclinado       | 90@8-9 (0-10 repes)         | B      |
+| Press banca inclinado       | 75@10, 75(-2), 75(-2)       | B      |
+| Remo con barra (con trampa) | 120@9 (0-10 repes)          | B      |
+| Remo con barra (con trampa) | 96@0 (15-25 repes) 3x5-8    | B      |
+| Remo con mancuernas         | 3x@10                       | B      |
+| Maquina pull-ups            | 2x@10                       | B      |
+| Maquina remos               | 2x@10                       | B      |
+
 ** Comentarios técnicos
 *** Ciclo 1
 **** 08/07/2019, ciclo 1, bloque a
@@ -317,6 +338,16 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Peso muerto                    | x8@8, 10%, 2x6  | C      |
 | Peso muerto hasta las rodillas | x8@8, 10%, 1x6  | C      |
 | Peso muerto bloques            | x8@8, 10%, 1x6  | C      |
+*** Ciclo 4
+| Ejercicio                                       | Protocolo               | Bloque |
+|-------------------------------------------------+-------------------------+--------|
+| Sentadilla de competencia                       | x1@8, 20%, 4x5          | A      |
+| Banca de competencia                            | x1@8, 20%, 4x6          | A      |
+| Peso muerto de competencia                      | x1@8, 20%, 4x5          | A      |
+|-------------------------------------------------+-------------------------+--------|
+| Squat 3ct pausa (sin belt, highbar)             | x1@8, x4@9, 5-10%, 2x4  | A      |
+| Banca agarre cerrado  (3 ct pause)              | x1@8, x3@9, 10-15%, 4x3 | A      |
+| Peso muerto convecional (sin belt) (3 ct pause) | x1@8, x4@9, 10-15%, 2x4 | A      |
 ** Comentarios técnicos
 *** Ciclo 1
 **** 02/07/2019, ciclo 1, bloque b 
@@ -523,6 +554,23 @@ print(plot)
 #+RESULTS:
 [[file:tmp.png]]
 
+*** Ciclo 3
+#+TBLNAME:ciclo3_Eduardo
+| Ejercicio | RPE | Peso | Fecha |
+|-----------+-----+------+-------|
+|           |     |      |       |
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo3_Eduardo :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
+
 
 * Javiera
 ** Ciclos
@@ -562,7 +610,7 @@ print(plot)
 | Banca sin pausa                 | x1@8, 20%, 1x7, 5%, 1x7, 5% 1x8 | B      |
 ** Comentarios técnicos
 *** Ciclo 2
-**** Comentario semama del 19/08
+**** Comentario semana del 19/08
 ***** Squat
 - Falta profundidad
 - Revisa video del día lunes y tomar nota de lo que crees que hiciste bien
@@ -575,7 +623,15 @@ print(plot)
 - Fijarse que la tomada este simetrica
 - Aun sigues tironeando la barra
 - Recuerda tensar la barra al maximo antes de levantarla
-
+**** Comentario semana del 26/08
+***** Squat
+- Mejoro el tema de "pausar" abajo, de poco quiero que agarres el habito de rebotar para salir de abajo
+- Necesito que tomes mas aire y apretes mas fuerte
+- Elongar harto los talones
+***** Banca
+- Buscar que el press sea diagonal de subida, evitar salir muy vertical
+***** Peso muerto
+- Mejoro harto el tema de la tension de la barra, sigue trabajando en ese gesto
 ** Registro de progreso
 *** Ciclo 1
 #+TBLNAME:ciclo1_javi
@@ -623,6 +679,11 @@ print(plot)
 | Banca         |   8 |   40 | 22/08/2019 |
 | Peso muerto   |   8 |  100 | 23/08/2019 |
 | Banca pausada |   8 |   40 | 23/08/2019 |
+| Sentadilla    |   8 |   80 | 27/08/2019 |
+| Banca         |   8 |   37 | 27/08/2019 |
+| Peso muerto   |   8 |  110 | 29/08/2019 |
+| Sentadilla    |   8 |   80 | 30/08/2019 |
+| Banca         |   8 |   35 | 30/08/2019 |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_javi :exports results
 library(ggplot2)
@@ -703,6 +764,22 @@ print(plot)
 | Sentadilla barra alta sin cinturon | x10@7, 10%, 2x8             | B      |
 | Banca con mancuernas               | 3x15                        | B      |
 | Peso muerto rumano                 | 3x8                         | B      |
+*** Ciclo 5
+- Banca spoto: realizas pausa por 5sec 3cm antes de llegar al pecho, luego bajas
+  al pecho tocas y subes
+- Peso muerto sumo a rodillas: partiendo del suelo subes solo hasta abajo de las
+  rodillas, paras por 3 segundos en las rodillas y desciendes lentamente
+| Ejercicio                                 | Protocolo                | Bloque |
+|-------------------------------------------+--------------------------+--------|
+| Sentadilla de competencia                 | x3@8, 20%, 5x5           | A      |
+| Sentadilla barra alta sin belt 2sec pausa | x1@8, 10%, 1x4, 10%, 2x4 | A      |
+| Banca de competencia                      | x1@8, 12%, 4x6           | A      |
+| Banca pies arriba agarre cerrado          | x1@8, 10%, 1x3, 10%, 4x3 | A      |
+|-------------------------------------------+--------------------------+--------|
+| Peso muerto de competencia (sumo)         | x1@8, 20%, 5x5           | B      |
+| Peso muerto sumo a rodillas               | x1@8, 10%, 1x3, 10%, 1x4 | B      |
+| Banca spoto                               | x1@8, 10%, 1x4, 10%, 4x3 | B      |
+| Banca con mancuernas inclinado o sentada  | x5@8, 15%, 4x6           | B      |
 ** Comentarios técnicos
 *** Ciclo 1
 **** 04/07/2019, ciclo 1, bloque b
@@ -839,6 +916,19 @@ print(plot)
  | Bench       |  70 |   7.5 | 22/08/2019 |
  |             |     |       |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo4_cynthia :exports results
+   library(ggplot2)
+   library(ggrepel)
+   df = data.frame(data)
+   plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+   ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+   print(plot)
+ #+END_SRC
+*** Ciclo 5
+ #+TBLNAME:ciclo4_cynthia
+ | Ejercicio   | RPE |  Peso | Fecha      |
+ |-------------+-----+-------+------------|
+ |             |     |       |            |
+ #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo5_cynthia :exports results
    library(ggplot2)
    library(ggrepel)
    df = data.frame(data)
@@ -1199,6 +1289,14 @@ print(plot)
 ***** Front squat
 ***** Bench
 ***** Deadlift
+
+*** Ciclo 4 (peak)
+Notas relevantes para la ejecución del protocolo
+- Una vez pases el rpe 8, los saltos siempre del minimo posible, es preferible
+  que te canses de varios intentos a que des un salto muy grande y falles
+- Tener ojo con hacer pausa, es tentador saltarse la pausa llegando al rpe 9
+- De rpe 8 para arriba con spotter, de lo contario solo hasta @8
+- A las mas minima molestia me reportas
 ** Registro de progreso
 *** Ciclo 1
     #+TBLNAME:ciclo1_Johans
@@ -1329,6 +1427,13 @@ print(plot)
   | Banca competencia |   8 | 92.5 | 26/08/2019 |
   | Banca inclinada   | 8.5 |   80 | 26/08/2019 |
   | Front squat       |   7 |   85 | 26/08/2019 |
+  | 3ct bench         |   8 |   85 | 28/08/2019 |
+  | Dips              |     |      |            |
+  | Sumo              |   8 |  185 | 28/08/2019 |
+  | Banca competnecia |   8 |   95 | 30/08/2019 |
+  | Banca competencia |   8 |   92 | 31/08/2019 |
+  | Banca inclinada   |   8 |   80 | 31/08/2019 |
+  | Fronts squat      |   7 |   85 | 31/08/2019 |
   |                   |     |      |            |
   #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo3_Johans :exports results
   library(ggplot2)
@@ -1566,8 +1671,12 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
  | Bench incline |   - |    - | 20/08/2019 |
  | Squat         |   8 |  170 | 22/08/2019 |
  | Bench         | 8.5 |   85 | 22/08/2019 |
- | Deadlift      |     |      |            |
- | Bench incline |     |      |            |
+ | Deadlift      |   9 |  235 | 25/08/2019 |
+ | Bench incline |   8 |   85 | 25/08/2019 |
+ | Squat         |   8 |  170 | 29/08/2019 |
+ | Bench         |  10 | 82.5 | 29/08/2019 |
+ | Deadlift      |   8 |  210 | 30/08/2019 |
+ | Squat         |   9 |  186 | 01/09/2019 |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_zapata :exports results
  library(ggplot2)
  library(ggrepel)
@@ -1618,6 +1727,22 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Peso muerto de competencia                 | x1@8, 20%, 4x5       | B      |
 | Pero muerto con pausa mitad de canillas    | x1@8, x5@8, 15%, 3x3 | B      |
 | Banca de competencia SPOTO (2 sec)         | x1@8, 20%, 4x5       | B      |
+*** Ciclo 2 (descarga)
+| Ejercicio                           | Protocolo  | Bloque |
+|-------------------------------------+------------+--------|
+| Estocadas con mancuernas            | 3x15 @8    | A      |
+| Remos con mancuernas                | 4x10 @9    | A      |
+| Buenos dias                         | 4x5 @8     | A      |
+| Banca con mancuernas                | 2x15 @9-10 | A      |
+| Press hombros con mancuernas        | 2x15 @9-10 | A      |
+| Sentadilla de competencia tempo 600 | x1@6, 4x1  | A      |
+|-------------------------------------+------------+--------|
+| Peso muerto de competencia          | x1@6, 3x1  | B      |
+| Peso muerto rumano                  | 3x8 @8     | B      |
+| Remos con barra                     | 3x8 @8     | B      |
+| Maquina pull ups                    | 2x15 @9    | B      |
+| Banca de competencia tempo 600      | x1@6, 4x1  | B      |
+
 ** Comentarios técnicos
 *** Ciclo 1
 **** 01/07/2019, ciclo 1, bloque a
@@ -1910,7 +2035,7 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Peso muerto de competencia |   8 |   78 | 15/08/2019 |
 | Peso muerto pausado        |   8 |   74 | 15/08/2019 |
 | Banca de competencia SPOTO |   8 |   45 | 15/08/2019 |
-| Sentadilla de comeptencia  |   8 |   81 | 19/08/2019 |
+| Sentadilla de competencia  |   8 |   81 | 19/08/2019 |
 | Banca de competencia       |   8 |   47 | 19/08/2019 |
 | Peso muerto de competencia |   8 |   93 | 20/08/2019 |
 | Banca de competencia SPOTO |   8 |   47 | 20/08/2019 |
@@ -1918,7 +2043,14 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Banca de competencia       |   8 |   47 | 22/08/2019 |
 | Peso muerto de competencia |   8 |   97 | 23/08/2019 |
 | Banca de competencia SPOTO |   8 |   45 | 23/08/2019 |
-|                            |     |      |            |
+| Sentadilla de competencia  |   8 |   83 | 26/08/2019 |
+| Banca de competencia       |   8 |   47 | 26/08/2019 |
+| Banca tempo                |   8 |   43 | 26/08/2019 |
+| Banca de competencia SPOTO |   8 |   47 | 28/08/2019 |
+| Peso muerto de competencia |   8 |   88 | 28/08/2019 |
+| Peso muerto pausado        |   8 |   88 | 28/08/2019 |
+| Sentadilla de competencia  |   8 |   79 | 29/08/2019 |
+| Banca de competencia       |   8 |   47 | 29/08/2019 |
 *** Plots
 **** Ciclo 1
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo1_fran :exports results
