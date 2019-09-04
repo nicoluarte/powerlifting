@@ -243,6 +243,25 @@ print(plot)
 #+RESULTS:
 [[file:tmp.png]]
 
+*** Ciclo 3
+#+TBLNAME:ciclo3_winchester
+| Ejercicio                  | RPE | Peso | Fecha      |
+|----------------------------+-----+------+------------|
+| Sentadilla de competencia  |   2 |  150 | 03/09/2019 |
+| Press banca de competencia |   4 |  120 | 03/09/2019 |
+
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo3_winchester :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
+
 ** Tiempo de peak
 7 exposiciones
 
@@ -559,6 +578,24 @@ print(plot)
 | Ejercicio | RPE | Peso | Fecha |
 |-----------+-----+------+-------|
 |           |     |      |       |
+#+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo3_Eduardo :exports results
+library(ggplot2)
+library(ggrepel)
+df = data.frame(data)
+plot = ggplot(df, aes(x=Fecha, y=Peso, col=Ejercicio, group=Ejercicio)) + geom_line() + geom_point() + geom_label_repel(aes(label = RPE)) +
+ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
+print(plot)
+#+END_SRC
+
+#+RESULTS:
+[[file:tmp.png]]
+
+#+TBLNAME:ciclo3_Eduardo
+| Ejercicio                  | RPE | Peso | Fecha      |
+|----------------------------+-----+------+------------|
+| Sentadilla de competencia  |   8 |  117 | 02/09/2019 |
+| Banca de competencia       |   8 |   85 | 02/09/2019 |
+| Peso muerto de competencia |   8 |  160 | 02/09/2019 |
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo3_Eduardo :exports results
 library(ggplot2)
 library(ggrepel)
@@ -925,9 +962,13 @@ print(plot)
  #+END_SRC
 *** Ciclo 5
  #+TBLNAME:ciclo4_cynthia
- | Ejercicio   | RPE |  Peso | Fecha      |
- |-------------+-----+-------+------------|
- |             |     |       |            |
+ | Ejercicio                 | RPE | Peso | Fecha      |
+ |---------------------------+-----+------+------------|
+ | Sentadilla de competencia |   8 |  105 | 02/09/2019 |
+ | Sentadilla barra alta     |   8 |  100 | 02/09/2019 |
+ | Banca de competencia      |   8 |   70 | 02/09/2019 |
+ | Banca pies arriba         |   8 |   65 | 02/09/2019 |
+ |                          |     |      |            |
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo5_cynthia :exports results
    library(ggplot2)
    library(ggrepel)
@@ -2193,7 +2234,7 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 |---------------------------+----------------------------------------------+--------|
 | Sentadilla de competencia | x1@8, 10%, 1x3, 10%, 4x4                     | A      |
 | Press banca competencia   | x1@8, 10%, 1x3, 25%, 1x9, 20%, 1x7, 15%, 1x6 | A      |
-| OHP                       | x5@8, 10%, 3x5                               | A      |
+| OHP                       | x1@8, 10%, 3x5                               | A      |
 | Peso muerto competencia   | x1@8, 20%, 5x4                               | A      |
 |---------------------------+----------------------------------------------+--------|
 | Squat highbar             | x1@8, x4@9, 5-10%, 2x4                       | A      |
