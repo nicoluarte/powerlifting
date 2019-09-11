@@ -1862,7 +1862,7 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Puentes unilaterales mantener 2 sec arriba             | 2x15                     | A      |
 | Sentadilla de competencia                              | x1@8, 20%, 5x4           | A      |
 | Banca de competencia                                   | x1@8, 20%, 4x6           | A      |
-| Peso muerto de competencia                             | x1@8, 20%, 4x5           | B      |
+| Peso muerto de competencia                             | x1@6, 15%, 4x5           | B      |
 | Press hombros mancuerna                                | Myo-reps                 | B      |
 | Aperturas mancuerna                                    | Myo-reps                 | B      |
 |--------------------------------------------------------+--------------------------+--------|
@@ -1871,7 +1871,7 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Hiper-extensiones                                      | 2x15                     | B      |
 | Sentadilla frontal                                     | x1@8, 10%, 1x4, 10%, 3x5 | B      |
 | Banca de competencia 3 segundos de pausa               | x1@8, 10%, 1x4, 10%, 3x5 | B      |
-| Pero muerto agarre amplio (mas afuera que las anillas) | x1@8, 10%, 1x3, 10%, 3x4 | B      |
+| Pero muerto agarre amplio (mas afuera que las anillas) | x1@7, 10%, 1x3, 10%, 3x4 | B      |
 | Maquina pectorales                                     | Myo-reps                 | B      |
 | Triceps polea                                          | Myo-reps                 | B      |
 ** Comentarios técnicos
