@@ -266,10 +266,20 @@ print(plot)
 | Remo con barra             |   5 |  120 | 04/09/2019 |
 | Sentadilla de competencia  |   3 |  150 | 05/09/2019 |
 | Press banca de competencia |   4 |  120 | 05/09/2019 |
-| Press banca agarre cerrado |   5 | 100% | 05/09/2019 |
+| Press banca agarre cerrado |   5 |  100 | 05/09/2019 |
 | Sentadilla frontal         |   4 |  120 | 06/09/2019 |
 | Press banca inclinado      |  10 |   90 | 06/09/2019 |
 | Remo con barra             |   6 |  120 | 06/09/2019 |
+| Sentadilla de competencia  |   4 |  150 | 09/09/2019 |
+| Press banca de competencia |   4 |  125 | 09/09/2019 |
+| Press banca agarre cerrado |   9 |  100 | 09/09/2019 |
+| Sentadilla frontal         |   4 |  120 | 10/09/2019 |
+| Press banca inclinado      |   ? |    ? | 10/09/2019 |
+| Press banca de competencia |   3 |  125 | 12/09/2019 |
+| Sentadilla de competencia  |   3 |  150 | 12/09/2019 |
+| Sentadilla frontal         |   4 |  120 | 13/09/2019 |
+| Press banca inclinado      |  10 |  100 | 13/09/2019 |
+|                            |     |      |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo3_winchester :exports results
 library(ggplot2)
@@ -763,6 +773,8 @@ print(plot)
 | Peso muerto   |   8 |  110 | 29/08/2019 |
 | Sentadilla    |   8 |   80 | 30/08/2019 |
 | Banca         |   8 |   35 | 30/08/2019 |
+| Sentadilla    |   8 |   85 |            |
+| Banca         |   8 |   42 |            |
 
 #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_javi :exports results
 library(ggplot2)
@@ -773,6 +785,21 @@ ggtitle("Progreso") + theme(plot.title = element_text(hjust = 0.5))
 print(plot)
 #+END_SRC
 
+*** Ciclo 2 descarga
+| Ejercicio                           | Protocolo | Bloque |
+|-------------------------------------+-----------+--------|
+| Estocada con mancuernas             |      3x15 | A      |
+| Banca con mancuernas                |      3x10 | A      |
+| Press vertical con mancuernas       |       4x8 | A      |
+| Remo con mancuernas                 |      3x10 | A      |
+| Curl de biceps                      |      2x15 | A      |
+| Cardio o movilidad                  | 20-40 min | A      |
+|-------------------------------------+-----------+--------|
+| Sentadillas bulgaras con mancuernas |      3x15 | B      |
+| Banca inclinada con mancuernas      |      3x15 | B      |
+| Remo con barra                      |       3x8 | B      |
+| Maquina de espalda                  |       3x8 | B      |
+| Cardio o movilidad                  | 20-40 min | B      |
 
 
 * Cynthia
@@ -1140,7 +1167,23 @@ print(plot)
 | Sentadilla frontal         | x8@6, 7, 8                   | B      |
 | Estocadas con mancuerna    | x10@6, 7, 8                  | B      |
 | Remos con mancuerna        | 3 sets @9-10, min repxset 15 | B      |
-
+*** Ciclo 4
+| Ejercicio                            | Protocolo           | Bloque |
+|--------------------------------------+---------------------+--------|
+| Press banca de competencia           | x1@8, 20%, 4x6      | A      |
+| Banca inclinada (agarre estrecho)    | 70kgx(1-10), -2, -2 | A      |
+| Banca con mancuernas                 | (X)x(10@9), -2, -2  | A      |
+| Press frances / skull crushers       | (X)x(10@9), -2, -2  | A      |
+| Press vertical mancuernas            | myo-reps            | A      |
+| Cable triceps                        | myo-reps            | A      |
+| Frontales                            | x1@7, 20%, 5x4      | A      |
+|--------------------------------------+---------------------+--------|
+| Press banca de competencia tempo 600 | x1@8, 20%, 4x4      | B      |
+| Press militar estricto               | (X)x(8@9), -2, -2   | B      |
+| Peso muerto                          | x1@8, 20%, 5x4      | B      |
+| Hack squat (preferente) / prensa     | (X)x(15@9), -2, -3  | B      |
+| Extensiones de cuadriceps            | myo-reps            | B      |
+| Hack squat / prensa (preferente)     | myo-reps            | B      |
 ** Comentarios técnicos
 *** Ciclo 1
  #+EXPORT_FILE_NAME: Comentarios.PDF
@@ -1544,7 +1587,8 @@ Notas relevantes para la ejecución del protocolo
   | Banca competencia |   8 |   92 | 31/08/2019 |
   | Banca inclinada   |   8 |   80 | 31/08/2019 |
   | Fronts squat      |   7 |   85 | 31/08/2019 |
-  |                   |     |      |            |
+  | Bench             | 7.5 |  100 | COMP       |
+  | Deadlift          |   9 |  195 | COMP       |
   #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo3_Johans :exports results
   library(ggplot2)
   library(ggrepel)
@@ -1787,6 +1831,15 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
  | Bench         |  10 | 82.5 | 29/08/2019 |
  | Deadlift      |   8 |  210 | 30/08/2019 |
  | Squat         |   9 |  186 | 01/09/2019 |
+ | Bench         |   8 | 87.5 |            |
+ | Squat         |   8 |  185 |            |
+ | Deadlift      | 7.5 |  233 |            |
+ | Bench         |   9 |   90 |            |
+ | Squat         |   8 |  185 |            |
+ | Bench         |  10 | 92.5 |            |
+ | Squat         |   9 |  192 |            |
+ | Deadlift      |   8 |  233 |            |
+
  #+BEGIN_SRC R :file tmp.png :results graphics :var data=ciclo2_zapata :exports results
  library(ggplot2)
  library(ggrepel)
@@ -1854,26 +1907,25 @@ Tentativamente de 7-8 exposiciones, con otro peak importante en la 5 exposición
 | Banca de competencia tempo 600      | x1@6, 4x1  | B      |
 
 *** Ciclo 3
-| Ejercicio                                              | Protocolo                | Bloque |
-|--------------------------------------------------------+--------------------------+--------|
-| Plancha                                                | 2x1-2min                 | A      |
-| Plancha Lateral                                        | 2x1-2min                 | A      |
-| Levantamiento de rodillas                              | 2x15                     | A      |
-| Puentes unilaterales mantener 2 sec arriba             | 2x15                     | A      |
-| Sentadilla de competencia                              | x1@8, 20%, 5x4           | A      |
-| Banca de competencia                                   | x1@8, 20%, 4x6           | A      |
-| Peso muerto de competencia                             | x1@6, 15%, 4x5           | B      |
-| Press hombros mancuerna                                | Myo-reps                 | B      |
-| Aperturas mancuerna                                    | Myo-reps                 | B      |
-|--------------------------------------------------------+--------------------------+--------|
-| Peso muerto rumano a una pierna                        | 2x15                     | B      |
-| Levantamiento de rodillas                              | 2x15                     | B      |
-| Hiper-extensiones                                      | 2x15                     | B      |
-| Sentadilla frontal                                     | x1@8, 10%, 1x4, 10%, 3x5 | B      |
-| Banca de competencia 3 segundos de pausa               | x1@8, 10%, 1x4, 10%, 3x5 | B      |
-| Pero muerto agarre amplio (mas afuera que las anillas) | x1@7, 10%, 1x3, 10%, 3x4 | B      |
-| Maquina pectorales                                     | Myo-reps                 | B      |
-| Triceps polea                                          | Myo-reps                 | B      |
+| Ejercicio                                  | Protocolo                | Bloque |
+|--------------------------------------------+--------------------------+--------|
+| Plancha                                    | 2x1-2min                 | A      |
+| Plancha Lateral                            | 2x1-2min                 | A      |
+| Levantamiento de rodillas                  | 2x15                     | A      |
+| Puentes unilaterales mantener 2 sec arriba | 2x15                     | A      |
+| Sentadilla de competencia                  | x1@8, 20%, 5x5           | A      |
+| Banca de competencia                       | x1@8, 20%, 5x6           | A      |
+| Press hombros mancuerna                    | Myo-reps                 | B      |
+| Aperturas mancuerna                        | Myo-reps                 | B      |
+|--------------------------------------------+--------------------------+--------|
+| Peso muerto rumano a una pierna            | 2x15                     | B      |
+| Levantamiento de rodillas                  | 2x15                     | B      |
+| Hiper-extensiones                          | 2x15                     | B      |
+| Sentadilla frontal                         | x1@8, 10%, 1x4, 10%, 2x4 | B      |
+| Banca de competencia 3 segundos de pausa   | x1@8, 10%, 1x4, 10%, 3x5 | B      |
+| Peso muerto                                | x1@8, 20%, 5x5           | B      |
+| Maquina pectorales                         | Myo-reps                 | B      |
+| Triceps polea                              | Myo-reps                 | B      |
 ** Comentarios técnicos
 *** Ciclo 1
 **** 01/07/2019, ciclo 1, bloque a
@@ -2340,7 +2392,19 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 |---------------------------+----------------------------------------------+--------|
 | Squat highbar             | x1@8, x4@9, 5-10%, 2x4                       | A      |
 | 3ct mid grip bench        | x1@8, x3@9, 5-10%, 4x3                       | A      |
-| Snatch grip deadlift      | x1@8, x4@9, 5-10%, 1x4                       | A      |
+| Pausa conv deadlift       | x1@8, x4@9, 5-10%, 1x4                       | A      |
+*** Ciclo 5
+| Ejercicio                 | Protocolo              | Bloque |
+|---------------------------+------------------------+--------|
+| Sentadilla de competencia | x1@8, 25%, 5x5         | A      |
+| Press banca competencia   | x1@8, 25%, 4x7         | A      |
+| Peso muerto competencia   | x1@8, 20%, 5x4         | A      |
+|---------------------------+------------------------+--------|
+| Front squat               | x1@8, x4@9, 5-10%, 3x4 | B      |
+| 3ct incline bench         | x1@8, x3@9, 5-10%, 4x3 | B      |
+| Snatch grip deadlift      | x1@8, x4@9, 5-10%, 1x4 | B      |
+| OHP                       | x1@8, 20%, 4x5         | B      |
+
 ** Comentarios técnicos
 #+EXPORT_FILE_NAME: Comentarios.PDF
 *** 15/06/2019, ciclo 1, bloque a
