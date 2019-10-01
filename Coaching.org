@@ -398,6 +398,22 @@ https://www.youtube.com/watch?v=fYJGKzrM0os min: 1:18
 | Squat 3ct pausa (sin belt, highbar)             | x1@8, x4@9, 5-10%, 2x4  | A      |
 | Banca agarre cerrado  (3 ct pause)              | x1@8, x3@9, 10-15%, 4x3 | A      |
 | Peso muerto convecional (sin belt) (3 ct pause) | x1@8, x4@9, 10-15%, 2x4 | A      |
+*** Ciclo 5
+| Ejercicio                                            | Protocolo                          | Bloque |
+|------------------------------------------------------+------------------------------------+--------|
+| Sentadilla de competencia                            | 115x1-8                            | A      |
+| Sentadilla de competencia                            | 90x5-9, 90x5-9, 90x5-9, 90x5-9     | A      |
+| Banca de competencia                                 | 75x1-10                            | A      |
+| Banca de competencia                                 | 65x5-10, 65x5-10, 65x5-10, 65x5-10 | A      |
+| Peso muerto de competencia                           | 150x1-7                            | A      |
+| Peso muerto sumo snatch grip                         | 100x5-8                            | A      |
+| Pesi murto sumo snatch grip                          | 90x5-8, 90x5-8, 90x5-8, 90x5-8     | A      |
+|------------------------------------------------------+------------------------------------+--------|
+| Sentadillas fontales (con straps)                    | x1@8, 10%, 1x4, 10%, 3x4           | B      |
+| Banca pies arriba (agarre medio)                     | x1@8, 10%, 1x4, 10%, 4x4           | B      |
+| Banca agarre cerrado pies arriba                     | x10@9, 0%, 1x9, 5%, 2x10           | B      |
+| Peso muerto (sin belt) 5ct pausa 3 cm abajo rodillas | x1@8, 10%, 1x4, 10%, 1x4           | B      |
+| Hack squat casera                                    | x15@9, 3 sets                      | B      |
 ** Comentarios técnicos
 *** Ciclo 1
 **** 02/07/2019, ciclo 1, bloque b 
@@ -897,6 +913,28 @@ print(plot)
 | Peso muerto sumo a rodillas      (a determinar cambios)  | x1@8, 10%, 1x3, 10%, 1x4 | B      |
 | Banca spoto                                              | x1@8, 10%, 1x4, 10%, 4x3 | B      |
 | Banca con mancuernas inclinado o sentada                 | x5@8, 15%, 4x6           | B      |
+*** Ciclo washout
+| Ejercicio                                           | Protocolo          | Bloque |
+|-----------------------------------------------------+--------------------+--------|
+| Pin squat + belt (o 4 sec de pausa en su defecto)   | x5@8, 10%, 4x4     | A      |
+| Sentadilla tempo constante (sin bloquear rodillas)  | x8@8, 5%, 2x8      | A      |
+| Banca agarre cerrado, pies arriba                   | x8@8, 5-10%, 4x8   | A      |
+| Strongman 1                                         |                    |        |
+| Strongman 2                                         |                    |        |
+|-----------------------------------------------------+--------------------+--------|
+| Banca competencia tempo constante (sin bloquear)    | x10@9, 5-10%, 2x10 | B      |
+| Peso muerto sumo pausa 5 segundos 3m abajo rodillas | x5@8, 10%, 2x5     | B      |
+| Peso muerto conv desde bloques (3m abajo rodillas)  | x10@8, 5-10%, 1x10 | B      |
+| Strongman 1                                         |                    |        |
+| Strongman 2                                         |                    |        |
+|-----------------------------------------------------+--------------------+--------|
+| STRONGMAN                                           |                    | C      |
+|-----------------------------------------------------+--------------------+--------|
+| Barra alta sin cinturon                             | x8@8, 10%, 2x10    | D      |
+| Landmine hacksquat                                  | 4x10@8-9           | D      |
+| Estocadas bulgaras                                  | 4x12@8-9           | D      |
+| Banca competencia pausa 5 sec                       | x5@8, 10%, 3x5     | D      |
+| Extensions de cuadriceps                            | 3x15@9             | D      |
 ** Comentarios técnicos
 *** Ciclo 1
 **** 04/07/2019, ciclo 1, bloque b
